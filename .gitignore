@@ -29,12 +29,6 @@ ui-frames/
 .DS_Store
 Thumbs.db
 
-# Training scripts (not needed for deployment)
-training_scripts/
-
-# Docs (not needed for deployment)
-docs/
-
 # Extra model outputs
 model_artifacts/lightgbm_output*.txt
 model_artifacts/feature_importance.png

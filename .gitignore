@@ -1,0 +1,47 @@
+# Dependencies
+node_modules/
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+*.egg-info/
+
+# Build outputs
+bento_demo/frontend/dist/
+
+# Large/unnecessary files
+ui-frames/
+*.mp4
+*.webm
+*.gif
+
+# Local dev / secrets
+.env.local
+*.env
+!bento_demo/frontend/.env.production
+
+# Editor
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Training scripts (not needed for deployment)
+training_scripts/
+
+# Docs (not needed for deployment)
+docs/
+
+# Extra model outputs
+model_artifacts/lightgbm_output*.txt
+model_artifacts/feature_importance.png
+
+# Temp / scratch
+/tmp/
+out.txt
+test_out*.txt
+test_recs.py
+check_data*.py

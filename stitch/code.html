@@ -1,0 +1,401 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Carto Dashboard</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;500&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" rel="stylesheet"/>
+<script>
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    colors: {
+                        primary: "#D93036", // Jobify Red tone
+                        secondary: "#FBC02D", // Jobify Gold/Yellow tone
+                        charcoal: "#212121", // Dark charcoal
+                        "background-light": "#F8F9FB", // Clean light gray background
+                        "background-dark": "#0F0F0F",
+                        "surface-light": "#FFFFFF",
+                        "surface-dark": "#181818",
+                        "border-light": "#EAEAEA",
+                        "border-dark": "#333333",
+                        "text-primary": "#111827",
+                        "text-secondary": "#6B7280",
+                    },
+                    fontFamily: {
+                        sans: ["Inter", "sans-serif"],
+                        mono: ["Fira Code", "monospace"],
+                    },
+                    boxShadow: {
+                        'bento': '0 2px 10px rgba(0, 0, 0, 0.03), 0 10px 25px -5px rgba(0, 0, 0, 0.04)',
+                        'bento-hover': '0 20px 40px -10px rgba(0, 0, 0, 0.08)',
+                        'float': '0 20px 40px -12px rgba(217, 48, 54, 0.15)',
+                    },
+                    animation: {
+                        'fade-in-right': 'fadeInRight 0.8s ease-out forwards',
+                    },
+                    keyframes: {
+                        fadeInRight: {
+                            '0%': { opacity: '0', transform: 'translateX(20px)' },
+                            '100%': { opacity: '1', transform: 'translateX(0)' },
+                        }
+                    }
+                },
+            },
+        };
+    </script>
+<style>
+        .scrollbar-hide::-webkit-scrollbar {
+            display: none;
+        }
+        .scrollbar-hide {
+            -ms-overflow-style: none;
+            scrollbar-width: none;
+        }
+        .custom-scroll::-webkit-scrollbar {
+            width: 4px;
+        }
+        .custom-scroll::-webkit-scrollbar-track {
+            background: transparent;
+        }
+        .custom-scroll::-webkit-scrollbar-thumb {
+            background-color: #E2E8F0;
+            border-radius: 4px;
+        }
+        .custom-scroll::-webkit-scrollbar-thumb:hover {
+            background-color: #CBD5E1;
+        }
+    </style>
+</head>
+<body class="bg-background-light dark:bg-background-dark text-text-primary dark:text-gray-100 font-sans antialiased min-h-screen p-4 md:p-6 flex flex-col transition-colors duration-300">
+<header class="flex justify-between items-center mb-6 max-w-[1600px] mx-auto w-full">
+<div class="flex items-center gap-2">
+<div class="w-10 h-10 rounded-xl bg-primary flex items-center justify-center text-white shadow-lg shadow-primary/20">
+<span class="material-symbols-outlined text-2xl font-bold">lunch_dining</span>
+</div>
+<h1 class="text-3xl font-extrabold tracking-tight text-charcoal dark:text-white">Carto</h1>
+</div>
+<div class="flex items-center gap-4">
+<button class="p-2.5 rounded-xl bg-white dark:bg-surface-dark border border-border-light dark:border-border-dark text-gray-500 hover:text-primary transition-colors">
+<span class="material-symbols-outlined">notifications</span>
+</button>
+<div class="h-10 w-10 rounded-xl bg-gray-200 dark:bg-gray-700 overflow-hidden ring-2 ring-white dark:ring-gray-600 shadow-sm">
+<img alt="Profile" class="h-full w-full object-cover" src="https://lh3.googleusercontent.com/aida-public/AB6AXuASJ3t3zHGvH2_vt3l667ijXHwVOOC146yUkrm4tCjAY35moYbJ5kLcAGgBpducjwMVqZyXa7j3pw-arVuTE948V32qElyXObHKyd5hblRYVKliw7keYREHonvQktjkBW-os6hGOgNORcjQSSWxeWd0RuaC4-UK_TZqhI5pRvXr4JSp6j2A9l0K43Wqp6xHHpPL3r6r6lQCFjSZN-AkyNzS-x0Klf4uLikWV8ZKljapOjhGnrmAk61uKqaU8GY_x5HswBnCDGQqTA"/>
+</div>
+</div>
+</header>
+<main class="grid grid-cols-12 gap-6 flex-grow h-full max-w-[1600px] mx-auto w-full pb-4">
+<div class="col-span-12 lg:col-span-3 xl:col-span-3 flex flex-col gap-5 h-full">
+<div class="bg-surface-light dark:bg-surface-dark rounded-[24px] p-5 shadow-bento border border-border-light dark:border-border-dark">
+<h3 class="text-[11px] font-bold text-gray-400 uppercase tracking-widest mb-3">Persona</h3>
+<div class="flex flex-wrap gap-2">
+<button class="px-3 py-1.5 rounded-lg bg-primary text-white text-xs font-semibold shadow-md shadow-primary/20 flex items-center gap-1.5 transition hover:-translate-y-0.5">
+<span class="material-symbols-outlined text-sm">savings</span> Budget
+                    </button>
+<button class="px-3 py-1.5 rounded-lg bg-gray-50 dark:bg-gray-800 border border-gray-100 dark:border-gray-700 text-gray-600 dark:text-gray-300 text-xs font-semibold hover:bg-gray-100 dark:hover:bg-gray-700 transition flex items-center gap-1.5">
+<span class="material-symbols-outlined text-sm text-secondary">diamond</span> Premium
+                    </button>
+<button class="px-3 py-1.5 rounded-lg bg-gray-50 dark:bg-gray-800 border border-gray-100 dark:border-gray-700 text-gray-600 dark:text-gray-300 text-xs font-semibold hover:bg-gray-100 dark:hover:bg-gray-700 transition flex items-center gap-1.5">
+<span class="material-symbols-outlined text-sm text-green-500">health_and_safety</span> Healthy
+                    </button>
+</div>
+</div>
+<div class="bg-surface-light dark:bg-surface-dark rounded-[24px] p-5 shadow-bento border border-border-light dark:border-border-dark">
+<h3 class="text-[11px] font-bold text-gray-400 uppercase tracking-widest mb-2">Location</h3>
+<div class="relative group">
+<span class="material-symbols-outlined absolute left-3 top-1/2 -translate-y-1/2 text-gray-400 group-focus-within:text-primary transition-colors text-lg">search</span>
+<input class="w-full pl-10 pr-10 py-2.5 rounded-xl border-none bg-gray-50 dark:bg-[#252525] text-charcoal dark:text-white text-sm font-medium focus:ring-2 focus:ring-primary/20 transition-all placeholder-gray-400" placeholder="Search city..." type="text" value="Bangalore"/>
+<span class="material-symbols-outlined absolute right-3 top-1/2 -translate-y-1/2 text-primary text-lg">location_on</span>
+</div>
+</div>
+<div class="bg-surface-light dark:bg-surface-dark rounded-[24px] p-4 shadow-bento border border-border-light dark:border-border-dark flex justify-center">
+<div class="flex bg-gray-100 dark:bg-gray-800 p-1 rounded-xl w-full relative">
+<button class="flex-1 py-2 rounded-lg bg-white dark:bg-gray-700 text-green-700 dark:text-green-400 shadow-sm text-xs font-bold transition-all flex items-center justify-center gap-1.5 z-10">
+<div class="w-3 h-3 border border-green-600 p-[1px] flex items-center justify-center rounded-[2px]">
+<div class="w-1.5 h-1.5 rounded-full bg-green-600"></div>
+</div> VEG
+                    </button>
+<button class="flex-1 py-2 rounded-lg text-gray-500 dark:text-gray-400 text-xs font-bold hover:text-charcoal dark:hover:text-white transition flex items-center justify-center gap-1.5 z-10">
+<div class="w-3 h-3 border border-red-500 p-[1px] flex items-center justify-center rounded-[2px]">
+<div class="w-1.5 h-1.5 rounded-full bg-red-500"></div>
+</div> NON-VEG
+                    </button>
+</div>
+</div>
+<div class="bg-surface-light dark:bg-surface-dark rounded-[24px] p-5 shadow-bento border border-border-light dark:border-border-dark flex-grow flex flex-col relative overflow-hidden">
+<div class="absolute right-0 top-0 w-32 h-32 bg-secondary/5 rounded-bl-full pointer-events-none"></div>
+<h3 class="text-[11px] font-bold text-gray-400 uppercase tracking-widest mb-4">Your Order</h3>
+<div class="flex-grow space-y-5 overflow-y-auto pr-2 custom-scroll">
+<div class="flex items-center justify-between group p-2 hover:bg-gray-50 dark:hover:bg-gray-800/50 rounded-xl transition-colors cursor-pointer">
+<div class="flex items-center gap-3">
+<div class="w-8 h-8 rounded-lg bg-gray-100 dark:bg-gray-700 flex items-center justify-center text-xs font-mono text-gray-500">x1</div>
+<div class="flex flex-col">
+<span class="text-sm font-semibold text-charcoal dark:text-gray-200">Butter Naan</span>
+<span class="text-[10px] text-gray-400">North Indian Breads</span>
+</div>
+</div>
+<span class="font-mono text-sm font-medium text-charcoal dark:text-gray-300">₹45</span>
+</div>
+<div class="flex items-center justify-between group p-2 hover:bg-gray-50 dark:hover:bg-gray-800/50 rounded-xl transition-colors cursor-pointer">
+<div class="flex items-center gap-3">
+<div class="w-8 h-8 rounded-lg bg-gray-100 dark:bg-gray-700 flex items-center justify-center text-xs font-mono text-gray-500">x1</div>
+<div class="flex flex-col">
+<span class="text-sm font-semibold text-charcoal dark:text-gray-200">Dal Makhani</span>
+<span class="text-[10px] text-gray-400">Main Course</span>
+</div>
+</div>
+<span class="font-mono text-sm font-medium text-charcoal dark:text-gray-300">₹240</span>
+</div>
+</div>
+<div class="mt-4 pt-4 border-t border-dashed border-gray-200 dark:border-gray-700">
+<div class="flex justify-between items-center mb-4">
+<span class="text-sm font-bold text-gray-500 dark:text-gray-400">Total</span>
+<span class="text-xl font-bold text-charcoal dark:text-white">₹285</span>
+</div>
+<button class="w-full bg-primary text-white py-3.5 rounded-xl font-bold shadow-lg shadow-primary/25 hover:shadow-primary/40 hover:-translate-y-0.5 transition-all active:scale-95 flex items-center justify-center gap-2 text-sm">
+                        Checkout <span class="material-symbols-outlined text-lg">arrow_forward</span>
+</button>
+</div>
+</div>
+</div>
+<div class="col-span-12 lg:col-span-6 xl:col-span-6 flex flex-col gap-6">
+<div class="grid grid-cols-1 md:grid-cols-2 gap-6 h-[500px]">
+<div class="bg-surface-light dark:bg-surface-dark rounded-[24px] shadow-bento border border-border-light dark:border-border-dark overflow-hidden flex flex-col relative group">
+<div class="p-5 border-b border-gray-100 dark:border-gray-800 bg-white/80 dark:bg-black/40 backdrop-blur-md z-10 sticky top-0">
+<h3 class="text-[11px] font-bold text-gray-500 dark:text-gray-400 uppercase tracking-widest flex items-center gap-2">
+<span class="material-symbols-outlined text-primary text-base">storefront</span> Restaurants
+                        </h3>
+</div>
+<div class="flex-grow overflow-y-auto p-4 space-y-3 relative custom-scroll">
+<div class="bg-white dark:bg-[#252525] p-3 rounded-2xl ring-1 ring-border-light dark:ring-gray-700 shadow-sm flex gap-3 cursor-pointer transform scale-100 transition-all hover:bg-gray-50 dark:hover:bg-[#2a2a2a] relative overflow-hidden">
+<div class="absolute left-0 top-0 bottom-0 w-1 bg-primary"></div>
+<div class="w-14 h-14 rounded-xl overflow-hidden flex-shrink-0">
+<img alt="Restaurant" class="w-full h-full object-cover" src="https://lh3.googleusercontent.com/aida-public/AB6AXuD3rqEGOZb8UPUEDiHvc0uHwhO2yu1aavmnCvuLZOJHlF6YpZIJCSU1QGQpzi-QAQnMpbkfLqTMjhPY2RNboMEdvsruojo3ZwaBkw-E0lYLTxDvS8aSQ7H2-bzEujtgVMNkMN7yGJLRXJNWiNR6NqrViferfVInhc2Ac026fAxJFkkf8ZHabI6evgnAd2Jboa1nRes2dgwMdxH5cVTo_yxFhgfkpzyfbzGF6UEppXA0TA2Lk4Xkac6pZzirPjUUFPdXzcrV-iQApA"/>
+</div>
+<div class="flex-grow min-w-0">
+<div class="flex justify-between items-start">
+<h4 class="font-bold text-charcoal dark:text-white text-sm truncate">The Spice Route</h4>
+<span class="bg-green-100 dark:bg-green-900/30 text-green-700 dark:text-green-400 text-[10px] font-bold px-1.5 py-0.5 rounded flex items-center gap-0.5">4.3 <span class="material-symbols-outlined text-[8px]">star</span></span>
+</div>
+<p class="text-[10px] text-gray-500 mt-0.5 truncate">North Indian • Mughlai</p>
+<div class="text-[10px] text-gray-400 mt-1.5 flex items-center gap-1 font-medium">
+<span class="material-symbols-outlined text-[10px]">schedule</span> 35m • ₹400 for two
+                                </div>
+</div>
+</div>
+<div class="bg-transparent p-3 rounded-2xl border border-transparent hover:border-gray-200 dark:hover:border-gray-700 flex gap-3 cursor-pointer opacity-60 hover:opacity-100 transition-all hover:bg-white dark:hover:bg-[#1a1a1a]">
+<div class="w-14 h-14 rounded-xl overflow-hidden flex-shrink-0 grayscale hover:grayscale-0 transition-all">
+<img alt="Restaurant" class="w-full h-full object-cover" src="https://lh3.googleusercontent.com/aida-public/AB6AXuD42hrZyEB6CTqxaMC8Tgge2zupJSo_OqLlHuKVCSU_6zivkeBsJ_77ye9uPR5vGoTWfyBT0ShDOAiT6bvPdHTrBPPvEXcIxGLAiv81Om9387yEGfZhz7K9OLUn-l_7DKiUu2vZ2clFp5Iot8amkMIL8_AOUns52TzzrwUC8LPNsZudnzdGFBgZdwkQ3BWV1WuKB7N0DVR87HfMs1Pd4XhPF6NnJqA_o8ybz6jP_g2YA-znd53R7WZgkg2nxxO73JHgvHZPXKAU7w"/>
+</div>
+<div class="flex-grow min-w-0">
+<h4 class="font-semibold text-gray-600 dark:text-gray-300 text-sm">Biryani Blues</h4>
+<p class="text-[10px] text-gray-400 mt-0.5">Biryani • Kebab</p>
+</div>
+</div>
+<div class="bg-transparent p-3 rounded-2xl border border-transparent hover:border-gray-200 dark:hover:border-gray-700 flex gap-3 cursor-pointer opacity-60 hover:opacity-100 transition-all hover:bg-white dark:hover:bg-[#1a1a1a]">
+<div class="w-14 h-14 rounded-xl overflow-hidden flex-shrink-0 grayscale hover:grayscale-0 transition-all">
+<img alt="Restaurant" class="w-full h-full object-cover" src="https://lh3.googleusercontent.com/aida-public/AB6AXuD7HeQRVjjgiC_GQoVtrrhwLdAK313UfF0E3enO3zuqlKbF4qZF81pfQe9t5ulkP3A93MHZkEYxnSeibJe_SJON4YimsNHSzswJwFarMhpXKezreEVU7VyOtjJd0YybWEzbOdnRziI7zTZqLl05j0kHlJrqq0OqabDEyb79CorzJvwQyG8z6Y5aMs5S2WIBEmI5m4nWI-D8GGwVFwA5n4Dfe0xPFQ5KYK79PAQp5DpHjAUG7P-Gi4zzKZDcrHhBY-D7uoXaN1SQ6g"/>
+</div>
+<div class="flex-grow min-w-0">
+<h4 class="font-semibold text-gray-600 dark:text-gray-300 text-sm">Punjab Grill</h4>
+<p class="text-[10px] text-gray-400 mt-0.5">North Indian</p>
+</div>
+</div>
+</div>
+</div>
+<div class="bg-black rounded-[24px] shadow-bento overflow-hidden relative group">
+<img alt="Video Placeholder" class="w-full h-full object-cover opacity-80 group-hover:opacity-60 transition-opacity duration-700 scale-105 group-hover:scale-110" src="https://lh3.googleusercontent.com/aida-public/AB6AXuD9rhOarlGzpYk7ZtTECOChIxPu-u1XA2igzM3zkxb1AVBm8bnxKrsBJ9QoI9cgTQBOn0o27ruTjS1axuphMQfNBmkfb1qbckOfJA6YM0xU68eJV8FsD_Pf9zngs4V95svk1xMzzcCJEQrz4Muvr_3dv0HX2DsSNnkd6DV11u0Jq2O6CCcnMCV_ej_Kv_EPcZkValuQwkgo5__ZHBoNd1lbAXxFSyottIfXEhLyx_UgiLWKDmnXs69wdp3eDUh9KB6cwPlZqshJbQ"/>
+<div class="absolute inset-0 flex flex-col items-center justify-center">
+<button class="w-14 h-14 rounded-full bg-white/10 backdrop-blur-md border border-white/30 flex items-center justify-center text-white shadow-xl hover:scale-110 transition-transform duration-300 group-hover:bg-primary group-hover:border-primary">
+<span class="material-symbols-outlined text-3xl fill-current">play_arrow</span>
+</button>
+</div>
+<div class="absolute bottom-0 left-0 right-0 p-5 bg-gradient-to-t from-black via-black/70 to-transparent">
+<h3 class="text-white font-bold text-base leading-tight">Perfect Samosa</h3>
+<p class="text-gray-300 text-[10px] mt-1 line-clamp-2">Watch our chefs prepare this delicacy fresh in our kitchen.</p>
+</div>
+<div class="absolute top-4 right-4 bg-primary text-white text-[9px] font-bold px-2 py-1 rounded-md animate-pulse flex items-center gap-1 shadow-lg shadow-red-900/50">
+<span class="w-1.5 h-1.5 rounded-full bg-white"></span> LIVE
+                    </div>
+</div>
+</div>
+<div class="bg-surface-light dark:bg-surface-dark rounded-[24px] p-6 shadow-bento border border-border-light dark:border-border-dark relative overflow-hidden">
+<div class="absolute top-0 right-0 w-64 h-64 bg-secondary/5 rounded-full blur-3xl -mr-16 -mt-16 pointer-events-none"></div>
+<div class="flex items-center gap-3 mb-5 relative z-10">
+<h3 class="text-[11px] font-bold text-gray-500 dark:text-gray-400 uppercase tracking-widest">Pairs Well With This</h3>
+<span class="bg-gradient-to-r from-secondary to-orange-400 text-white text-[9px] font-bold px-2 py-0.5 rounded-full flex items-center gap-1 shadow-sm">
+<span class="material-symbols-outlined text-[10px]">auto_awesome</span> AI PICK
+                    </span>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4 relative z-10">
+<div class="bg-white dark:bg-[#252525] p-2.5 rounded-2xl border border-gray-100 dark:border-gray-700 shadow-sm hover:shadow-float hover:-translate-y-1 transition-all duration-300 cursor-pointer group">
+<div class="h-24 rounded-xl overflow-hidden mb-2.5 relative">
+<img alt="Lassi" class="w-full h-full object-cover group-hover:scale-110 transition duration-500" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBTjo_39hPAuDwpbN7i_i_M2CgBCWt-s3qVVGfB9gs-XAd6CtzDRa_VQq1xd5pE2Eydtur1IXVxQwZ3WvknD51djdRANUkTY-Fsmg-Dm9ywz2Tb6wmnaYb9ttQO_eFf9abg6XpuhU19ikv5VBwLEmyGZBzUMgv_tjxSjYS_4w-QhBrSWKt649TDF2LuOkCDklL3rzBikxHDNrXmQpCp0OiLjHI90rPFVVkkZjsO-XH2VZFuwEGQ3DuWGeGl1lxSEeAaIW8jEqG6AQ"/>
+<div class="absolute top-1.5 right-1.5 bg-black/70 backdrop-blur-md text-white text-[9px] font-bold px-1.5 py-0.5 rounded-md border border-white/10">
+                                92% Match
+                            </div>
+</div>
+<div class="flex justify-between items-start">
+<div>
+<h4 class="font-bold text-charcoal dark:text-white text-xs truncate w-20">Sweet Lassi</h4>
+<span class="text-[10px] text-gray-500 font-mono">₹80</span>
+</div>
+<button class="w-6 h-6 rounded-full bg-gray-50 dark:bg-gray-700 text-primary flex items-center justify-center hover:bg-primary hover:text-white transition shadow-sm">
+<span class="material-symbols-outlined text-sm">add</span>
+</button>
+</div>
+</div>
+<div class="bg-white dark:bg-[#252525] p-2.5 rounded-2xl border border-gray-100 dark:border-gray-700 shadow-sm hover:shadow-float hover:-translate-y-1 transition-all duration-300 cursor-pointer group">
+<div class="h-24 rounded-xl overflow-hidden mb-2.5 relative">
+<img alt="Raita" class="w-full h-full object-cover group-hover:scale-110 transition duration-500" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCVs2T5JEO3hJ8WCwnrwDfLfHYau9PGpbG8sFkmdN7VCZEhxA6poZBTpi0gDX53yOXrqn6pf8gjjEXKoL7pGP2Q-0bObKTpF21zzFVFhpKmJZB7RvvPU7VMWVysN0p103teVWuXiyrO9GmsXqfNgqfEXR4GAqveAkzDGB88UQDbhoGE8Rkob3f9DOOHoFDlJTnnCpSmVRPy_WAzvY4B9r-5pcG7BTPyI_OvKHCxhwYIrR-cs3beudZlb72KWY8FI69yVBlUnF8fZQ"/>
+<div class="absolute top-1.5 right-1.5 bg-black/70 backdrop-blur-md text-white text-[9px] font-bold px-1.5 py-0.5 rounded-md border border-white/10">
+                                88% Match
+                            </div>
+</div>
+<div class="flex justify-between items-start">
+<div>
+<h4 class="font-bold text-charcoal dark:text-white text-xs truncate w-20">Raita</h4>
+<span class="text-[10px] text-gray-500 font-mono">₹60</span>
+</div>
+<button class="w-6 h-6 rounded-full bg-gray-50 dark:bg-gray-700 text-primary flex items-center justify-center hover:bg-primary hover:text-white transition shadow-sm">
+<span class="material-symbols-outlined text-sm">add</span>
+</button>
+</div>
+</div>
+<div class="bg-white dark:bg-[#252525] p-2.5 rounded-2xl border border-gray-100 dark:border-gray-700 shadow-sm hover:shadow-float hover:-translate-y-1 transition-all duration-300 cursor-pointer group">
+<div class="h-24 rounded-xl overflow-hidden mb-2.5 relative">
+<img alt="Gulab Jamun" class="w-full h-full object-cover group-hover:scale-110 transition duration-500" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBSuhu2D6T3ZetF4zK5X2520Z2GF70TYw3ZDO9pHOqaxOHagui-bfQ6Pl9KezVXzNW-3pBUYQkwDivC-ZtuCPPkO-xbpby9O58qMDslQP-jxgsRcY4ZJxPJpJN0dHQifaDcP4Dr1uW4dAYlJgWPEoj4G5vRXoISquHRrQiSPv7X-jewhC96BIlBad_cu2zxUqViA1XPFoYap0YpTbXO2s7IYTZmz5EUSOuN0YvWsbSjdgkX8DqBOuZBWfngjQdeYEyYDCo-GjexFw"/>
+<div class="absolute top-1.5 right-1.5 bg-black/70 backdrop-blur-md text-white text-[9px] font-bold px-1.5 py-0.5 rounded-md border border-white/10">
+                                85% Match
+                            </div>
+</div>
+<div class="flex justify-between items-start">
+<div>
+<h4 class="font-bold text-charcoal dark:text-white text-xs truncate w-20">Gulab Jamun</h4>
+<span class="text-[10px] text-gray-500 font-mono">₹90</span>
+</div>
+<button class="w-6 h-6 rounded-full bg-gray-50 dark:bg-gray-700 text-primary flex items-center justify-center hover:bg-primary hover:text-white transition shadow-sm">
+<span class="material-symbols-outlined text-sm">add</span>
+</button>
+</div>
+</div>
+<div class="bg-white dark:bg-[#252525] p-2.5 rounded-2xl border border-gray-100 dark:border-gray-700 shadow-sm hover:shadow-float hover:-translate-y-1 transition-all duration-300 cursor-pointer group">
+<div class="h-24 rounded-xl overflow-hidden mb-2.5 relative">
+<img alt="Papad" class="w-full h-full object-cover group-hover:scale-110 transition duration-500" src="https://lh3.googleusercontent.com/aida-public/AB6AXuD9rhOarlGzpYk7ZtTECOChIxPu-u1XA2igzM3zkxb1AVBm8bnxKrsBJ9QoI9cgTQBOn0o27ruTjS1axuphMQfNBmkfb1qbckOfJA6YM0xU68eJV8FsD_Pf9zngs4V95svk1xMzzcCJEQrz4Muvr_3dv0HX2DsSNnkd6DV11u0Jq2O6CCcnMCV_ej_Kv_EPcZkValuQwkgo5__ZHBoNd1lbAXxFSyottIfXEhLyx_UgiLWKDmnXs69wdp3eDUh9KB6cwPlZqshJbQ"/>
+<div class="absolute top-1.5 right-1.5 bg-black/70 backdrop-blur-md text-white text-[9px] font-bold px-1.5 py-0.5 rounded-md border border-white/10">
+                                81% Match
+                            </div>
+</div>
+<div class="flex justify-between items-start">
+<div>
+<h4 class="font-bold text-charcoal dark:text-white text-xs truncate w-20">Papad</h4>
+<span class="text-[10px] text-gray-500 font-mono">₹40</span>
+</div>
+<button class="w-6 h-6 rounded-full bg-gray-50 dark:bg-gray-700 text-primary flex items-center justify-center hover:bg-primary hover:text-white transition shadow-sm">
+<span class="material-symbols-outlined text-sm">add</span>
+</button>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="col-span-12 lg:col-span-3 xl:col-span-3 flex flex-col h-full animate-fade-in-right">
+<div class="bg-surface-light dark:bg-surface-dark rounded-[24px] p-6 shadow-float border border-border-light dark:border-border-dark h-full flex flex-col relative overflow-hidden group">
+<div class="absolute top-0 right-0 w-full h-1 bg-gradient-to-r from-primary to-secondary"></div>
+<div class="flex items-center gap-2 mb-6">
+<div class="p-1.5 rounded-lg bg-gray-100 dark:bg-gray-800 text-charcoal dark:text-white">
+<span class="material-symbols-outlined text-lg">psychology</span>
+</div>
+<h3 class="text-sm font-bold text-charcoal dark:text-white tracking-wide">Algorithm Insights</h3>
+</div>
+<div class="space-y-6 overflow-y-auto custom-scroll pr-1 flex-grow">
+<div class="bg-gray-50 dark:bg-[#202020] rounded-xl p-4 border border-gray-100 dark:border-gray-700">
+<div class="flex items-center gap-2 mb-3">
+<span class="material-symbols-outlined text-secondary text-base">hexagon</span>
+<h4 class="text-xs font-bold text-gray-700 dark:text-gray-300 uppercase">Candidate Shift</h4>
+</div>
+<p class="text-[11px] leading-relaxed text-gray-500 dark:text-gray-400">
+                            Model shifted preference towards <span class="text-primary font-semibold">North Indian</span> based on current cart items (Naan, Dal) and user history overlap.
+                        </p>
+</div>
+<div class="bg-gray-50 dark:bg-[#202020] rounded-xl p-4 border border-gray-100 dark:border-gray-700">
+<div class="flex items-center gap-2 mb-3">
+<span class="material-symbols-outlined text-primary text-base">bar_chart</span>
+<h4 class="text-xs font-bold text-gray-700 dark:text-gray-300 uppercase">Feature Importance</h4>
+</div>
+<div class="space-y-3">
+<div>
+<div class="flex justify-between text-[10px] text-gray-500 mb-1">
+<span>Item Co-occurrence</span>
+<span class="font-mono">0.86</span>
+</div>
+<div class="h-1.5 w-full bg-gray-200 dark:bg-gray-700 rounded-full overflow-hidden">
+<div class="h-full bg-primary rounded-full w-[86%]"></div>
+</div>
+</div>
+<div>
+<div class="flex justify-between text-[10px] text-gray-500 mb-1">
+<span>User Taste Profile</span>
+<span class="font-mono">0.72</span>
+</div>
+<div class="h-1.5 w-full bg-gray-200 dark:bg-gray-700 rounded-full overflow-hidden">
+<div class="h-full bg-secondary rounded-full w-[72%]"></div>
+</div>
+</div>
+<div>
+<div class="flex justify-between text-[10px] text-gray-500 mb-1">
+<span>Time of Day</span>
+<span class="font-mono">0.45</span>
+</div>
+<div class="h-1.5 w-full bg-gray-200 dark:bg-gray-700 rounded-full overflow-hidden">
+<div class="h-full bg-gray-400 rounded-full w-[45%]"></div>
+</div>
+</div>
+</div>
+</div>
+<div class="bg-charcoal text-white rounded-xl p-4 shadow-lg relative overflow-hidden">
+<div class="absolute -right-4 -top-4 w-16 h-16 bg-primary/20 rounded-full blur-xl"></div>
+<div class="flex items-center gap-2 mb-3 relative z-10">
+<span class="material-symbols-outlined text-green-400 text-base">code</span>
+<h4 class="text-xs font-bold text-gray-200 uppercase font-mono">Item2Vec Logic</h4>
+</div>
+<div class="font-mono text-[10px] space-y-2 text-gray-400 relative z-10">
+<div class="flex justify-between">
+<span>sim(Lassi, Naan)</span>
+<span class="text-green-400">0.92</span>
+</div>
+<div class="flex justify-between">
+<span>sim(Raita, Dal)</span>
+<span class="text-green-400">0.88</span>
+</div>
+<div class="border-t border-gray-700 my-1 pt-1 flex justify-between text-white font-bold">
+<span>Confidence</span>
+<span>High</span>
+</div>
+</div>
+</div>
+</div>
+<div class="mt-4 pt-4 border-t border-gray-100 dark:border-gray-800 text-center">
+<button class="text-[10px] text-gray-400 hover:text-primary transition flex items-center justify-center gap-1 w-full group">
+<span class="material-symbols-outlined text-sm group-hover:rotate-180 transition-transform">refresh</span> Refresh Analysis
+                    </button>
+</div>
+</div>
+</div>
+</main>
+<script>
+        // Simple logic for toggle simulation
+        document.querySelectorAll('button').forEach(btn => {
+            btn.addEventListener('click', function() {
+                // visual feedback
+                this.classList.add('scale-95');
+                setTimeout(() => {
+                    this.classList.remove('scale-95');
+                }, 100);
+            });
+        });
+    </script>
+</body></html>

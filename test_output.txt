@@ -1,0 +1,35 @@
+Restaurant: The Tandoor Cafe (R0001)
+Menu items: 20
+
+  Beverage: ['Special Cold Coffee', 'Mango Lassi', 'Premium Virgin Mojito', 'Spicy Lassi', 'Classic Masala Chaas']
+  Dessert: ['House Tiramisu', 'House Kulfi', 'Classic Shrikhand', 'Signature Choco Lava Cake', 'Premium Brownie']
+  Main: ['Spicy Hakka Noodles', 'Premium Veg Manchurian', 'Premium Margherita Pizza', 'Spicy Pasta Arrabbiata', 'House Chicken Fried Rice', 'House Veg Fried Rice']
+  Side: ['House Spring Rolls', 'Signature French Fries', 'Special Garlic Bread', 'Caesar Salad']
+
+======================================================================
+TEST 1: Cart = [Spicy Hakka Noodles] (cat=Main)
+======================================================================
+  Mango Lassi                    cat=Beverage     node=Node4_Beverage         score=0.6875 cuisine=Beverage
+  Classic Masala Chaas           cat=Beverage     node=Node4_Beverage         score=0.6875 cuisine=Beverage
+  House Spring Rolls             cat=Side         node=Node2_Texture          score=0.6811 cuisine=Chinese
+  Premium Brownie                cat=Dessert      node=Node5_Dessert          score=0.6560 cuisine=Dessert
+  House Tiramisu                 cat=Dessert      node=Node5_Dessert          score=0.6260 cuisine=Continental
+  AOV=259.37, CartVal=269.0, Headroom=0.0
+
+======================================================================
+TEST 2 (Dessert only): Cart = [House Tiramisu] (cat=Dessert)
+======================================================================
+  Premium Margherita Pizza       cat=Main         node=Node3_CoOccurrence     score=0.7161 cuisine=Continental
+  Special Cold Coffee            cat=Beverage     node=Node4_Beverage         score=0.6895 cuisine=Beverage
+  Mango Lassi                    cat=Beverage     node=Node4_Beverage         score=0.6875 cuisine=Beverage
+  Caesar Salad                   cat=Side         node=Node2_Texture          score=0.6847 cuisine=Continental
+  Special Garlic Bread           cat=Side         node=Node2_Texture          score=0.6811 cuisine=Continental
+
+======================================================================
+TEST 3: Cart = [Spicy Hakka Noodles, House Tiramisu]
+======================================================================
+  House Spring Rolls             cat=Side         node=Node2_Texture          score=0.7930 cuisine=Chinese
+  Special Cold Coffee            cat=Beverage     node=Node4_Beverage         score=0.7873 cuisine=Beverage
+  Mango Lassi                    cat=Beverage     node=Node4_Beverage         score=0.7855 cuisine=Beverage
+  Signature French Fries         cat=Side         node=Node2_Texture          score=0.6811 cuisine=Continental
+  Signature Choco Lava Cake      cat=Dessert      node=Node5_Dessert          score=0.6702 cuisine=Dessert

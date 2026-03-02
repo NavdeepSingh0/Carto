@@ -1,0 +1,1001 @@
+user_id,name,city,city_tier,pincode,age_group,gender,is_veg,user_segment,historical_aov,preferred_cuisine,preferred_meal_time,dessert_affinity,beverage_affinity,price_sensitivity,account_age_days,total_orders_lifetime
+U0001,Riya Singh,Bangalore,Tier1,560328,25-34,F,False,budget,147.7,Chinese,dinner,0.38,0.31,0.87,1548,139
+U0002,Aryan Singh,Delhi,Tier1,110130,25-34,M,False,budget,204.72,Indian Street,dinner,0.63,0.67,0.72,1239,94
+U0003,Vihaan Shah,Delhi,Tier1,110674,25-34,M,True,mid,273.12,Biryani,evening_snack,0.46,0.61,0.68,1064,96
+U0004,Rohan Iyer,Hyderabad,Tier1,500928,25-34,M,True,premium,603.82,Biryani,dinner,0.51,0.31,0.19,949,130
+U0005,Myra Sharma,Kochi,Tier2,682384,45+,F,False,mid,407.05,South Indian,lunch,0.33,0.7,0.46,1459,158
+U0006,Aryan Shah,Bangalore,Tier1,560199,25-34,M,True,premium,581.72,South Indian|Biryani,dinner,0.34,0.64,0.33,239,60
+U0007,Aditya Reddy,Lucknow,Tier2,226570,25-34,M,True,premium,674.57,North Indian|Mughlai,dinner,0.54,0.27,0.12,1682,400
+U0008,Pooja Singh,Jaipur,Tier2,302949,25-34,F,False,mid,376.19,South Indian|Continental,lunch,0.85,0.51,0.41,191,18
+U0009,Amit Reddy,Chandigarh,Tier2,160777,25-34,M,False,budget,149.91,Biryani,evening_snack,0.69,0.68,0.69,1472,180
+U0010,Prisha Mishra,Delhi,Tier1,110203,25-34,F,False,premium,527.74,Indian Street,evening_snack,0.6,0.72,0.17,1781,364
+U0011,Kabir Agarwal,Mumbai,Tier1,400266,25-34,M,True,budget,219.65,Indian Street|Chinese,lunch,0.55,0.38,0.73,1331,69
+U0012,Aditya Reddy,Bangalore,Tier1,560799,25-34,M,False,budget,209.03,South Indian,dinner,0.2,0.79,0.71,1402,127
+U0013,Riya Gupta,Delhi,Tier1,110267,35-44,F,True,mid,367.59,Chinese,breakfast,0.48,0.31,0.59,1123,91
+U0014,Neha Nair,Mumbai,Tier1,400324,25-34,F,True,mid,339.47,Chinese|Indian Street,late_night,0.69,0.28,0.45,1340,112
+U0015,Amit Rao,Bangalore,Tier1,560924,35-44,M,False,budget,258.24,Indian Street,lunch,0.49,0.4,0.79,499,26
+U0016,Avni Nair,Bangalore,Tier1,560680,35-44,F,False,mid,357.45,Biryani|Chinese,breakfast,0.57,0.26,0.45,165,23
+U0017,Ishaan Rao,Surat,Tier2,395758,18-24,M,True,mid,376.44,North Indian,lunch,0.87,0.71,0.61,1372,137
+U0018,Neha Kumar,Surat,Tier2,395674,18-24,F,True,budget,207.51,Biryani|Continental,dinner,0.94,0.5,0.75,315,29
+U0019,Sai Agarwal,Pune,Tier1,411324,18-24,M,False,budget,159.85,Biryani|Mughlai,lunch,0.62,0.78,0.69,1225,95
+U0020,Aryan Bose,Chandigarh,Tier2,160212,25-34,M,False,budget,174.97,Continental,dinner,0.54,0.26,0.88,1577,201
+U0021,Rishi Patel,Surat,Tier2,395490,18-24,Other,True,premium,798.65,Indian Street|Mughlai,evening_snack,0.83,0.68,0.31,1251,332
+U0022,Priya Das,Surat,Tier2,395111,35-44,F,False,budget,174.61,South Indian|Chinese,dinner,1.0,0.37,0.79,1163,59
+U0023,Amit Singh,Pune,Tier1,411214,18-24,M,False,budget,167.63,North Indian|Continental,breakfast,0.56,0.52,0.84,1604,98
+U0024,Ananya Iyer,Surat,Tier2,395839,45+,F,True,budget,235.95,South Indian,breakfast,0.65,0.78,0.76,959,133
+U0025,Sunita Agarwal,Lucknow,Tier2,226991,25-34,F,True,budget,185.23,Mughlai,lunch,0.87,0.45,0.83,1069,52
+U0026,Amit Mishra,Delhi,Tier1,110265,35-44,M,True,budget,134.49,Mughlai,dinner,0.7,0.26,0.86,343,27
+U0027,Sai Sharma,Hyderabad,Tier1,500471,18-24,M,False,budget,239.38,Continental|Biryani,dinner,0.61,0.3,0.66,1030,138
+U0028,Sunita Mishra,Mumbai,Tier1,400680,18-24,F,False,premium,669.68,Indian Street,dinner,0.69,0.76,0.29,148,29
+U0029,Aryan Gupta,Bangalore,Tier1,560878,35-44,Other,True,budget,139.53,Chinese|South Indian,lunch,0.36,0.27,0.67,1701,209
+U0030,Pooja Kumar,Jaipur,Tier2,302662,35-44,F,False,premium,527.81,Mughlai,late_night,0.83,0.45,0.33,1381,212
+U0031,Kiara Agarwal,Bangalore,Tier1,560873,18-24,F,False,premium,686.8,South Indian|Biryani,dinner,0.37,0.74,0.33,463,48
+U0032,Vikram Shah,Bangalore,Tier1,560765,35-44,M,True,budget,310.48,Chinese|North Indian,lunch,0.59,0.4,0.79,847,39
+U0033,Avni Das,Surat,Tier2,395165,35-44,F,False,budget,185.83,Chinese|Biryani,lunch,0.84,0.26,0.79,277,25
+U0034,Avni Sharma,Mumbai,Tier1,400172,18-24,F,False,mid,259.37,Indian Street,lunch,0.75,0.69,0.7,1235,171
+U0035,Neha Verma,Kochi,Tier2,682980,35-44,Other,False,budget,255.43,Biryani,lunch,0.5,0.48,0.76,168,8
+U0036,Aditya Gupta,Mumbai,Tier1,400319,18-24,M,False,mid,451.67,North Indian,evening_snack,0.55,0.33,0.51,600,51
+U0037,Sai Kumar,Kochi,Tier2,682926,45+,M,True,premium,775.11,Indian Street|Biryani,dinner,0.77,0.47,0.12,527,61
+U0038,Kavya Shah,Surat,Tier2,395462,35-44,F,True,budget,305.58,Continental,lunch,0.89,0.31,0.76,228,13
+U0039,Kabir Iyer,Hyderabad,Tier1,500789,25-34,M,True,premium,895.13,Chinese|Biryani,dinner,0.66,0.45,0.26,1799,219
+U0040,Riya Singh,Kochi,Tier2,682919,18-24,F,True,budget,292.7,Indian Street,lunch,0.77,0.78,0.69,854,48
+U0041,Myra Singh,Chandigarh,Tier2,160559,25-34,F,True,budget,174.54,Biryani,late_night,0.78,0.77,0.85,422,42
+U0042,Aryan Iyer,Chandigarh,Tier2,160995,25-34,M,True,premium,646.95,Continental,lunch,0.6,0.27,0.3,600,93
+U0043,Sunita Gupta,Surat,Tier2,395663,35-44,F,True,premium,696.71,Indian Street|South Indian,breakfast,0.85,0.62,0.36,1684,185
+U0044,Vihaan Verma,Delhi,Tier1,110969,18-24,M,True,mid,351.73,North Indian,dinner,0.76,0.67,0.67,221,15
+U0045,Prisha Patel,Bangalore,Tier1,560985,35-44,F,False,budget,269.82,North Indian|Biryani,dinner,0.62,0.34,0.71,1024,73
+U0046,Kabir Verma,Mumbai,Tier1,400499,18-24,M,True,budget,211.05,Continental,dinner,0.33,0.6,0.74,806,112
+U0047,Rishi Das,Delhi,Tier1,110848,18-24,M,True,budget,151.66,Indian Street|North Indian,lunch,0.84,0.22,0.68,896,52
+U0048,Diya Bose,Lucknow,Tier2,226159,18-24,F,False,premium,468.96,Mughlai,lunch,0.56,0.33,0.34,418,78
+U0049,Rahul Verma,Bangalore,Tier1,560588,25-34,M,True,mid,369.8,Continental|Biryani,dinner,0.3,0.47,0.48,147,26
+U0050,Sai Patel,Pune,Tier1,411290,18-24,M,True,budget,175.26,South Indian,evening_snack,0.56,0.56,0.73,1070,129
+U0051,Aadya Gupta,Surat,Tier2,395683,25-34,F,True,mid,426.63,South Indian,lunch,0.96,0.54,0.53,856,138
+U0052,Arjun Verma,Bangalore,Tier1,560678,25-34,Other,True,budget,156.93,South Indian,lunch,0.25,0.3,0.69,888,53
+U0053,Sai Rao,Chandigarh,Tier2,160421,25-34,M,True,premium,505.48,Biryani|Mughlai,lunch,0.63,0.76,0.39,448,57
+U0054,Prisha Agarwal,Pune,Tier1,411407,18-24,F,False,budget,187.78,North Indian|South Indian,dinner,0.4,0.37,0.78,298,17
+U0055,Arjun Rao,Pune,Tier1,411676,25-34,M,False,budget,172.51,Biryani,lunch,0.46,0.61,0.67,49,5
+U0056,Aadya Gupta,Lucknow,Tier2,226457,25-34,F,False,budget,297.7,North Indian,dinner,0.66,0.76,0.89,1066,97
+U0057,Ishaan Gupta,Delhi,Tier1,110548,25-34,M,False,premium,578.82,North Indian,lunch,0.63,0.51,0.16,786,150
+U0058,Myra Mishra,Bangalore,Tier1,560406,25-34,F,False,mid,351.41,Continental,dinner,0.61,0.34,0.49,1397,106
+U0059,Ishaan Singh,Chandigarh,Tier2,160209,25-34,M,False,mid,343.41,Indian Street,lunch,0.63,0.52,0.59,571,92
+U0060,Sneha Kumar,Chandigarh,Tier2,160834,18-24,F,True,budget,212.19,Mughlai|Biryani,lunch,0.74,0.69,0.79,607,38
+U0061,Avni Shah,Mumbai,Tier1,400966,18-24,F,True,mid,284.81,Chinese|Indian Street,dinner,0.43,0.31,0.62,1065,107
+U0062,Saanvi Gupta,Chandigarh,Tier2,160103,25-34,F,False,premium,550.62,Continental|South Indian,evening_snack,0.36,0.76,0.25,1728,333
+U0063,Avni Kumar,Pune,Tier1,411664,35-44,F,False,budget,232.12,Mughlai|Biryani,late_night,0.4,0.79,0.76,360,20
+U0064,Vikram Iyer,Lucknow,Tier2,226807,35-44,M,False,mid,386.19,North Indian,evening_snack,0.53,0.2,0.42,259,45
+U0065,Ishaan Kumar,Bangalore,Tier1,560665,25-34,M,False,budget,209.01,South Indian,dinner,0.41,0.5,0.76,1739,140
+U0066,Kiara Iyer,Hyderabad,Tier1,500915,25-34,F,False,mid,296.48,Biryani,lunch,0.51,0.45,0.45,115,14
+U0067,Diya Verma,Mumbai,Tier1,400782,25-34,Other,False,budget,225.96,North Indian|South Indian,dinner,0.44,0.67,0.87,460,27
+U0068,Aadya Reddy,Hyderabad,Tier1,500342,25-34,F,False,mid,281.37,Biryani|Continental,lunch,0.57,0.59,0.66,1301,104
+U0069,Ramesh Patel,Bangalore,Tier1,560854,18-24,M,False,mid,261.61,Chinese,breakfast,0.46,0.31,0.47,874,166
+U0070,Ishaan Rao,Surat,Tier2,395852,18-24,M,True,mid,495.83,Continental|North Indian,lunch,0.73,0.74,0.52,1672,142
+U0071,Suresh Jain,Mumbai,Tier1,400210,18-24,M,True,budget,220.47,Continental|Indian Street,lunch,0.75,0.36,0.87,356,19
+U0072,Kabir Verma,Surat,Tier2,395571,25-34,M,True,budget,294.91,Biryani|Chinese,evening_snack,0.49,0.68,0.69,485,48
+U0073,Aditya Mishra,Hyderabad,Tier1,500297,18-24,M,False,mid,295.7,Biryani,dinner,0.47,0.21,0.65,486,92
+U0074,Kabir Rao,Chandigarh,Tier2,160891,25-34,M,True,mid,450.87,South Indian|Biryani,evening_snack,0.43,0.56,0.46,1800,316
+U0075,Ananya Reddy,Surat,Tier2,395649,18-24,F,False,mid,358.65,North Indian|Mughlai,breakfast,0.53,0.43,0.41,1421,95
+U0076,Aditya Sharma,Bangalore,Tier1,560371,25-34,M,True,mid,393.63,Continental,lunch,0.54,0.22,0.68,564,83
+U0077,Saanvi Singh,Delhi,Tier1,110421,18-24,F,False,mid,375.04,North Indian|Mughlai,dinner,0.46,0.35,0.43,737,59
+U0078,Kavya Singh,Lucknow,Tier2,226145,25-34,F,True,mid,309.04,North Indian|Biryani,dinner,0.82,0.31,0.68,1210,175
+U0079,Sneha Iyer,Pune,Tier1,411651,25-34,F,False,mid,462.29,Chinese,lunch,0.67,0.22,0.47,1094,76
+U0080,Amit Shah,Jaipur,Tier2,302780,35-44,M,False,premium,726.65,Indian Street|Mughlai,breakfast,0.72,0.56,0.35,913,240
+U0081,Ishaan Rao,Delhi,Tier1,110837,18-24,M,False,budget,212.38,Chinese|Mughlai,lunch,0.68,0.57,0.73,1388,72
+U0082,Ishaan Mishra,Delhi,Tier1,110512,35-44,M,True,premium,764.71,Biryani|Indian Street,dinner,0.59,0.44,0.34,1395,230
+U0083,Sneha Mishra,Hyderabad,Tier1,500488,35-44,F,False,mid,354.98,Indian Street,lunch,0.35,0.38,0.62,422,45
+U0084,Amit Patel,Delhi,Tier1,110100,18-24,M,False,mid,376.1,Biryani|Mughlai,breakfast,0.41,0.45,0.47,861,82
+U0085,Ananya Mishra,Chandigarh,Tier2,160721,25-34,F,False,budget,256.4,Continental,dinner,0.31,0.31,0.89,910,49
+U0086,Amit Rao,Delhi,Tier1,110318,35-44,M,True,budget,307.76,Biryani|North Indian,lunch,0.56,0.65,0.88,934,69
+U0087,Sai Bose,Jaipur,Tier2,302627,35-44,M,True,budget,225.94,South Indian,evening_snack,0.61,0.73,0.8,1379,165
+U0088,Riya Rao,Kochi,Tier2,682340,35-44,F,False,mid,289.23,South Indian,dinner,0.49,0.5,0.51,1706,117
+U0089,Amit Mishra,Mumbai,Tier1,400125,25-34,M,True,premium,659.34,Continental,lunch,0.65,0.36,0.28,1681,360
+U0090,Saanvi Jain,Chandigarh,Tier2,160174,25-34,F,False,premium,817.12,Continental|Mughlai,lunch,0.83,0.73,0.31,1281,142
+U0091,Arjun Iyer,Chandigarh,Tier2,160606,35-44,M,True,budget,221.55,Mughlai,dinner,0.58,0.58,0.85,1501,87
+U0092,Kavya Jain,Delhi,Tier1,110868,25-34,F,False,budget,252.02,North Indian,dinner,0.56,0.76,0.89,1373,80
+U0093,Myra Singh,Mumbai,Tier1,400812,25-34,F,True,budget,210.64,Indian Street|Chinese,breakfast,0.61,0.21,0.8,478,49
+U0094,Sai Das,Mumbai,Tier1,400968,25-34,M,False,mid,344.11,Indian Street,dinner,0.47,0.3,0.7,1171,156
+U0095,Aadya Das,Lucknow,Tier2,226643,18-24,F,True,mid,382.95,North Indian,dinner,0.53,0.58,0.69,1671,173
+U0096,Sai Rao,Bangalore,Tier1,560616,45+,M,False,premium,516.45,Chinese|South Indian,evening_snack,0.54,0.48,0.11,1284,146
+U0097,Kabir Das,Kochi,Tier2,682560,35-44,M,False,mid,484.11,South Indian,breakfast,0.58,0.68,0.59,1553,114
+U0098,Rishi Jain,Hyderabad,Tier1,500596,18-24,M,False,mid,319.3,Biryani|Chinese,dinner,0.66,0.39,0.42,1598,125
+U0099,Amit Jain,Hyderabad,Tier1,500392,18-24,M,False,mid,375.0,Biryani|South Indian,dinner,0.51,0.79,0.61,930,161
+U0100,Rohan Agarwal,Delhi,Tier1,110182,25-34,M,False,mid,267.28,North Indian|Indian Street,breakfast,0.49,0.25,0.56,684,49
+U0101,Aryan Kumar,Bangalore,Tier1,560823,25-34,M,False,premium,498.79,Chinese,dinner,0.46,0.63,0.13,814,102
+U0102,Prisha Gupta,Chandigarh,Tier2,160577,35-44,F,True,premium,570.01,Mughlai|Chinese,dinner,0.45,0.52,0.26,864,155
+U0103,Kabir Verma,Jaipur,Tier2,302888,18-24,M,True,budget,241.15,Indian Street,lunch,0.79,0.5,0.89,1735,131
+U0104,Priya Sharma,Pune,Tier1,411460,18-24,F,False,premium,655.67,South Indian|Indian Street,dinner,0.72,0.72,0.3,1006,298
+U0105,Ananya Nair,Jaipur,Tier2,302659,25-34,F,True,budget,239.99,Continental|Chinese,dinner,0.86,0.74,0.87,1132,63
+U0106,Suresh Jain,Hyderabad,Tier1,500597,25-34,M,False,budget,240.1,North Indian|Biryani,evening_snack,0.54,0.31,0.83,479,43
+U0107,Aarav Nair,Delhi,Tier1,110514,18-24,Other,False,mid,366.09,Chinese|Indian Street,dinner,0.5,0.78,0.53,1399,118
+U0108,Sneha Patel,Delhi,Tier1,110646,18-24,F,False,budget,272.25,North Indian|Mughlai,lunch,0.38,0.7,0.71,291,13
+U0109,Aarav Nair,Hyderabad,Tier1,500238,25-34,M,False,budget,147.91,Biryani,dinner,0.61,0.55,0.83,201,12
+U0110,Ramesh Das,Chandigarh,Tier2,160435,18-24,M,True,budget,247.74,South Indian,dinner,0.61,0.76,0.66,132,12
+U0111,Rohan Das,Bangalore,Tier1,560488,18-24,M,True,premium,712.77,Chinese|Biryani,dinner,0.13,0.6,0.39,721,85
+U0112,Rishi Iyer,Mumbai,Tier1,400119,18-24,M,False,budget,271.03,Chinese|Indian Street,evening_snack,0.99,0.31,0.67,1739,209
+U0113,Sneha Verma,Jaipur,Tier2,302899,45+,F,False,mid,448.23,South Indian|Biryani,dinner,0.54,0.6,0.57,489,42
+U0114,Riya Verma,Bangalore,Tier1,560120,18-24,F,False,premium,569.11,Biryani,dinner,0.55,0.54,0.22,536,114
+U0115,Priya Kumar,Jaipur,Tier2,302217,25-34,F,True,mid,476.31,Chinese,evening_snack,0.72,0.2,0.64,288,29
+U0116,Rahul Shah,Bangalore,Tier1,560477,25-34,M,False,budget,191.93,South Indian|Mughlai,dinner,0.3,0.57,0.74,1462,135
+U0117,Aryan Singh,Hyderabad,Tier1,500126,35-44,M,False,mid,271.55,Continental,dinner,0.9,0.66,0.51,667,109
+U0118,Sunita Mishra,Lucknow,Tier2,226303,45+,F,True,budget,157.66,North Indian|Biryani,breakfast,0.66,0.76,0.87,842,40
+U0119,Vihaan Jain,Bangalore,Tier1,560970,25-34,M,True,budget,207.22,South Indian,dinner,0.3,0.45,0.78,1457,80
+U0120,Amit Singh,Mumbai,Tier1,400777,25-34,M,True,mid,372.06,North Indian,late_night,0.69,0.49,0.57,741,71
+U0121,Avni Gupta,Lucknow,Tier2,226942,18-24,F,False,premium,769.87,North Indian|Mughlai,dinner,0.36,0.67,0.37,55,6
+U0122,Neha Singh,Delhi,Tier1,110948,25-34,F,False,budget,227.76,North Indian|Mughlai,evening_snack,0.45,0.33,0.8,771,47
+U0123,Arjun Kumar,Mumbai,Tier1,400766,25-34,M,False,mid,315.71,Indian Street|Biryani,lunch,0.43,0.46,0.58,390,31
+U0124,Ananya Bose,Jaipur,Tier2,302706,45+,F,True,budget,249.91,South Indian|Biryani,lunch,0.95,0.39,0.72,922,48
+U0125,Rishi Rao,Delhi,Tier1,110385,18-24,M,False,budget,233.75,Mughlai,dinner,0.25,0.4,0.79,1731,84
+U0126,Myra Das,Surat,Tier2,395724,25-34,Other,True,mid,323.82,Biryani,lunch,0.81,0.61,0.57,1566,162
+U0127,Riya Nair,Delhi,Tier1,110432,18-24,F,False,mid,366.81,Biryani|North Indian,lunch,0.56,0.71,0.64,88,8
+U0128,Kiara Bose,Pune,Tier1,411448,18-24,F,False,budget,279.17,South Indian,lunch,0.67,0.36,0.83,756,40
+U0129,Rishi Agarwal,Bangalore,Tier1,560187,45+,M,False,budget,198.41,Indian Street,evening_snack,0.49,0.71,0.8,1088,52
+U0130,Prisha Iyer,Delhi,Tier1,110807,18-24,F,False,budget,293.3,Mughlai|North Indian,breakfast,0.55,0.44,0.85,1167,64
+U0131,Neha Bose,Delhi,Tier1,110401,18-24,F,False,mid,395.49,Biryani|Indian Street,dinner,0.45,0.5,0.66,1653,319
+U0132,Rohan Nair,Bangalore,Tier1,560477,25-34,M,True,budget,190.85,Biryani,dinner,0.53,0.39,0.79,657,39
+U0133,Arjun Reddy,Hyderabad,Tier1,500460,18-24,M,False,budget,240.93,South Indian|Biryani,dinner,0.57,0.79,0.69,1557,103
+U0134,Vikram Das,Delhi,Tier1,110223,18-24,M,True,budget,208.47,Biryani|Mughlai,dinner,0.5,0.38,0.78,657,61
+U0135,Sneha Shah,Surat,Tier2,395880,25-34,F,True,premium,587.2,Indian Street|Mughlai,dinner,0.66,0.21,0.21,274,33
+U0136,Sneha Patel,Delhi,Tier1,110383,18-24,F,False,budget,139.81,Mughlai,late_night,0.16,0.49,0.89,473,26
+U0137,Sneha Mishra,Mumbai,Tier1,400332,25-34,F,False,budget,191.06,Chinese,dinner,0.34,0.48,0.73,1735,174
+U0138,Avni Patel,Lucknow,Tier2,226229,45+,F,False,budget,234.98,Mughlai|South Indian,evening_snack,0.31,0.48,0.71,58,5
+U0139,Ananya Verma,Surat,Tier2,395229,35-44,F,False,mid,294.95,Mughlai,dinner,0.72,0.25,0.45,1163,146
+U0140,Amit Bose,Jaipur,Tier2,302391,18-24,M,True,premium,719.73,Indian Street,dinner,0.71,0.6,0.19,1817,400
+U0141,Arjun Bose,Delhi,Tier1,110152,18-24,M,False,mid,285.15,Biryani|North Indian,dinner,0.34,0.32,0.42,727,106
+U0142,Ananya Bose,Mumbai,Tier1,400603,35-44,F,False,mid,328.92,North Indian,late_night,0.78,0.56,0.64,1713,303
+U0143,Aadya Verma,Pune,Tier1,411411,35-44,F,False,budget,218.89,Indian Street,dinner,0.86,0.77,0.71,335,17
+U0144,Vihaan Jain,Delhi,Tier1,110720,18-24,M,False,mid,369.14,Mughlai,evening_snack,0.38,0.35,0.66,1172,92
+U0145,Rahul Jain,Jaipur,Tier2,302404,35-44,M,False,mid,371.44,Biryani|South Indian,lunch,0.76,0.69,0.56,952,67
+U0146,Ramesh Iyer,Delhi,Tier1,110724,35-44,M,False,mid,399.07,Chinese|Mughlai,evening_snack,0.45,0.58,0.49,1194,106
+U0147,Vikram Singh,Lucknow,Tier2,226776,25-34,M,True,budget,280.51,Indian Street,evening_snack,0.59,0.64,0.67,1311,129
+U0148,Vihaan Patel,Surat,Tier2,395260,25-34,M,False,mid,303.05,Mughlai,lunch,0.54,0.77,0.41,385,36
+U0149,Aarav Iyer,Bangalore,Tier1,560398,18-24,M,True,premium,815.12,Continental|Biryani,dinner,0.24,0.62,0.23,1441,197
+U0150,Saanvi Jain,Mumbai,Tier1,400980,25-34,F,False,budget,225.17,South Indian|Indian Street,dinner,0.29,0.54,0.81,1477,132
+U0151,Neha Gupta,Surat,Tier2,395740,35-44,F,True,premium,580.06,Indian Street,dinner,0.89,0.51,0.12,571,66
+U0152,Rahul Shah,Hyderabad,Tier1,500763,18-24,M,False,budget,183.94,Biryani|Chinese,dinner,0.65,0.58,0.83,265,17
+U0153,Aryan Agarwal,Lucknow,Tier2,226911,25-34,M,False,budget,230.25,Indian Street,lunch,0.47,0.51,0.7,176,22
+U0154,Ananya Mishra,Bangalore,Tier1,560411,18-24,F,False,premium,716.98,North Indian|South Indian,breakfast,0.57,0.64,0.34,284,43
+U0155,Vikram Nair,Hyderabad,Tier1,500548,25-34,M,False,budget,204.24,Biryani|South Indian,breakfast,0.4,0.35,0.84,1054,70
+U0156,Vihaan Verma,Chandigarh,Tier2,160356,18-24,M,False,mid,378.58,South Indian|Biryani,lunch,0.42,0.52,0.55,1534,186
+U0157,Aarav Gupta,Hyderabad,Tier1,500689,35-44,M,True,mid,481.21,South Indian,dinner,0.68,0.79,0.68,1410,105
+U0158,Priya Sharma,Delhi,Tier1,110874,18-24,F,False,mid,489.85,North Indian|Indian Street,lunch,0.41,0.71,0.5,1210,223
+U0159,Kiara Bose,Pune,Tier1,411699,18-24,F,False,mid,311.84,South Indian|Chinese,dinner,0.62,0.48,0.56,599,87
+U0160,Kavya Bose,Hyderabad,Tier1,500441,25-34,F,True,mid,435.88,Biryani,lunch,0.69,0.36,0.42,992,116
+U0161,Aditya Singh,Delhi,Tier1,110607,35-44,M,False,budget,294.19,North Indian,dinner,0.68,0.52,0.87,705,54
+U0162,Rishi Nair,Hyderabad,Tier1,500358,25-34,M,False,budget,285.78,Biryani,lunch,0.54,0.68,0.7,961,114
+U0163,Avni Singh,Pune,Tier1,411101,35-44,F,True,premium,607.73,Mughlai|Indian Street,evening_snack,0.51,0.79,0.31,1801,266
+U0164,Amit Das,Delhi,Tier1,110470,18-24,M,False,mid,304.86,North Indian|Mughlai,evening_snack,0.62,0.5,0.58,141,20
+U0165,Rahul Bose,Kochi,Tier2,682373,45+,M,False,mid,349.08,South Indian|Continental,dinner,0.64,0.25,0.53,1586,287
+U0166,Sai Kumar,Jaipur,Tier2,302596,35-44,M,False,mid,398.54,Mughlai|Chinese,lunch,0.75,0.5,0.54,927,67
+U0167,Vihaan Sharma,Lucknow,Tier2,226664,18-24,M,False,premium,476.87,North Indian,dinner,0.66,0.57,0.14,1483,337
+U0168,Saanvi Iyer,Bangalore,Tier1,560216,25-34,F,False,mid,321.39,Chinese,breakfast,0.64,0.3,0.5,490,32
+U0169,Arjun Singh,Chandigarh,Tier2,160398,35-44,M,True,mid,420.42,North Indian,breakfast,0.7,0.76,0.49,1050,73
+U0170,Pooja Agarwal,Chandigarh,Tier2,160583,35-44,F,False,budget,281.66,South Indian|Chinese,dinner,0.35,0.72,0.79,1739,123
+U0171,Rohan Das,Pune,Tier1,411713,45+,M,True,mid,309.16,North Indian,evening_snack,0.63,0.65,0.68,815,118
+U0172,Sai Kumar,Lucknow,Tier2,226974,45+,M,False,budget,240.92,North Indian,dinner,0.51,0.52,0.87,595,32
+U0173,Kabir Rao,Mumbai,Tier1,400843,18-24,M,False,budget,213.93,Chinese|South Indian,evening_snack,0.61,0.56,0.72,1710,238
+U0174,Rishi Bose,Chandigarh,Tier2,160453,18-24,M,True,mid,294.06,Mughlai,dinner,0.68,0.24,0.7,944,90
+U0175,Avni Nair,Lucknow,Tier2,226814,18-24,F,True,premium,799.48,Chinese|Indian Street,lunch,0.77,0.56,0.36,689,75
+U0176,Rohan Nair,Chandigarh,Tier2,160144,25-34,M,False,mid,387.4,South Indian,lunch,0.5,0.49,0.55,1783,139
+U0177,Avni Bose,Surat,Tier2,395911,25-34,F,False,mid,354.45,Indian Street|Chinese,breakfast,0.69,0.78,0.48,820,55
+U0178,Ramesh Kumar,Bangalore,Tier1,560704,18-24,M,False,budget,177.79,South Indian|North Indian,lunch,0.35,0.4,0.65,105,11
+U0179,Avni Singh,Lucknow,Tier2,226567,25-34,F,True,premium,549.24,North Indian|Mughlai,evening_snack,0.84,0.8,0.29,234,34
+U0180,Aarav Kumar,Mumbai,Tier1,400258,25-34,M,False,mid,491.16,Indian Street|Continental,late_night,0.54,0.69,0.58,1813,156
+U0181,Aadya Bose,Mumbai,Tier1,400507,18-24,F,True,budget,241.28,Indian Street|North Indian,lunch,0.78,0.24,0.68,723,45
+U0182,Amit Gupta,Mumbai,Tier1,400646,45+,M,False,mid,362.29,Chinese|Mughlai,dinner,0.48,0.72,0.4,1775,151
+U0183,Kabir Rao,Jaipur,Tier2,302732,35-44,M,True,mid,263.25,Indian Street|Chinese,dinner,0.41,0.64,0.53,1816,174
+U0184,Aadya Jain,Surat,Tier2,395544,25-34,F,True,mid,315.61,Chinese|Mughlai,evening_snack,0.86,0.71,0.64,495,39
+U0185,Vihaan Singh,Chandigarh,Tier2,160129,18-24,M,False,budget,242.21,Indian Street|North Indian,dinner,0.41,0.22,0.82,370,21
+U0186,Saanvi Rao,Surat,Tier2,395541,18-24,F,True,mid,360.43,Indian Street,lunch,0.69,0.79,0.58,630,73
+U0187,Kiara Jain,Hyderabad,Tier1,500284,18-24,F,False,budget,245.74,South Indian|Mughlai,lunch,0.28,0.74,0.75,1189,70
+U0188,Kiara Patel,Mumbai,Tier1,400734,18-24,F,False,mid,510.01,Biryani,lunch,0.5,0.43,0.49,1278,93
+U0189,Riya Jain,Bangalore,Tier1,560572,18-24,F,False,mid,475.66,South Indian|Indian Street,breakfast,0.26,0.78,0.53,1224,190
+U0190,Amit Agarwal,Pune,Tier1,411923,25-34,M,True,mid,403.9,Biryani|Chinese,dinner,0.42,0.57,0.52,552,47
+U0191,Arjun Mishra,Delhi,Tier1,110453,18-24,M,False,mid,370.87,Mughlai,dinner,0.5,0.68,0.67,181,19
+U0192,Priya Mishra,Delhi,Tier1,110965,45+,F,True,mid,473.83,Chinese|Indian Street,lunch,0.59,0.32,0.66,1443,192
+U0193,Rishi Shah,Lucknow,Tier2,226342,25-34,M,False,mid,518.46,Mughlai|Indian Street,late_night,0.52,0.71,0.52,1777,180
+U0194,Kavya Reddy,Hyderabad,Tier1,500949,35-44,F,True,premium,647.9,Biryani|South Indian,dinner,0.53,0.61,0.29,1462,275
+U0195,Riya Nair,Jaipur,Tier2,302802,18-24,F,True,budget,237.68,Biryani|South Indian,late_night,0.84,0.38,0.7,46,5
+U0196,Diya Verma,Mumbai,Tier1,400393,35-44,F,False,budget,267.95,Continental|Indian Street,breakfast,0.63,0.49,0.81,1735,86
+U0197,Suresh Jain,Mumbai,Tier1,400735,25-34,M,True,budget,179.63,South Indian|Biryani,dinner,0.48,0.5,0.89,478,29
+U0198,Ananya Kumar,Lucknow,Tier2,226416,18-24,F,True,mid,311.84,Mughlai,late_night,0.52,0.44,0.48,1315,114
+U0199,Suresh Das,Chandigarh,Tier2,160234,25-34,M,True,mid,490.57,Continental,lunch,0.55,0.47,0.51,1216,140
+U0200,Aadya Mishra,Pune,Tier1,411305,18-24,F,False,budget,266.31,Chinese|South Indian,dinner,0.7,0.36,0.85,1560,119
+U0201,Aryan Reddy,Hyderabad,Tier1,500944,18-24,M,False,budget,233.79,Biryani|South Indian,lunch,0.5,0.7,0.65,1730,182
+U0202,Arjun Mishra,Mumbai,Tier1,400177,25-34,M,True,budget,183.27,Indian Street|Continental,evening_snack,0.57,0.46,0.86,1677,190
+U0203,Aryan Jain,Chandigarh,Tier2,160474,45+,M,True,mid,366.0,Continental|South Indian,lunch,0.69,0.78,0.59,1762,135
+U0204,Aadya Nair,Lucknow,Tier2,226565,25-34,F,True,budget,262.52,Indian Street,late_night,0.74,0.5,0.66,571,38
+U0205,Aditya Agarwal,Hyderabad,Tier1,500480,18-24,M,False,budget,169.39,Biryani|North Indian,dinner,0.71,0.33,0.75,1714,105
+U0206,Aadya Jain,Surat,Tier2,395674,18-24,F,True,mid,404.06,Indian Street|Continental,lunch,0.74,0.73,0.59,81,7
+U0207,Aditya Jain,Bangalore,Tier1,560817,18-24,M,True,mid,367.09,South Indian,lunch,0.42,0.44,0.4,1331,100
+U0208,Ananya Iyer,Pune,Tier1,411138,18-24,F,False,premium,707.84,Mughlai,dinner,0.15,0.51,0.19,316,86
+U0209,Rishi Bose,Kochi,Tier2,682650,18-24,M,False,premium,487.59,South Indian,dinner,0.23,0.42,0.11,229,46
+U0210,Aryan Nair,Mumbai,Tier1,400860,25-34,M,False,premium,547.17,Continental|Indian Street,lunch,0.59,0.38,0.33,789,101
+U0211,Vikram Iyer,Mumbai,Tier1,400953,18-24,M,False,mid,325.05,Mughlai,dinner,0.55,0.78,0.69,879,76
+U0212,Arjun Iyer,Mumbai,Tier1,400322,18-24,M,True,budget,250.4,North Indian|Continental,dinner,0.58,0.43,0.79,97,5
+U0213,Arjun Das,Surat,Tier2,395802,18-24,M,False,budget,235.81,South Indian,lunch,0.59,0.77,0.83,1781,144
+U0214,Aditya Reddy,Pune,Tier1,411225,25-34,M,False,budget,202.81,Chinese,dinner,0.53,0.23,0.76,845,76
+U0215,Ramesh Das,Delhi,Tier1,110754,18-24,M,True,premium,917.18,North Indian,late_night,0.56,0.36,0.36,1387,292
+U0216,Priya Sharma,Hyderabad,Tier1,500228,18-24,F,False,premium,598.65,Biryani,late_night,0.6,0.51,0.37,1641,295
+U0217,Diya Shah,Kochi,Tier2,682312,18-24,F,False,mid,343.37,South Indian,dinner,0.55,0.21,0.6,1729,136
+U0218,Rahul Shah,Mumbai,Tier1,400907,35-44,M,True,mid,307.06,Chinese,breakfast,0.78,0.46,0.65,702,55
+U0219,Ishaan Sharma,Mumbai,Tier1,400233,25-34,M,True,budget,227.11,South Indian|Continental,lunch,0.76,0.75,0.9,1788,84
+U0220,Pooja Agarwal,Kochi,Tier2,682126,25-34,F,False,budget,213.85,South Indian,lunch,0.46,0.75,0.81,255,15
+U0221,Aryan Sharma,Mumbai,Tier1,400702,18-24,M,True,budget,191.79,Biryani|Indian Street,dinner,0.63,0.66,0.72,1647,89
+U0222,Aditya Sharma,Bangalore,Tier1,560859,35-44,M,False,premium,688.62,North Indian,lunch,0.85,0.55,0.24,573,155
+U0223,Kabir Singh,Delhi,Tier1,110470,35-44,M,True,budget,179.99,Indian Street,evening_snack,0.48,0.62,0.78,1005,74
+U0224,Pooja Singh,Lucknow,Tier2,226729,18-24,F,False,mid,328.95,North Indian|Mughlai,breakfast,0.69,0.45,0.41,1061,147
+U0225,Aarav Mishra,Pune,Tier1,411162,45+,M,True,budget,174.19,Mughlai|Biryani,lunch,0.73,0.71,0.65,1347,64
+U0226,Arjun Nair,Hyderabad,Tier1,500829,18-24,M,False,premium,526.01,Biryani|Continental,lunch,0.67,0.55,0.37,1435,354
+U0227,Ishaan Das,Surat,Tier2,395251,25-34,M,False,budget,257.8,South Indian,lunch,0.51,0.63,0.89,195,16
+U0228,Vihaan Kumar,Jaipur,Tier2,302661,25-34,M,True,budget,297.93,Mughlai|Chinese,late_night,0.82,0.62,0.82,1308,80
+U0229,Sneha Rao,Jaipur,Tier2,302564,18-24,F,False,budget,185.28,Mughlai|Continental,dinner,0.8,0.5,0.89,1253,85
+U0230,Sai Iyer,Bangalore,Tier1,560973,35-44,M,False,budget,168.86,Continental,late_night,0.46,0.46,0.65,1654,96
+U0231,Riya Shah,Delhi,Tier1,110523,35-44,F,False,premium,499.84,Mughlai|North Indian,evening_snack,0.23,0.28,0.32,954,103
+U0232,Aditya Das,Chandigarh,Tier2,160420,18-24,M,True,premium,793.78,Continental|Mughlai,evening_snack,0.71,0.21,0.18,881,107
+U0233,Kabir Rao,Surat,Tier2,395803,25-34,M,True,budget,203.01,Mughlai|Indian Street,breakfast,0.64,0.46,0.73,796,38
+U0234,Ishaan Bose,Jaipur,Tier2,302195,18-24,M,True,premium,754.35,North Indian,dinner,0.84,0.65,0.29,216,24
+U0235,Kabir Singh,Mumbai,Tier1,400161,18-24,M,False,premium,507.81,Biryani|North Indian,dinner,0.68,0.45,0.15,1692,400
+U0236,Rahul Rao,Bangalore,Tier1,560781,18-24,M,True,mid,312.43,Biryani,dinner,0.61,0.25,0.6,871,102
+U0237,Diya Iyer,Mumbai,Tier1,400460,18-24,F,True,mid,422.76,South Indian,late_night,0.67,0.62,0.48,619,56
+U0238,Vihaan Shah,Surat,Tier2,395967,18-24,M,True,premium,732.13,Biryani,dinner,0.58,0.73,0.15,1374,209
+U0239,Aadya Reddy,Delhi,Tier1,110687,25-34,F,False,mid,290.12,Indian Street|Biryani,lunch,0.49,0.6,0.48,265,20
+U0240,Rohan Iyer,Kochi,Tier2,682949,18-24,M,False,budget,278.04,South Indian,dinner,0.61,0.63,0.76,1277,62
+U0241,Sneha Agarwal,Mumbai,Tier1,400880,25-34,F,False,budget,213.06,Continental,dinner,0.45,0.35,0.7,399,36
+U0242,Rishi Rao,Mumbai,Tier1,400246,25-34,M,False,mid,336.35,Continental|Mughlai,dinner,0.42,0.32,0.65,42,6
+U0243,Priya Nair,Surat,Tier2,395131,25-34,F,True,budget,223.27,Chinese,lunch,0.87,0.6,0.8,320,18
+U0244,Vihaan Shah,Lucknow,Tier2,226261,25-34,M,True,mid,359.22,Biryani|North Indian,evening_snack,0.51,0.38,0.59,889,93
+U0245,Aditya Mishra,Hyderabad,Tier1,500710,18-24,M,False,budget,241.24,Biryani|Mughlai,dinner,0.45,0.3,0.68,1620,78
+U0246,Vihaan Verma,Mumbai,Tier1,400150,25-34,M,False,premium,647.78,Indian Street,lunch,0.48,0.51,0.19,352,42
+U0247,Amit Gupta,Pune,Tier1,411597,25-34,M,False,mid,383.96,Indian Street|Continental,late_night,0.71,0.5,0.69,937,80
+U0248,Priya Das,Delhi,Tier1,110624,25-34,F,False,premium,743.09,North Indian|Mughlai,lunch,0.23,0.62,0.28,589,123
+U0249,Vihaan Reddy,Delhi,Tier1,110794,18-24,M,True,mid,428.39,North Indian|South Indian,lunch,0.51,0.41,0.45,257,32
+U0250,Rahul Bose,Mumbai,Tier1,400713,25-34,M,False,budget,152.36,North Indian|Biryani,dinner,0.61,0.53,0.71,123,11
+U0251,Aarav Sharma,Hyderabad,Tier1,500885,25-34,M,False,mid,314.35,Biryani,dinner,0.4,0.56,0.52,647,44
+U0252,Aryan Agarwal,Mumbai,Tier1,400609,18-24,M,False,budget,224.79,Indian Street|South Indian,dinner,0.56,0.24,0.7,701,79
+U0253,Sneha Iyer,Hyderabad,Tier1,500820,25-34,F,False,budget,161.44,Biryani,evening_snack,0.54,0.4,0.78,294,23
+U0254,Rohan Reddy,Lucknow,Tier2,226143,18-24,M,False,premium,569.47,Mughlai,evening_snack,0.73,0.32,0.22,843,92
+U0255,Kavya Sharma,Mumbai,Tier1,400689,25-34,F,False,premium,527.08,Indian Street|Continental,dinner,0.39,0.41,0.12,189,20
+U0256,Kabir Nair,Bangalore,Tier1,560121,25-34,M,False,mid,437.11,South Indian|Chinese,dinner,0.35,0.2,0.4,622,101
+U0257,Avni Patel,Lucknow,Tier2,226470,25-34,F,True,mid,430.3,Mughlai|Chinese,lunch,0.71,0.65,0.63,1733,145
+U0258,Vihaan Iyer,Delhi,Tier1,110510,35-44,M,False,premium,782.9,Mughlai,dinner,0.78,0.58,0.3,528,84
+U0259,Sai Gupta,Delhi,Tier1,110447,25-34,M,True,budget,176.0,Indian Street|Biryani,dinner,0.41,0.69,0.7,1812,156
+U0260,Prisha Rao,Surat,Tier2,395216,18-24,F,False,budget,283.21,North Indian,lunch,0.98,0.62,0.73,186,12
+U0261,Pooja Shah,Delhi,Tier1,110938,18-24,F,False,premium,827.96,North Indian|Mughlai,lunch,0.48,0.36,0.16,749,91
+U0262,Riya Kumar,Mumbai,Tier1,400302,18-24,F,False,budget,224.12,Continental,lunch,0.54,0.74,0.87,240,25
+U0263,Kiara Kumar,Kochi,Tier2,682743,35-44,F,True,mid,257.79,South Indian,dinner,0.61,0.8,0.7,392,27
+U0264,Arjun Das,Delhi,Tier1,110678,25-34,M,True,budget,213.61,North Indian|Mughlai,lunch,0.6,0.21,0.79,1424,69
+U0265,Riya Rao,Lucknow,Tier2,226580,35-44,F,True,premium,722.71,Mughlai|Chinese,dinner,0.82,0.43,0.29,339,54
+U0266,Neha Mishra,Delhi,Tier1,110619,35-44,F,False,budget,199.69,Biryani|Continental,evening_snack,0.48,0.63,0.9,1241,156
+U0267,Vihaan Mishra,Pune,Tier1,411477,25-34,M,False,mid,401.61,Chinese|Continental,dinner,0.35,0.29,0.45,955,177
+U0268,Myra Mishra,Surat,Tier2,395975,18-24,F,False,mid,455.41,South Indian,dinner,0.88,0.57,0.45,1350,98
+U0269,Aadya Nair,Jaipur,Tier2,302910,35-44,F,False,mid,366.58,Continental|North Indian,late_night,0.96,0.41,0.45,1218,115
+U0270,Vikram Verma,Mumbai,Tier1,400292,25-34,M,True,mid,508.6,North Indian|Continental,evening_snack,0.79,0.32,0.6,1688,157
+U0271,Aditya Bose,Jaipur,Tier2,302930,35-44,M,False,budget,276.47,Chinese,evening_snack,0.67,0.24,0.89,156,11
+U0272,Sunita Rao,Kochi,Tier2,682140,35-44,F,False,budget,174.37,South Indian,dinner,0.48,0.36,0.7,1063,64
+U0273,Rohan Das,Mumbai,Tier1,400262,18-24,M,False,mid,464.99,Continental|Indian Street,lunch,0.48,0.35,0.48,1103,107
+U0274,Avni Reddy,Bangalore,Tier1,560446,18-24,F,True,premium,509.14,South Indian|Chinese,lunch,0.4,0.54,0.36,823,135
+U0275,Amit Verma,Lucknow,Tier2,226671,25-34,M,False,budget,215.42,North Indian|Indian Street,lunch,0.37,0.64,0.77,164,13
+U0276,Riya Nair,Pune,Tier1,411772,35-44,F,False,budget,242.38,Biryani|Indian Street,lunch,0.2,0.49,0.9,546,31
+U0277,Ishaan Kumar,Jaipur,Tier2,302244,25-34,M,False,budget,254.45,Chinese|Mughlai,lunch,0.74,0.55,0.73,196,12
+U0278,Sunita Reddy,Hyderabad,Tier1,500501,18-24,F,False,budget,210.61,North Indian|Chinese,lunch,0.36,0.31,0.79,1373,80
+U0279,Aryan Gupta,Lucknow,Tier2,226910,35-44,M,False,mid,296.99,Indian Street|North Indian,dinner,0.61,0.31,0.64,1174,133
+U0280,Aditya Kumar,Surat,Tier2,395620,18-24,M,False,budget,156.62,Mughlai,dinner,0.82,0.65,0.87,1353,80
+U0281,Aditya Sharma,Delhi,Tier1,110319,25-34,M,True,mid,400.1,North Indian|Biryani,dinner,0.79,0.29,0.49,662,97
+U0282,Aditya Bose,Hyderabad,Tier1,500258,25-34,M,False,mid,394.91,South Indian,lunch,0.52,0.4,0.45,493,32
+U0283,Aadya Mishra,Pune,Tier1,411955,35-44,F,False,mid,249.58,Chinese,evening_snack,0.32,0.23,0.57,1069,84
+U0284,Vikram Verma,Jaipur,Tier2,302234,25-34,M,True,budget,217.4,Mughlai|South Indian,dinner,0.65,0.34,0.75,1824,100
+U0285,Priya Nair,Surat,Tier2,395809,35-44,F,True,budget,167.44,Mughlai,lunch,0.72,0.78,0.78,362,37
+U0286,Diya Patel,Surat,Tier2,395792,18-24,F,False,mid,379.38,Biryani|Mughlai,lunch,0.74,0.37,0.68,119,13
+U0287,Vikram Jain,Kochi,Tier2,682866,25-34,M,False,mid,451.04,South Indian|North Indian,lunch,0.7,0.76,0.5,1280,163
+U0288,Suresh Das,Delhi,Tier1,110928,35-44,M,True,budget,176.05,Biryani,dinner,0.48,0.5,0.69,1123,106
+U0289,Suresh Bose,Delhi,Tier1,110684,25-34,M,False,mid,443.56,Mughlai,breakfast,0.41,0.44,0.65,783,66
+U0290,Neha Das,Chandigarh,Tier2,160640,35-44,F,True,mid,303.3,Indian Street|Chinese,evening_snack,0.81,0.27,0.46,1623,184
+U0291,Kavya Patel,Jaipur,Tier2,302993,18-24,F,True,budget,222.98,South Indian,dinner,0.66,0.64,0.69,1670,105
+U0292,Ananya Verma,Surat,Tier2,395205,35-44,F,True,mid,445.82,South Indian|Mughlai,evening_snack,0.86,0.26,0.5,1820,208
+U0293,Vikram Singh,Pune,Tier1,411379,18-24,M,False,budget,163.26,South Indian|Continental,dinner,0.29,0.76,0.83,201,11
+U0294,Ishaan Kumar,Lucknow,Tier2,226327,18-24,Other,False,mid,302.36,Mughlai|Indian Street,lunch,0.64,0.57,0.42,217,15
+U0295,Myra Das,Delhi,Tier1,110505,25-34,F,False,premium,627.23,Mughlai|North Indian,lunch,0.54,0.49,0.21,84,13
+U0296,Sai Reddy,Chandigarh,Tier2,160483,25-34,M,False,premium,614.67,Biryani,lunch,0.42,0.76,0.19,820,82
+U0297,Prisha Sharma,Jaipur,Tier2,302765,18-24,F,True,mid,326.9,Chinese|Mughlai,breakfast,0.56,0.57,0.69,232,17
+U0298,Avni Kumar,Kochi,Tier2,682949,18-24,F,False,mid,396.74,Chinese,lunch,0.52,0.35,0.64,108,13
+U0299,Arjun Kumar,Mumbai,Tier1,400181,25-34,M,False,mid,284.78,North Indian|Continental,breakfast,0.37,0.73,0.45,948,84
+U0300,Aarav Agarwal,Pune,Tier1,411844,25-34,M,False,premium,626.62,Biryani,dinner,0.51,0.58,0.38,1740,400
+U0301,Priya Iyer,Bangalore,Tier1,560408,25-34,F,False,mid,467.8,Biryani,dinner,0.42,0.43,0.44,1619,205
+U0302,Vihaan Verma,Chandigarh,Tier2,160737,35-44,M,False,mid,349.18,South Indian,lunch,0.72,0.2,0.5,889,78
+U0303,Ishaan Gupta,Kochi,Tier2,682711,25-34,Other,False,budget,258.98,North Indian,dinner,0.56,0.6,0.89,1743,86
+U0304,Sai Sharma,Jaipur,Tier2,302539,45+,M,True,mid,305.77,Indian Street,lunch,0.65,0.3,0.56,1501,233
+U0305,Saanvi Reddy,Hyderabad,Tier1,500780,35-44,F,True,budget,139.39,Biryani,lunch,0.49,0.72,0.82,1198,91
+U0306,Amit Gupta,Kochi,Tier2,682657,18-24,M,True,mid,307.87,South Indian|Mughlai,lunch,0.47,0.22,0.57,168,11
+U0307,Sai Sharma,Pune,Tier1,411750,45+,M,False,budget,225.62,Indian Street|Chinese,breakfast,0.73,0.68,0.88,1818,131
+U0308,Kabir Reddy,Delhi,Tier1,110907,35-44,M,False,budget,198.34,North Indian|Mughlai,breakfast,0.51,0.5,0.87,1560,211
+U0309,Vihaan Reddy,Hyderabad,Tier1,500206,25-34,M,False,budget,244.92,North Indian,lunch,0.43,0.45,0.84,1531,92
+U0310,Suresh Rao,Surat,Tier2,395446,18-24,M,True,mid,332.22,Biryani,evening_snack,0.55,0.38,0.48,120,14
+U0311,Ramesh Patel,Delhi,Tier1,110286,18-24,M,False,premium,799.98,North Indian|Mughlai,lunch,0.37,0.25,0.22,1454,222
+U0312,Suresh Kumar,Kochi,Tier2,682568,45+,M,False,mid,421.5,South Indian,dinner,0.68,0.57,0.66,1496,117
+U0313,Aarav Mishra,Hyderabad,Tier1,500142,18-24,M,False,premium,626.84,Biryani,dinner,0.41,0.66,0.31,119,13
+U0314,Avni Mishra,Delhi,Tier1,110359,18-24,F,True,premium,805.22,Mughlai|Chinese,dinner,0.45,0.61,0.2,1699,244
+U0315,Aarav Shah,Pune,Tier1,411148,18-24,M,False,budget,220.81,Mughlai|North Indian,breakfast,0.59,0.71,0.81,761,39
+U0316,Myra Rao,Mumbai,Tier1,400547,18-24,F,False,premium,596.56,South Indian|North Indian,breakfast,0.4,0.58,0.1,284,32
+U0317,Sunita Nair,Hyderabad,Tier1,500291,18-24,F,True,mid,409.26,Biryani|Chinese,breakfast,0.58,0.4,0.67,821,97
+U0318,Arjun Bose,Chandigarh,Tier2,160920,18-24,M,False,budget,231.27,Mughlai|Continental,dinner,0.43,0.77,0.88,1662,114
+U0319,Vihaan Iyer,Bangalore,Tier1,560942,18-24,M,True,mid,418.15,Continental,lunch,0.55,0.41,0.4,911,82
+U0320,Aryan Mishra,Mumbai,Tier1,400776,35-44,M,False,mid,291.85,Continental|North Indian,breakfast,0.84,0.63,0.62,240,41
+U0321,Rishi Mishra,Bangalore,Tier1,560270,18-24,M,False,premium,850.78,South Indian|Indian Street,lunch,0.22,0.34,0.25,1264,155
+U0322,Vikram Das,Mumbai,Tier1,400990,18-24,M,True,premium,650.48,Biryani|Indian Street,evening_snack,0.78,0.4,0.36,945,261
+U0323,Ishaan Reddy,Bangalore,Tier1,560910,25-34,M,False,budget,173.96,Indian Street|Chinese,dinner,0.53,0.5,0.68,592,36
+U0324,Saanvi Gupta,Jaipur,Tier2,302867,18-24,F,True,budget,214.89,North Indian|South Indian,late_night,0.75,0.26,0.86,774,53
+U0325,Riya Patel,Hyderabad,Tier1,500794,25-34,F,True,budget,167.92,Indian Street,dinner,0.85,0.35,0.79,322,16
+U0326,Diya Das,Bangalore,Tier1,560897,35-44,F,False,mid,408.77,North Indian,lunch,0.45,0.62,0.59,288,50
+U0327,Amit Reddy,Pune,Tier1,411133,35-44,M,True,budget,169.98,Indian Street|Continental,lunch,0.51,0.45,0.83,814,39
+U0328,Rahul Kumar,Kochi,Tier2,682881,18-24,M,False,premium,538.37,Indian Street|South Indian,dinner,0.79,0.8,0.2,789,135
+U0329,Vihaan Kumar,Hyderabad,Tier1,500385,25-34,M,True,premium,612.06,Mughlai|Biryani,breakfast,0.61,0.29,0.3,845,155
+U0330,Prisha Singh,Hyderabad,Tier1,500630,25-34,F,False,budget,161.08,Biryani,lunch,0.57,0.24,0.69,1536,156
+U0331,Kavya Singh,Pune,Tier1,411556,35-44,F,False,budget,257.47,Chinese|Biryani,lunch,0.43,0.29,0.67,1617,148
+U0332,Prisha Mishra,Hyderabad,Tier1,500973,18-24,F,False,mid,436.47,Mughlai|Biryani,evening_snack,0.48,0.67,0.42,439,70
+U0333,Aadya Das,Delhi,Tier1,110189,18-24,F,False,premium,581.89,Indian Street,dinner,0.65,0.6,0.11,1490,236
+U0334,Diya Rao,Hyderabad,Tier1,500655,45+,F,True,premium,560.15,North Indian|Mughlai,dinner,0.57,0.43,0.18,1483,393
+U0335,Ananya Mishra,Mumbai,Tier1,400817,35-44,F,True,budget,179.42,Continental,dinner,0.72,0.53,0.86,1487,86
+U0336,Riya Patel,Lucknow,Tier2,226305,35-44,F,False,mid,477.41,North Indian|Continental,dinner,0.47,0.31,0.58,1071,147
+U0337,Diya Kumar,Mumbai,Tier1,400469,35-44,F,False,budget,206.84,North Indian,lunch,0.48,0.23,0.76,1648,116
+U0338,Sai Reddy,Bangalore,Tier1,560232,25-34,M,False,premium,534.68,South Indian|Indian Street,dinner,0.26,0.73,0.12,1675,169
+U0339,Priya Gupta,Pune,Tier1,411834,18-24,F,True,budget,176.24,South Indian,late_night,0.48,0.25,0.81,663,51
+U0340,Vikram Bose,Delhi,Tier1,110688,18-24,M,False,budget,225.42,Biryani|North Indian,lunch,0.67,0.53,0.82,1605,123
+U0341,Vihaan Kumar,Mumbai,Tier1,400577,25-34,M,False,mid,368.34,Indian Street|North Indian,breakfast,0.57,0.64,0.41,1345,234
+U0342,Amit Reddy,Bangalore,Tier1,560755,18-24,M,True,budget,267.19,North Indian,late_night,0.53,0.24,0.79,1727,94
+U0343,Rahul Patel,Bangalore,Tier1,560989,35-44,M,False,budget,289.81,South Indian,dinner,0.36,0.64,0.71,916,63
+U0344,Saanvi Singh,Hyderabad,Tier1,500430,35-44,F,False,premium,530.98,Mughlai,dinner,0.71,0.44,0.14,652,147
+U0345,Sunita Jain,Pune,Tier1,411966,18-24,Other,False,budget,150.16,Biryani|Mughlai,lunch,0.76,0.49,0.89,1092,54
+U0346,Vihaan Agarwal,Hyderabad,Tier1,500381,25-34,M,False,budget,214.72,Indian Street,dinner,0.37,0.22,0.79,1330,63
+U0347,Kiara Mishra,Bangalore,Tier1,560706,25-34,F,True,mid,428.45,Chinese,dinner,0.39,0.45,0.62,1059,92
+U0348,Rahul Kumar,Pune,Tier1,411719,18-24,M,True,mid,360.85,Continental,late_night,0.46,0.3,0.41,1379,122
+U0349,Aditya Verma,Hyderabad,Tier1,500756,25-34,M,False,mid,429.99,South Indian,evening_snack,0.69,0.56,0.46,196,35
+U0350,Suresh Agarwal,Lucknow,Tier2,226732,25-34,M,False,mid,294.23,North Indian,lunch,0.58,0.53,0.46,1600,149
+U0351,Amit Sharma,Pune,Tier1,411757,25-34,M,True,budget,173.27,North Indian|Indian Street,evening_snack,0.71,0.76,0.7,1314,87
+U0352,Rishi Bose,Mumbai,Tier1,400515,35-44,M,False,mid,434.77,Biryani,dinner,0.64,0.37,0.68,1678,128
+U0353,Rishi Das,Chandigarh,Tier2,160550,18-24,M,False,budget,159.29,Chinese,dinner,0.67,0.66,0.86,1440,180
+U0354,Kabir Bose,Bangalore,Tier1,560247,18-24,M,False,mid,439.37,Mughlai|Chinese,late_night,0.33,0.44,0.63,447,53
+U0355,Avni Rao,Mumbai,Tier1,400479,25-34,F,False,budget,203.43,Chinese|North Indian,dinner,0.43,0.67,0.76,846,93
+U0356,Sai Singh,Chandigarh,Tier2,160373,35-44,M,False,premium,622.61,Indian Street|South Indian,dinner,0.45,0.27,0.21,525,81
+U0357,Arjun Jain,Delhi,Tier1,110493,35-44,M,False,budget,289.67,North Indian,dinner,0.57,0.4,0.84,228,28
+U0358,Myra Iyer,Hyderabad,Tier1,500933,25-34,F,True,budget,281.89,Biryani,lunch,0.6,0.6,0.68,1802,89
+U0359,Avni Rao,Jaipur,Tier2,302627,45+,F,True,premium,561.25,Continental,lunch,0.69,0.23,0.32,1592,362
+U0360,Arjun Bose,Jaipur,Tier2,302502,35-44,M,True,budget,262.53,Mughlai|Chinese,dinner,0.71,0.48,0.7,1048,140
+U0361,Pooja Das,Lucknow,Tier2,226149,25-34,F,True,premium,771.32,Mughlai,dinner,0.52,0.73,0.21,470,65
+U0362,Vihaan Mishra,Mumbai,Tier1,400769,25-34,Other,False,budget,206.52,Continental|Indian Street,lunch,0.41,0.21,0.72,1253,63
+U0363,Kavya Bose,Pune,Tier1,411210,25-34,Other,True,budget,213.8,Chinese|South Indian,late_night,0.52,0.6,0.87,1129,155
+U0364,Kabir Kumar,Pune,Tier1,411512,25-34,M,False,budget,268.08,Chinese|North Indian,dinner,0.53,0.51,0.75,1519,122
+U0365,Avni Verma,Bangalore,Tier1,560299,45+,F,False,premium,526.49,North Indian|South Indian,breakfast,0.34,0.27,0.16,134,18
+U0366,Avni Mishra,Mumbai,Tier1,400882,35-44,F,False,budget,206.79,Chinese,dinner,0.63,0.27,0.74,821,57
+U0367,Kiara Agarwal,Mumbai,Tier1,400503,18-24,Other,True,budget,150.03,Indian Street,dinner,0.57,0.72,0.85,293,13
+U0368,Aditya Rao,Chandigarh,Tier2,160716,35-44,M,False,premium,755.03,North Indian|Chinese,late_night,0.86,0.71,0.33,1576,366
+U0369,Pooja Nair,Mumbai,Tier1,400830,18-24,F,True,mid,358.23,Continental,breakfast,0.39,0.34,0.5,122,22
+U0370,Aditya Bose,Mumbai,Tier1,400627,25-34,M,True,mid,395.45,Indian Street|South Indian,late_night,0.43,0.24,0.67,335,30
+U0371,Aryan Rao,Bangalore,Tier1,560731,18-24,M,True,mid,316.82,South Indian|Biryani,lunch,0.48,0.25,0.44,362,40
+U0372,Vikram Mishra,Kochi,Tier2,682645,35-44,M,True,premium,486.61,Biryani|Chinese,evening_snack,0.75,0.32,0.33,1068,120
+U0373,Arjun Mishra,Bangalore,Tier1,560439,25-34,M,False,mid,329.88,South Indian|Indian Street,dinner,0.57,0.29,0.45,1700,329
+U0374,Amit Singh,Pune,Tier1,411842,25-34,M,True,budget,210.99,Indian Street|South Indian,lunch,0.75,0.44,0.89,1225,106
+U0375,Ramesh Sharma,Kochi,Tier2,682901,35-44,M,True,premium,672.49,Chinese|South Indian,lunch,0.59,0.68,0.2,573,58
+U0376,Suresh Jain,Mumbai,Tier1,400636,18-24,M,False,budget,174.21,Indian Street,lunch,0.68,0.32,0.85,1225,87
+U0377,Amit Nair,Delhi,Tier1,110132,25-34,M,False,mid,386.76,Indian Street,evening_snack,0.5,0.61,0.46,1712,144
+U0378,Priya Singh,Mumbai,Tier1,400528,18-24,F,True,mid,317.02,North Indian,lunch,0.67,0.25,0.42,68,7
+U0379,Aryan Iyer,Chandigarh,Tier2,160726,25-34,M,True,budget,242.95,North Indian,dinner,0.7,0.53,0.89,870,60
+U0380,Ishaan Bose,Pune,Tier1,411312,18-24,M,False,budget,213.83,Biryani,dinner,0.57,0.56,0.73,1475,161
+U0381,Sai Rao,Chandigarh,Tier2,160277,18-24,M,False,budget,277.73,Indian Street|Biryani,dinner,0.22,0.75,0.76,1106,88
+U0382,Neha Rao,Pune,Tier1,411838,35-44,F,True,mid,431.25,Biryani|Continental,dinner,0.53,0.68,0.64,1414,111
+U0383,Amit Agarwal,Chandigarh,Tier2,160385,18-24,M,True,mid,397.71,Continental|North Indian,dinner,0.34,0.38,0.51,423,29
+U0384,Sai Mishra,Jaipur,Tier2,302821,18-24,M,False,mid,461.12,Biryani,dinner,0.73,0.62,0.54,639,50
+U0385,Rohan Bose,Delhi,Tier1,110914,18-24,M,True,budget,177.31,Mughlai|Indian Street,lunch,0.65,0.64,0.71,1012,83
+U0386,Pooja Agarwal,Lucknow,Tier2,226656,25-34,Other,True,mid,328.7,North Indian|Mughlai,dinner,0.78,0.44,0.44,279,25
+U0387,Kavya Nair,Hyderabad,Tier1,500397,18-24,F,False,budget,277.15,Mughlai|North Indian,dinner,0.88,0.32,0.7,1613,86
+U0388,Aarav Mishra,Delhi,Tier1,110771,18-24,M,False,premium,712.68,Mughlai,late_night,0.64,0.52,0.39,739,77
+U0389,Rishi Bose,Delhi,Tier1,110377,25-34,M,True,budget,223.46,North Indian,lunch,0.6,0.64,0.8,443,23
+U0390,Sunita Agarwal,Kochi,Tier2,682700,25-34,F,True,mid,417.12,Indian Street,lunch,0.56,0.51,0.55,253,22
+U0391,Prisha Jain,Delhi,Tier1,110331,18-24,F,True,mid,403.97,Chinese,lunch,0.24,0.64,0.48,1401,99
+U0392,Amit Jain,Mumbai,Tier1,400834,18-24,M,False,budget,237.88,South Indian,late_night,0.55,0.51,0.77,235,18
+U0393,Arjun Singh,Surat,Tier2,395261,25-34,M,True,budget,180.38,North Indian,dinner,0.6,0.22,0.71,40,5
+U0394,Kavya Bose,Mumbai,Tier1,400394,18-24,F,True,mid,416.81,South Indian|Indian Street,dinner,0.58,0.54,0.53,1362,194
+U0395,Aditya Mishra,Bangalore,Tier1,560687,18-24,M,True,budget,284.58,Biryani,dinner,0.29,0.58,0.89,1604,190
+U0396,Rohan Verma,Hyderabad,Tier1,500280,35-44,M,True,budget,234.23,Biryani,dinner,0.7,0.53,0.77,885,44
+U0397,Ishaan Verma,Delhi,Tier1,110866,35-44,M,False,mid,256.37,Indian Street|Continental,breakfast,0.62,0.55,0.69,1643,165
+U0398,Myra Mishra,Mumbai,Tier1,400717,35-44,F,False,premium,806.25,North Indian,lunch,0.58,0.32,0.29,48,9
+U0399,Aadya Rao,Chandigarh,Tier2,160656,25-34,F,True,budget,246.41,Continental|South Indian,lunch,0.37,0.79,0.71,960,45
+U0400,Sai Bose,Delhi,Tier1,110379,18-24,M,False,mid,336.6,Indian Street,evening_snack,0.53,0.73,0.41,1772,176
+U0401,Prisha Singh,Mumbai,Tier1,400763,35-44,F,True,premium,598.63,Mughlai|Chinese,lunch,0.53,0.4,0.33,362,44
+U0402,Ananya Patel,Jaipur,Tier2,302402,35-44,F,True,mid,371.74,North Indian,lunch,0.73,0.79,0.52,1538,183
+U0403,Priya Shah,Surat,Tier2,395515,45+,F,True,premium,711.81,Biryani,lunch,0.92,0.44,0.15,1281,141
+U0404,Ramesh Iyer,Surat,Tier2,395197,25-34,M,True,budget,187.53,Indian Street|South Indian,dinner,0.63,0.73,0.69,207,16
+U0405,Kiara Kumar,Delhi,Tier1,110106,25-34,F,False,mid,362.65,Mughlai|South Indian,lunch,0.54,0.5,0.4,692,48
+U0406,Ananya Nair,Chandigarh,Tier2,160437,25-34,F,False,premium,644.2,Biryani,dinner,0.6,0.25,0.22,944,112
+U0407,Rishi Sharma,Chandigarh,Tier2,160341,18-24,M,False,mid,415.1,Chinese|South Indian,late_night,0.27,0.48,0.65,1368,159
+U0408,Aarav Singh,Chandigarh,Tier2,160802,18-24,M,True,budget,249.27,North Indian|Indian Street,late_night,0.57,0.41,0.71,658,69
+U0409,Sai Mishra,Kochi,Tier2,682402,18-24,M,False,mid,483.16,South Indian,dinner,0.42,0.22,0.42,1338,94
+U0410,Avni Jain,Mumbai,Tier1,400565,18-24,F,False,mid,313.79,South Indian,dinner,0.46,0.74,0.64,303,30
+U0411,Sneha Reddy,Hyderabad,Tier1,500582,25-34,F,False,premium,770.82,Biryani|Chinese,dinner,0.59,0.37,0.28,1467,209
+U0412,Suresh Shah,Delhi,Tier1,110994,45+,M,True,mid,265.78,Chinese,lunch,0.39,0.39,0.53,1423,113
+U0413,Suresh Gupta,Mumbai,Tier1,400179,45+,M,False,budget,251.76,Continental|Mughlai,breakfast,0.5,0.35,0.65,1111,64
+U0414,Sunita Singh,Hyderabad,Tier1,500617,25-34,F,False,budget,222.17,North Indian,late_night,0.55,0.71,0.75,1727,115
+U0415,Prisha Kumar,Hyderabad,Tier1,500552,18-24,F,False,mid,439.37,Continental,dinner,0.49,0.41,0.58,701,51
+U0416,Aadya Shah,Hyderabad,Tier1,500556,25-34,F,False,mid,380.81,Indian Street|Biryani,lunch,0.38,0.21,0.47,216,15
+U0417,Suresh Verma,Surat,Tier2,395567,25-34,M,False,mid,403.72,Biryani|Continental,dinner,0.64,0.47,0.57,300,29
+U0418,Priya Verma,Bangalore,Tier1,560840,18-24,F,False,premium,545.57,Biryani|North Indian,lunch,0.41,0.52,0.37,1407,161
+U0419,Aarav Nair,Jaipur,Tier2,302323,25-34,M,True,budget,191.42,Chinese|Indian Street,lunch,0.5,0.55,0.73,1702,236
+U0420,Rahul Gupta,Kochi,Tier2,682165,25-34,M,False,mid,313.51,Indian Street,dinner,0.23,0.33,0.42,897,106
+U0421,Sai Verma,Chandigarh,Tier2,160518,35-44,M,False,budget,190.16,North Indian,lunch,0.67,0.28,0.67,996,131
+U0422,Aryan Kumar,Bangalore,Tier1,560491,18-24,M,False,mid,310.55,Biryani|Chinese,lunch,0.78,0.24,0.52,796,53
+U0423,Arjun Nair,Bangalore,Tier1,560777,25-34,M,False,premium,759.23,South Indian|Biryani,breakfast,0.19,0.62,0.31,194,24
+U0424,Ramesh Kumar,Lucknow,Tier2,226650,35-44,M,True,mid,450.02,North Indian|Mughlai,dinner,0.41,0.75,0.7,272,40
+U0425,Kavya Kumar,Delhi,Tier1,110123,25-34,F,True,mid,355.01,Chinese,dinner,0.45,0.34,0.67,1739,345
+U0426,Rishi Das,Hyderabad,Tier1,500335,18-24,M,False,budget,181.57,Biryani|Continental,lunch,0.55,0.67,0.68,1119,89
+U0427,Prisha Das,Lucknow,Tier2,226996,18-24,F,False,premium,724.09,Chinese|South Indian,dinner,0.53,0.38,0.24,347,67
+U0428,Vikram Singh,Pune,Tier1,411729,25-34,M,False,budget,146.17,Chinese,dinner,0.43,0.26,0.87,1687,101
+U0429,Diya Sharma,Surat,Tier2,395708,35-44,F,False,budget,142.35,South Indian,lunch,0.84,0.57,0.71,452,55
+U0430,Saanvi Das,Lucknow,Tier2,226511,18-24,F,False,budget,221.96,North Indian,lunch,0.53,0.76,0.9,531,29
+U0431,Neha Jain,Mumbai,Tier1,400157,25-34,F,False,premium,731.3,Chinese,dinner,0.6,0.79,0.35,1574,173
+U0432,Aryan Mishra,Chandigarh,Tier2,160689,18-24,M,True,premium,730.53,Indian Street,dinner,0.42,0.76,0.12,1700,180
+U0433,Aditya Rao,Surat,Tier2,395776,25-34,M,True,premium,609.15,Continental,dinner,0.6,0.39,0.21,648,70
+U0434,Pooja Jain,Mumbai,Tier1,400670,18-24,F,False,premium,797.23,South Indian|Chinese,evening_snack,0.69,0.35,0.24,645,124
+U0435,Priya Patel,Hyderabad,Tier1,500452,35-44,F,True,mid,280.46,Biryani|South Indian,evening_snack,0.26,0.53,0.67,1168,117
+U0436,Riya Nair,Mumbai,Tier1,400252,25-34,F,True,budget,150.83,Continental|South Indian,breakfast,0.44,0.54,0.8,1456,111
+U0437,Rishi Nair,Lucknow,Tier2,226346,18-24,M,False,budget,164.29,Chinese,dinner,0.39,0.41,0.81,1575,106
+U0438,Ramesh Jain,Mumbai,Tier1,400925,25-34,M,False,premium,644.97,Continental|Indian Street,dinner,0.64,0.67,0.13,1786,221
+U0439,Neha Verma,Jaipur,Tier2,302237,18-24,F,False,premium,610.56,Biryani|South Indian,dinner,0.78,0.31,0.19,883,125
+U0440,Kabir Jain,Delhi,Tier1,110180,35-44,M,True,budget,248.71,North Indian|Continental,lunch,0.43,0.29,0.88,446,37
+U0441,Sunita Das,Jaipur,Tier2,302949,35-44,F,True,mid,413.53,Indian Street|Continental,lunch,0.67,0.74,0.49,219,21
+U0442,Prisha Verma,Mumbai,Tier1,400717,35-44,F,True,premium,734.16,Indian Street|North Indian,lunch,0.61,0.26,0.3,802,102
+U0443,Aarav Gupta,Delhi,Tier1,110841,25-34,M,False,budget,174.12,North Indian,lunch,0.75,0.52,0.7,1677,93
+U0444,Riya Shah,Surat,Tier2,395440,25-34,F,True,budget,233.76,Mughlai|Biryani,lunch,0.56,0.62,0.79,457,23
+U0445,Rahul Sharma,Surat,Tier2,395220,45+,Other,False,budget,223.89,Biryani,lunch,0.59,0.46,0.85,419,20
+U0446,Sneha Bose,Bangalore,Tier1,560309,45+,F,False,budget,282.5,South Indian,lunch,0.74,0.75,0.71,1454,92
+U0447,Kavya Jain,Surat,Tier2,395577,18-24,F,False,budget,206.35,Mughlai|North Indian,dinner,0.99,0.26,0.69,1618,144
+U0448,Pooja Reddy,Mumbai,Tier1,400609,18-24,F,False,premium,518.9,Biryani|Mughlai,dinner,0.31,0.68,0.3,565,98
+U0449,Ishaan Singh,Mumbai,Tier1,400308,45+,Other,True,budget,151.86,Indian Street|South Indian,lunch,0.55,0.45,0.85,1589,83
+U0450,Vikram Rao,Delhi,Tier1,110326,35-44,Other,True,budget,139.44,Biryani|Indian Street,evening_snack,0.57,0.47,0.8,123,8
+U0451,Sneha Kumar,Jaipur,Tier2,302698,18-24,F,True,mid,281.92,Biryani,dinner,0.66,0.68,0.56,564,53
+U0452,Priya Iyer,Pune,Tier1,411335,25-34,F,False,mid,324.69,South Indian|Biryani,lunch,0.74,0.33,0.43,342,49
+U0453,Kabir Jain,Jaipur,Tier2,302801,25-34,M,True,premium,881.86,Mughlai|North Indian,breakfast,0.71,0.47,0.22,1157,150
+U0454,Aditya Agarwal,Pune,Tier1,411602,25-34,M,False,mid,392.29,Continental|North Indian,lunch,0.5,0.58,0.64,1511,132
+U0455,Arjun Patel,Lucknow,Tier2,226659,18-24,M,False,mid,368.28,Continental|Indian Street,late_night,0.25,0.54,0.46,376,58
+U0456,Neha Patel,Chandigarh,Tier2,160967,25-34,F,False,mid,343.54,North Indian,evening_snack,0.13,0.4,0.54,1103,206
+U0457,Aadya Verma,Kochi,Tier2,682745,25-34,F,False,budget,174.94,North Indian,dinner,0.47,0.44,0.81,874,95
+U0458,Prisha Gupta,Kochi,Tier2,682566,25-34,F,False,budget,291.87,Indian Street,lunch,0.48,0.78,0.72,48,5
+U0459,Avni Verma,Delhi,Tier1,110106,18-24,F,False,mid,428.93,North Indian|Indian Street,late_night,0.77,0.61,0.67,1380,139
+U0460,Sai Iyer,Delhi,Tier1,110381,18-24,M,False,budget,169.92,North Indian,lunch,0.45,0.2,0.89,64,5
+U0461,Pooja Mishra,Jaipur,Tier2,302790,18-24,F,True,mid,348.2,Indian Street,lunch,0.8,0.44,0.59,1058,80
+U0462,Kabir Patel,Kochi,Tier2,682346,35-44,M,False,premium,714.89,Biryani,dinner,0.64,0.32,0.38,227,33
+U0463,Prisha Agarwal,Lucknow,Tier2,226180,18-24,F,False,budget,171.4,Continental|South Indian,late_night,0.56,0.76,0.79,577,31
+U0464,Avni Nair,Surat,Tier2,395813,18-24,F,True,mid,331.05,Chinese|Mughlai,dinner,0.71,0.29,0.61,1187,159
+U0465,Rohan Mishra,Surat,Tier2,395765,35-44,M,False,budget,276.62,Continental,lunch,0.83,0.79,0.67,1368,64
+U0466,Suresh Verma,Hyderabad,Tier1,500665,35-44,M,True,mid,341.31,Biryani,evening_snack,0.62,0.26,0.53,860,97
+U0467,Arjun Verma,Mumbai,Tier1,400611,35-44,M,True,mid,311.32,Continental,lunch,0.36,0.63,0.51,1469,218
+U0468,Ramesh Iyer,Chandigarh,Tier2,160197,35-44,M,False,budget,184.66,Mughlai|South Indian,dinner,0.65,0.69,0.83,1188,56
+U0469,Ishaan Verma,Kochi,Tier2,682808,45+,M,False,budget,259.72,North Indian,evening_snack,0.5,0.4,0.77,462,23
+U0470,Sunita Bose,Hyderabad,Tier1,500800,18-24,F,False,mid,305.9,Biryani|Chinese,lunch,0.73,0.48,0.47,125,8
+U0471,Ishaan Agarwal,Bangalore,Tier1,560422,18-24,M,False,mid,345.76,South Indian,lunch,0.41,0.66,0.69,397,27
+U0472,Saanvi Shah,Delhi,Tier1,110940,18-24,F,False,mid,354.4,Mughlai,breakfast,0.31,0.71,0.46,1570,118
+U0473,Kavya Gupta,Delhi,Tier1,110680,25-34,F,False,budget,237.78,Indian Street|North Indian,lunch,0.65,0.53,0.69,362,23
+U0474,Myra Nair,Delhi,Tier1,110243,25-34,F,False,budget,205.47,South Indian|Biryani,evening_snack,0.52,0.67,0.68,816,45
+U0475,Suresh Gupta,Hyderabad,Tier1,500337,18-24,M,True,budget,251.27,South Indian|North Indian,dinner,0.58,0.68,0.67,139,16
+U0476,Ramesh Gupta,Hyderabad,Tier1,500709,18-24,M,False,mid,314.78,Biryani|Chinese,dinner,0.64,0.23,0.55,1269,99
+U0477,Kabir Rao,Mumbai,Tier1,400561,18-24,M,False,mid,338.19,Indian Street,lunch,0.35,0.49,0.45,1328,171
+U0478,Saanvi Jain,Bangalore,Tier1,560542,18-24,Other,True,budget,200.44,Indian Street|Chinese,lunch,0.34,0.32,0.86,1162,56
+U0479,Kiara Nair,Bangalore,Tier1,560917,18-24,F,True,premium,532.46,South Indian,lunch,0.52,0.59,0.34,1611,216
+U0480,Prisha Gupta,Lucknow,Tier2,226828,25-34,F,True,budget,236.86,Mughlai,dinner,0.43,0.75,0.67,578,61
+U0481,Suresh Kumar,Surat,Tier2,395193,45+,M,True,budget,175.06,South Indian|Indian Street,lunch,0.85,0.29,0.77,678,55
+U0482,Aarav Mishra,Bangalore,Tier1,560204,18-24,M,False,mid,305.36,Chinese|South Indian,late_night,0.54,0.67,0.43,767,60
+U0483,Kiara Gupta,Bangalore,Tier1,560668,35-44,F,False,budget,219.74,Chinese,evening_snack,0.46,0.64,0.81,912,67
+U0484,Pooja Iyer,Jaipur,Tier2,302667,18-24,F,False,mid,294.0,Indian Street,breakfast,0.57,0.44,0.45,83,14
+U0485,Aadya Rao,Pune,Tier1,411497,25-34,F,False,budget,183.13,Biryani|Mughlai,dinner,0.7,0.41,0.69,55,5
+U0486,Suresh Gupta,Kochi,Tier2,682801,25-34,M,False,mid,317.68,South Indian,evening_snack,0.34,0.54,0.65,1201,117
+U0487,Kavya Patel,Lucknow,Tier2,226604,18-24,F,False,premium,729.45,North Indian,lunch,0.53,0.72,0.24,580,108
+U0488,Aryan Gupta,Chandigarh,Tier2,160406,18-24,M,False,budget,247.45,Mughlai,lunch,0.6,0.47,0.77,920,82
+U0489,Arjun Gupta,Bangalore,Tier1,560838,25-34,M,False,budget,229.33,South Indian|Biryani,dinner,0.73,0.22,0.72,545,26
+U0490,Amit Bose,Surat,Tier2,395411,25-34,M,True,budget,198.82,Chinese,breakfast,0.9,0.22,0.75,967,111
+U0491,Saanvi Nair,Jaipur,Tier2,302923,25-34,F,True,mid,284.47,Indian Street|North Indian,dinner,0.86,0.45,0.54,1753,156
+U0492,Ramesh Rao,Mumbai,Tier1,400943,45+,M,False,mid,283.01,Indian Street|Mughlai,late_night,0.62,0.52,0.41,715,76
+U0493,Myra Kumar,Hyderabad,Tier1,500811,25-34,F,True,mid,325.08,Biryani|Continental,lunch,0.74,0.6,0.54,686,62
+U0494,Prisha Bose,Bangalore,Tier1,560426,35-44,F,True,budget,270.58,Biryani|Chinese,dinner,0.45,0.22,0.89,393,18
+U0495,Rishi Bose,Delhi,Tier1,110936,25-34,M,False,mid,342.5,Indian Street,dinner,0.55,0.4,0.43,697,79
+U0496,Diya Nair,Hyderabad,Tier1,500304,25-34,F,False,budget,228.73,Chinese|Biryani,late_night,0.28,0.23,0.87,263,12
+U0497,Priya Patel,Bangalore,Tier1,560825,25-34,F,True,mid,401.62,Indian Street,late_night,0.35,0.36,0.63,1519,157
+U0498,Rohan Das,Hyderabad,Tier1,500938,45+,M,False,budget,241.87,Biryani|Continental,dinner,0.54,0.53,0.89,1732,101
+U0499,Ramesh Iyer,Mumbai,Tier1,400347,25-34,M,True,budget,209.75,Indian Street|Biryani,dinner,0.56,0.7,0.8,315,19
+U0500,Rishi Kumar,Kochi,Tier2,682559,18-24,M,False,budget,223.5,South Indian|Biryani,late_night,0.44,0.36,0.66,1646,131
+U0501,Rahul Bose,Lucknow,Tier2,226990,25-34,M,True,premium,799.73,Continental|Biryani,dinner,0.55,0.27,0.35,1124,167
+U0502,Vikram Iyer,Pune,Tier1,411818,25-34,M,False,mid,256.19,Biryani,lunch,0.67,0.45,0.55,1649,112
+U0503,Sunita Gupta,Jaipur,Tier2,302780,18-24,F,True,budget,245.05,South Indian,lunch,0.6,0.25,0.74,1604,150
+U0504,Aditya Patel,Hyderabad,Tier1,500793,18-24,M,False,mid,512.27,South Indian,dinner,0.64,0.71,0.6,1183,79
+U0505,Amit Nair,Lucknow,Tier2,226110,18-24,M,False,mid,426.97,North Indian|Mughlai,lunch,0.71,0.53,0.47,1660,178
+U0506,Aadya Agarwal,Chandigarh,Tier2,160671,18-24,F,True,budget,264.62,Continental,lunch,0.49,0.68,0.76,1075,60
+U0507,Rahul Jain,Kochi,Tier2,682890,25-34,M,True,mid,339.96,South Indian|Indian Street,dinner,0.42,0.23,0.53,796,89
+U0508,Riya Kumar,Jaipur,Tier2,302402,18-24,F,True,budget,201.7,Continental|Chinese,lunch,0.91,0.45,0.74,80,5
+U0509,Kabir Gupta,Pune,Tier1,411245,18-24,M,False,budget,272.36,Indian Street,dinner,0.49,0.6,0.72,1732,84
+U0510,Aditya Mishra,Hyderabad,Tier1,500633,18-24,M,True,mid,348.73,Biryani|North Indian,lunch,0.58,0.35,0.52,962,74
+U0511,Neha Reddy,Kochi,Tier2,682813,25-34,F,False,budget,256.7,South Indian|Indian Street,late_night,0.66,0.66,0.68,229,17
+U0512,Arjun Rao,Delhi,Tier1,110827,18-24,M,False,budget,198.37,North Indian,dinner,0.49,0.49,0.83,644,82
+U0513,Aadya Sharma,Pune,Tier1,411919,18-24,F,False,mid,414.59,South Indian|Continental,dinner,0.34,0.74,0.52,1357,222
+U0514,Aryan Jain,Pune,Tier1,411673,25-34,M,False,mid,423.79,Indian Street,evening_snack,0.73,0.74,0.48,1160,175
+U0515,Kavya Das,Jaipur,Tier2,302288,18-24,F,False,budget,159.64,North Indian,lunch,0.64,0.54,0.75,1663,128
+U0516,Aryan Iyer,Hyderabad,Tier1,500302,25-34,M,False,mid,371.8,North Indian|Chinese,evening_snack,0.44,0.35,0.45,89,7
+U0517,Arjun Iyer,Mumbai,Tier1,400310,35-44,M,False,budget,224.03,North Indian|Continental,lunch,0.33,0.53,0.81,39,5
+U0518,Ananya Gupta,Mumbai,Tier1,400291,18-24,F,False,premium,737.61,Indian Street,evening_snack,0.36,0.38,0.3,1667,182
+U0519,Avni Rao,Pune,Tier1,411786,25-34,F,True,mid,500.81,Continental,evening_snack,0.52,0.63,0.56,967,157
+U0520,Myra Bose,Lucknow,Tier2,226501,25-34,F,True,mid,305.72,North Indian|Mughlai,dinner,0.5,0.56,0.63,1252,140
+U0521,Rahul Singh,Mumbai,Tier1,400732,18-24,M,False,premium,596.16,Indian Street|North Indian,dinner,0.71,0.49,0.38,750,83
+U0522,Kiara Mishra,Kochi,Tier2,682220,18-24,F,False,mid,343.34,South Indian,breakfast,0.58,0.47,0.49,1406,221
+U0523,Prisha Mishra,Lucknow,Tier2,226244,45+,F,True,budget,153.56,Mughlai,evening_snack,0.5,0.27,0.72,404,32
+U0524,Pooja Nair,Chandigarh,Tier2,160492,18-24,F,True,budget,242.35,South Indian|Indian Street,dinner,0.67,0.5,0.9,1251,137
+U0525,Kavya Patel,Bangalore,Tier1,560760,35-44,F,False,premium,806.77,South Indian|Indian Street,dinner,0.36,0.52,0.35,1331,192
+U0526,Ishaan Patel,Mumbai,Tier1,400291,18-24,M,False,mid,471.54,Indian Street,lunch,0.51,0.66,0.53,1032,130
+U0527,Aditya Das,Mumbai,Tier1,400109,35-44,M,False,budget,204.06,Chinese,dinner,0.62,0.78,0.86,1802,146
+U0528,Neha Kumar,Delhi,Tier1,110675,18-24,F,True,mid,407.74,Chinese,evening_snack,0.55,0.74,0.43,1699,192
+U0529,Sai Bose,Delhi,Tier1,110827,25-34,M,True,premium,736.68,North Indian|Biryani,lunch,0.35,0.56,0.14,1432,216
+U0530,Ramesh Das,Mumbai,Tier1,400131,45+,M,False,mid,269.15,North Indian|Mughlai,dinner,0.22,0.24,0.59,372,63
+U0531,Diya Jain,Chandigarh,Tier2,160650,18-24,F,False,budget,181.75,Biryani|Chinese,breakfast,0.32,0.71,0.79,96,8
+U0532,Rishi Patel,Hyderabad,Tier1,500884,18-24,M,False,budget,227.7,Mughlai|Biryani,late_night,0.72,0.32,0.73,1188,66
+U0533,Arjun Singh,Bangalore,Tier1,560943,25-34,M,False,premium,795.32,Biryani,evening_snack,0.23,0.32,0.25,578,67
+U0534,Avni Verma,Mumbai,Tier1,400535,18-24,F,True,budget,281.06,Indian Street|Biryani,lunch,0.49,0.33,0.77,1148,111
+U0535,Vihaan Jain,Bangalore,Tier1,560560,25-34,M,False,mid,409.62,South Indian|Indian Street,dinner,0.43,0.59,0.41,1821,121
+U0536,Ananya Reddy,Jaipur,Tier2,302220,18-24,F,True,mid,346.81,Indian Street,dinner,0.63,0.5,0.54,929,68
+U0537,Diya Jain,Bangalore,Tier1,560805,35-44,F,False,budget,241.29,South Indian,evening_snack,0.06,0.2,0.68,1690,95
+U0538,Aditya Iyer,Lucknow,Tier2,226311,25-34,M,False,mid,475.63,Biryani,dinner,0.36,0.38,0.52,1291,201
+U0539,Myra Shah,Mumbai,Tier1,400387,25-34,F,False,mid,329.54,Indian Street,dinner,0.79,0.7,0.42,1197,140
+U0540,Rahul Patel,Lucknow,Tier2,226686,18-24,M,False,premium,870.01,Indian Street|North Indian,breakfast,0.49,0.77,0.19,1471,278
+U0541,Rishi Singh,Delhi,Tier1,110160,18-24,M,False,mid,464.45,Continental,breakfast,0.62,0.66,0.5,1566,121
+U0542,Rishi Kumar,Bangalore,Tier1,560429,25-34,M,True,budget,163.82,South Indian,lunch,0.39,0.5,0.85,541,58
+U0543,Ramesh Jain,Chandigarh,Tier2,160747,18-24,M,True,mid,427.22,Mughlai|Continental,dinner,0.39,0.6,0.69,1032,160
+U0544,Ananya Iyer,Bangalore,Tier1,560913,25-34,F,False,premium,569.13,Chinese|Mughlai,lunch,0.4,0.59,0.26,955,248
+U0545,Sunita Gupta,Delhi,Tier1,110811,25-34,F,False,budget,175.99,Chinese|Biryani,dinner,0.39,0.68,0.87,1085,60
+U0546,Sunita Reddy,Delhi,Tier1,110102,35-44,F,False,mid,450.13,Continental|South Indian,dinner,0.55,0.29,0.44,1029,124
+U0547,Ramesh Gupta,Delhi,Tier1,110466,25-34,M,False,budget,194.96,Continental|Chinese,dinner,0.73,0.46,0.79,1330,79
+U0548,Myra Gupta,Hyderabad,Tier1,500944,18-24,F,False,mid,299.48,Biryani|South Indian,lunch,0.44,0.56,0.43,476,32
+U0549,Rohan Bose,Lucknow,Tier2,226445,18-24,M,False,budget,200.44,North Indian|South Indian,lunch,0.52,0.63,0.8,691,36
+U0550,Sai Kumar,Chandigarh,Tier2,160798,18-24,M,False,premium,676.33,Continental|Biryani,lunch,0.7,0.52,0.31,1644,292
+U0551,Suresh Verma,Chandigarh,Tier2,160956,25-34,M,True,budget,217.85,Chinese,dinner,0.54,0.64,0.72,233,14
+U0552,Neha Sharma,Chandigarh,Tier2,160567,25-34,F,True,premium,572.65,Biryani,dinner,0.36,0.65,0.18,1786,400
+U0553,Aarav Iyer,Delhi,Tier1,110765,25-34,M,False,budget,307.31,Mughlai,dinner,0.26,0.55,0.72,1440,71
+U0554,Rishi Patel,Jaipur,Tier2,302356,25-34,M,False,mid,321.73,North Indian|Chinese,evening_snack,0.64,0.43,0.54,221,19
+U0555,Vihaan Reddy,Jaipur,Tier2,302412,25-34,M,False,mid,322.24,Indian Street,dinner,0.59,0.75,0.47,136,15
+U0556,Vikram Jain,Pune,Tier1,411197,25-34,M,False,mid,377.84,Mughlai|Chinese,lunch,0.66,0.66,0.45,1372,232
+U0557,Saanvi Shah,Kochi,Tier2,682331,25-34,F,True,mid,341.91,South Indian|North Indian,lunch,0.52,0.3,0.46,189,29
+U0558,Sai Das,Delhi,Tier1,110936,18-24,M,False,mid,478.48,Biryani,lunch,0.76,0.28,0.67,46,5
+U0559,Aadya Iyer,Bangalore,Tier1,560492,45+,F,False,budget,266.88,North Indian,breakfast,0.15,0.48,0.65,1008,123
+U0560,Aadya Singh,Surat,Tier2,395406,25-34,F,True,premium,722.09,North Indian,breakfast,0.83,0.6,0.26,671,116
+U0561,Aryan Nair,Chandigarh,Tier2,160246,35-44,M,False,premium,648.22,Chinese,breakfast,0.31,0.31,0.2,1343,134
+U0562,Vihaan Sharma,Surat,Tier2,395318,35-44,M,True,budget,199.3,Indian Street,late_night,0.69,0.58,0.74,931,76
+U0563,Amit Kumar,Mumbai,Tier1,400980,35-44,M,True,budget,256.5,South Indian|North Indian,dinner,0.55,0.53,0.79,1291,76
+U0564,Prisha Gupta,Bangalore,Tier1,560703,35-44,F,False,budget,163.44,Biryani,lunch,0.23,0.49,0.69,316,17
+U0565,Sneha Nair,Bangalore,Tier1,560243,18-24,F,False,budget,228.83,Biryani|South Indian,dinner,0.16,0.42,0.88,909,78
+U0566,Arjun Agarwal,Mumbai,Tier1,400714,18-24,Other,False,mid,433.99,Indian Street,dinner,0.59,0.24,0.56,538,51
+U0567,Vikram Mishra,Delhi,Tier1,110996,25-34,M,True,mid,358.1,Chinese,lunch,0.68,0.52,0.68,1766,131
+U0568,Rishi Shah,Kochi,Tier2,682761,25-34,M,False,mid,329.05,Continental,late_night,0.36,0.4,0.54,1561,175
+U0569,Aarav Jain,Mumbai,Tier1,400611,25-34,M,True,mid,540.77,Continental|Chinese,dinner,0.73,0.49,0.46,820,133
+U0570,Amit Gupta,Bangalore,Tier1,560235,25-34,M,True,premium,758.61,Chinese,lunch,0.47,0.25,0.13,769,80
+U0571,Kabir Iyer,Pune,Tier1,411881,25-34,M,True,mid,360.98,Continental|Indian Street,breakfast,0.83,0.21,0.57,1148,97
+U0572,Neha Gupta,Lucknow,Tier2,226368,18-24,F,True,budget,281.22,North Indian,dinner,0.41,0.54,0.71,1232,151
+U0573,Rohan Verma,Bangalore,Tier1,560393,18-24,M,False,premium,560.89,North Indian,lunch,0.44,0.53,0.23,1646,274
+U0574,Amit Iyer,Bangalore,Tier1,560755,18-24,M,False,budget,231.83,North Indian|South Indian,lunch,0.65,0.39,0.75,1467,113
+U0575,Pooja Kumar,Surat,Tier2,395623,18-24,F,True,budget,151.97,North Indian|Indian Street,lunch,0.65,0.28,0.87,201,17
+U0576,Ishaan Shah,Surat,Tier2,395700,25-34,M,True,budget,207.6,Chinese,lunch,0.78,0.56,0.78,1128,95
+U0577,Avni Gupta,Chandigarh,Tier2,160966,25-34,Other,True,budget,182.29,Biryani|Indian Street,lunch,0.72,0.59,0.74,1460,109
+U0578,Rohan Verma,Surat,Tier2,395218,35-44,M,True,premium,649.27,Continental,breakfast,0.69,0.72,0.25,206,21
+U0579,Arjun Verma,Hyderabad,Tier1,500858,18-24,M,False,mid,380.06,Biryani|Mughlai,lunch,0.3,0.54,0.53,1394,112
+U0580,Aryan Singh,Chandigarh,Tier2,160111,18-24,M,False,budget,239.99,South Indian,lunch,0.39,0.53,0.86,1479,162
+U0581,Aryan Bose,Kochi,Tier2,682942,18-24,M,False,premium,907.04,South Indian|Chinese,evening_snack,0.4,0.67,0.11,1101,162
+U0582,Vikram Agarwal,Mumbai,Tier1,400899,25-34,M,False,mid,362.83,Indian Street,dinner,0.43,0.36,0.58,791,126
+U0583,Ramesh Agarwal,Mumbai,Tier1,400443,18-24,M,False,premium,803.6,Indian Street,lunch,0.57,0.3,0.21,1609,172
+U0584,Diya Iyer,Mumbai,Tier1,400829,18-24,F,False,mid,456.32,Indian Street|Chinese,dinner,0.55,0.31,0.6,1102,195
+U0585,Priya Gupta,Hyderabad,Tier1,500156,35-44,F,False,mid,322.71,Biryani|South Indian,evening_snack,0.53,0.53,0.55,962,95
+U0586,Neha Patel,Delhi,Tier1,110205,18-24,F,True,mid,475.73,Mughlai|Indian Street,breakfast,0.49,0.27,0.61,352,46
+U0587,Sunita Singh,Pune,Tier1,411145,25-34,F,False,mid,267.59,Mughlai,evening_snack,0.4,0.55,0.65,1547,153
+U0588,Ramesh Sharma,Chandigarh,Tier2,160492,25-34,M,True,mid,317.2,North Indian,evening_snack,0.63,0.44,0.49,124,12
+U0589,Ishaan Kumar,Delhi,Tier1,110922,18-24,M,False,premium,711.62,North Indian,dinner,0.88,0.73,0.27,1786,400
+U0590,Sunita Iyer,Hyderabad,Tier1,500837,35-44,F,False,mid,395.19,South Indian,lunch,0.58,0.57,0.6,689,92
+U0591,Aditya Agarwal,Mumbai,Tier1,400614,25-34,M,True,mid,299.09,Indian Street,lunch,0.68,0.24,0.61,1200,137
+U0592,Amit Verma,Delhi,Tier1,110147,35-44,M,False,mid,444.77,Continental,breakfast,0.3,0.57,0.54,487,37
+U0593,Kabir Gupta,Lucknow,Tier2,226965,25-34,M,True,mid,465.14,Mughlai|Chinese,evening_snack,0.81,0.55,0.5,1803,230
+U0594,Rahul Rao,Jaipur,Tier2,302477,18-24,Other,True,premium,699.36,South Indian,dinner,1.0,0.65,0.24,1162,182
+U0595,Rohan Mishra,Bangalore,Tier1,560575,35-44,M,True,premium,591.0,Chinese|North Indian,dinner,0.26,0.8,0.38,1544,206
+U0596,Avni Bose,Jaipur,Tier2,302878,25-34,F,True,budget,239.5,Mughlai,breakfast,0.57,0.42,0.78,1530,76
+U0597,Suresh Jain,Delhi,Tier1,110124,18-24,M,False,budget,263.9,Chinese,late_night,0.53,0.76,0.9,43,5
+U0598,Prisha Reddy,Pune,Tier1,411773,18-24,F,True,premium,532.98,North Indian,dinner,0.42,0.25,0.37,716,214
+U0599,Kabir Mishra,Surat,Tier2,395343,25-34,M,True,mid,360.45,Indian Street,dinner,0.82,0.28,0.62,450,43
+U0600,Kabir Bose,Hyderabad,Tier1,500195,25-34,M,True,premium,736.21,South Indian,lunch,0.42,0.63,0.28,321,39
+U0601,Saanvi Jain,Surat,Tier2,395569,18-24,F,True,budget,243.76,North Indian|Indian Street,lunch,0.75,0.51,0.83,1465,73
+U0602,Vikram Gupta,Hyderabad,Tier1,500939,35-44,M,True,premium,629.67,South Indian,dinner,0.55,0.53,0.38,1065,252
+U0603,Kabir Gupta,Delhi,Tier1,110233,25-34,M,False,budget,244.44,North Indian,breakfast,0.44,0.26,0.71,920,55
+U0604,Prisha Mishra,Jaipur,Tier2,302920,18-24,F,True,budget,138.63,North Indian|Chinese,lunch,0.65,0.76,0.76,1772,152
+U0605,Kavya Rao,Chandigarh,Tier2,160176,25-34,F,True,mid,419.34,Biryani|Indian Street,dinner,0.35,0.73,0.66,957,123
+U0606,Rohan Kumar,Delhi,Tier1,110560,25-34,M,False,budget,268.37,North Indian,dinner,0.49,0.69,0.76,348,40
+U0607,Neha Rao,Surat,Tier2,395888,25-34,F,True,budget,200.67,Indian Street|Chinese,dinner,0.54,0.28,0.85,277,18
+U0608,Rohan Das,Delhi,Tier1,110222,18-24,M,True,mid,392.0,North Indian|Indian Street,breakfast,0.48,0.7,0.46,978,127
+U0609,Aadya Patel,Mumbai,Tier1,400717,35-44,F,False,mid,396.84,South Indian|Indian Street,dinner,0.47,0.44,0.59,1722,142
+U0610,Aarav Shah,Bangalore,Tier1,560354,18-24,M,False,premium,641.56,Continental|North Indian,lunch,0.53,0.73,0.35,333,84
+U0611,Aditya Nair,Pune,Tier1,411939,18-24,M,False,budget,248.04,Indian Street,dinner,0.52,0.52,0.85,1416,124
+U0612,Aryan Sharma,Mumbai,Tier1,400866,18-24,M,False,budget,160.39,Chinese|North Indian,breakfast,0.7,0.76,0.81,1780,130
+U0613,Pooja Jain,Delhi,Tier1,110912,35-44,F,False,budget,277.58,North Indian,lunch,0.55,0.55,0.8,976,113
+U0614,Aryan Singh,Bangalore,Tier1,560327,25-34,M,False,premium,521.42,Chinese,dinner,0.29,0.76,0.14,156,17
+U0615,Kiara Shah,Delhi,Tier1,110760,18-24,F,False,budget,268.57,Mughlai|North Indian,breakfast,0.5,0.28,0.82,792,46
+U0616,Aadya Agarwal,Hyderabad,Tier1,500302,18-24,F,True,budget,228.9,Biryani,lunch,0.66,0.74,0.9,74,5
+U0617,Ishaan Das,Pune,Tier1,411949,35-44,M,False,mid,383.91,Continental,lunch,0.77,0.67,0.46,218,15
+U0618,Diya Rao,Hyderabad,Tier1,500151,35-44,F,False,budget,175.31,Chinese,lunch,0.5,0.47,0.68,117,5
+U0619,Aryan Iyer,Chandigarh,Tier2,160799,25-34,M,False,budget,275.48,Mughlai|North Indian,dinner,0.86,0.33,0.74,1046,138
+U0620,Kavya Patel,Surat,Tier2,395381,25-34,F,False,mid,458.52,Mughlai|Indian Street,lunch,0.63,0.44,0.65,469,33
+U0621,Rishi Das,Lucknow,Tier2,226731,25-34,M,False,budget,215.67,Mughlai,breakfast,0.65,0.41,0.68,100,6
+U0622,Arjun Mishra,Kochi,Tier2,682590,18-24,Other,True,mid,325.86,South Indian|Biryani,lunch,0.48,0.28,0.61,873,63
+U0623,Vihaan Gupta,Delhi,Tier1,110304,25-34,Other,False,budget,178.29,Chinese|Continental,lunch,0.24,0.47,0.77,814,89
+U0624,Amit Jain,Pune,Tier1,411467,25-34,M,False,mid,413.15,Continental,lunch,0.51,0.49,0.58,813,63
+U0625,Arjun Bose,Bangalore,Tier1,560497,18-24,M,True,mid,467.86,South Indian|Biryani,evening_snack,0.76,0.79,0.62,1188,118
+U0626,Ananya Patel,Pune,Tier1,411130,18-24,F,True,mid,434.61,Indian Street,breakfast,0.34,0.68,0.7,683,62
+U0627,Ishaan Agarwal,Surat,Tier2,395642,25-34,M,False,mid,357.72,Continental,dinner,0.9,0.35,0.69,1686,113
+U0628,Avni Jain,Delhi,Tier1,110346,18-24,F,False,budget,219.86,North Indian,late_night,0.41,0.72,0.65,235,21
+U0629,Ananya Verma,Delhi,Tier1,110916,25-34,F,False,budget,207.35,Biryani,dinner,0.45,0.62,0.75,1209,62
+U0630,Kabir Reddy,Surat,Tier2,395425,45+,M,True,budget,255.25,Chinese,evening_snack,0.7,0.26,0.71,390,37
+U0631,Diya Reddy,Kochi,Tier2,682681,18-24,F,False,budget,219.49,South Indian,dinner,0.2,0.42,0.89,1470,85
+U0632,Priya Kumar,Mumbai,Tier1,400604,25-34,F,True,premium,773.78,Chinese,lunch,0.5,0.34,0.19,1743,175
+U0633,Sai Mishra,Jaipur,Tier2,302157,18-24,M,True,budget,182.61,North Indian,lunch,0.71,0.42,0.72,1034,134
+U0634,Rohan Jain,Chandigarh,Tier2,160439,18-24,M,True,budget,201.34,Continental,breakfast,0.66,0.31,0.72,1108,79
+U0635,Sunita Shah,Bangalore,Tier1,560921,25-34,F,False,budget,144.46,South Indian,lunch,0.14,0.5,0.73,727,41
+U0636,Ramesh Rao,Pune,Tier1,411821,18-24,M,False,premium,484.71,Indian Street,dinner,0.7,0.42,0.37,74,17
+U0637,Sunita Kumar,Mumbai,Tier1,400473,25-34,F,True,mid,451.31,Indian Street,dinner,0.63,0.29,0.43,1763,171
+U0638,Aadya Reddy,Jaipur,Tier2,302409,18-24,F,True,budget,216.84,Biryani|Mughlai,late_night,0.88,0.79,0.8,1230,143
+U0639,Avni Kumar,Mumbai,Tier1,400910,25-34,F,False,budget,287.0,South Indian,lunch,0.37,0.57,0.85,1529,73
+U0640,Amit Bose,Jaipur,Tier2,302675,18-24,M,True,mid,412.04,Indian Street|South Indian,lunch,0.91,0.79,0.55,386,31
+U0641,Vikram Reddy,Chandigarh,Tier2,160279,25-34,M,False,mid,247.39,Biryani,dinner,0.64,0.57,0.55,1393,127
+U0642,Kabir Mishra,Surat,Tier2,395101,35-44,M,False,budget,221.42,North Indian|Chinese,dinner,0.82,0.51,0.66,290,29
+U0643,Vikram Nair,Hyderabad,Tier1,500928,18-24,M,False,budget,209.61,Biryani,dinner,0.61,0.32,0.84,402,25
+U0644,Rahul Jain,Hyderabad,Tier1,500863,35-44,M,True,premium,791.27,Biryani,evening_snack,0.44,0.46,0.32,1046,244
+U0645,Vihaan Jain,Lucknow,Tier2,226190,45+,M,False,mid,479.17,North Indian|Indian Street,late_night,0.66,0.22,0.57,684,102
+U0646,Myra Rao,Hyderabad,Tier1,500355,35-44,F,True,premium,620.9,Chinese|Biryani,breakfast,0.64,0.3,0.2,53,10
+U0647,Vikram Gupta,Lucknow,Tier2,226837,18-24,M,False,mid,425.88,Continental|North Indian,lunch,0.24,0.65,0.64,555,43
+U0648,Aarav Verma,Pune,Tier1,411270,18-24,M,True,mid,366.32,Continental|Mughlai,lunch,0.36,0.49,0.45,927,75
+U0649,Ishaan Iyer,Kochi,Tier2,682484,25-34,M,True,mid,338.97,Mughlai|Continental,dinner,0.72,0.77,0.61,805,94
+U0650,Aadya Bose,Hyderabad,Tier1,500918,25-34,F,False,mid,273.94,Biryani,lunch,0.53,0.47,0.47,363,38
+U0651,Ramesh Verma,Kochi,Tier2,682207,25-34,M,True,budget,256.12,South Indian|Indian Street,lunch,0.49,0.27,0.84,71,6
+U0652,Vihaan Rao,Kochi,Tier2,682176,18-24,M,True,mid,324.65,South Indian,dinner,0.44,0.21,0.69,798,120
+U0653,Sai Gupta,Surat,Tier2,395594,18-24,M,True,mid,328.33,Chinese|Biryani,lunch,0.85,0.27,0.61,1246,83
+U0654,Vikram Sharma,Jaipur,Tier2,302544,45+,M,True,mid,405.24,Biryani|North Indian,evening_snack,0.86,0.8,0.5,1368,205
+U0655,Aryan Verma,Delhi,Tier1,110294,25-34,M,True,budget,166.93,North Indian,evening_snack,0.48,0.59,0.76,708,70
+U0656,Kavya Agarwal,Surat,Tier2,395150,18-24,F,True,premium,879.48,South Indian|Chinese,lunch,0.79,0.31,0.33,639,129
+U0657,Kabir Bose,Lucknow,Tier2,226537,25-34,M,False,budget,318.24,North Indian,lunch,0.29,0.37,0.79,141,11
+U0658,Vihaan Mishra,Kochi,Tier2,682311,25-34,M,True,mid,433.72,Chinese|Continental,dinner,0.45,0.39,0.46,438,73
+U0659,Kiara Mishra,Delhi,Tier1,110415,35-44,F,False,premium,632.68,Indian Street,dinner,0.54,0.67,0.15,999,111
+U0660,Diya Nair,Jaipur,Tier2,302371,35-44,F,True,mid,442.89,South Indian|Biryani,dinner,0.64,0.73,0.5,1031,73
+U0661,Aadya Nair,Pune,Tier1,411478,35-44,F,False,budget,236.48,Indian Street,breakfast,0.39,0.44,0.74,789,39
+U0662,Aryan Das,Surat,Tier2,395369,25-34,M,False,premium,607.85,Biryani,dinner,1.0,0.53,0.3,569,90
+U0663,Prisha Agarwal,Chandigarh,Tier2,160783,25-34,F,True,budget,187.6,Biryani,breakfast,0.41,0.41,0.72,339,18
+U0664,Vihaan Gupta,Mumbai,Tier1,400874,35-44,M,False,budget,208.39,Continental|Indian Street,dinner,0.63,0.71,0.87,1685,113
+U0665,Rahul Jain,Mumbai,Tier1,400635,35-44,M,False,mid,368.3,Chinese,dinner,0.66,0.29,0.56,1751,197
+U0666,Kabir Bose,Hyderabad,Tier1,500504,25-34,M,True,mid,444.31,Biryani,lunch,0.61,0.34,0.67,1005,125
+U0667,Sunita Verma,Kochi,Tier2,682559,18-24,F,True,budget,252.65,Biryani,breakfast,0.32,0.72,0.78,276,13
+U0668,Kiara Patel,Bangalore,Tier1,560143,25-34,F,True,budget,190.35,Biryani,dinner,0.56,0.56,0.85,1685,170
+U0669,Kavya Gupta,Surat,Tier2,395742,25-34,F,True,budget,216.35,South Indian|Mughlai,lunch,0.69,0.34,0.76,443,20
+U0670,Aryan Agarwal,Pune,Tier1,411168,25-34,M,False,budget,189.68,Indian Street|South Indian,dinner,0.35,0.53,0.76,1519,75
+U0671,Aadya Nair,Pune,Tier1,411382,18-24,F,True,premium,739.75,North Indian|South Indian,lunch,0.62,0.52,0.25,1160,210
+U0672,Sai Das,Delhi,Tier1,110701,35-44,M,True,mid,356.29,North Indian,lunch,0.44,0.31,0.49,1640,136
+U0673,Pooja Iyer,Hyderabad,Tier1,500680,18-24,F,True,mid,456.86,Mughlai,dinner,0.38,0.36,0.58,878,135
+U0674,Priya Singh,Hyderabad,Tier1,500904,25-34,F,True,mid,413.33,Mughlai,evening_snack,0.44,0.71,0.6,1182,92
+U0675,Ananya Reddy,Pune,Tier1,411597,35-44,F,False,budget,227.15,Biryani|Mughlai,dinner,0.46,0.37,0.75,570,45
+U0676,Priya Bose,Delhi,Tier1,110247,18-24,F,False,budget,268.6,North Indian,dinner,0.37,0.56,0.67,382,34
+U0677,Rahul Nair,Hyderabad,Tier1,500439,18-24,M,False,mid,273.08,North Indian,dinner,0.46,0.3,0.44,840,60
+U0678,Sneha Jain,Kochi,Tier2,682375,18-24,F,False,budget,183.11,Indian Street,evening_snack,0.44,0.3,0.82,1557,111
+U0679,Sunita Reddy,Lucknow,Tier2,226410,18-24,F,False,budget,170.11,Indian Street,late_night,0.66,0.4,0.79,721,38
+U0680,Ananya Agarwal,Delhi,Tier1,110200,18-24,F,False,mid,373.88,North Indian|Mughlai,evening_snack,0.44,0.23,0.62,1787,149
+U0681,Myra Jain,Delhi,Tier1,110553,25-34,F,False,budget,191.69,Mughlai,lunch,0.59,0.61,0.77,645,30
+U0682,Suresh Rao,Chandigarh,Tier2,160761,35-44,M,True,budget,171.21,Indian Street|Continental,dinner,0.55,0.55,0.86,1522,116
+U0683,Aadya Shah,Bangalore,Tier1,560516,18-24,F,True,premium,459.44,South Indian|Chinese,lunch,0.23,0.41,0.36,462,49
+U0684,Sneha Bose,Hyderabad,Tier1,500910,25-34,F,False,budget,220.84,South Indian|Biryani,evening_snack,0.45,0.35,0.88,1711,215
+U0685,Aryan Gupta,Chandigarh,Tier2,160238,25-34,M,False,mid,317.59,Chinese|South Indian,dinner,0.39,0.33,0.68,1483,147
+U0686,Diya Sharma,Mumbai,Tier1,400305,25-34,F,False,premium,826.27,Chinese,dinner,0.54,0.54,0.1,424,46
+U0687,Ramesh Verma,Surat,Tier2,395469,35-44,M,True,mid,316.65,South Indian,lunch,0.56,0.55,0.43,97,10
+U0688,Vikram Shah,Hyderabad,Tier1,500617,18-24,M,False,mid,450.23,South Indian|Chinese,evening_snack,0.47,0.79,0.49,784,59
+U0689,Kabir Singh,Hyderabad,Tier1,500708,18-24,M,False,mid,334.26,Biryani,dinner,0.64,0.58,0.51,525,60
+U0690,Neha Patel,Surat,Tier2,395452,25-34,F,False,mid,484.04,South Indian|Chinese,dinner,0.96,0.7,0.46,1231,117
+U0691,Kiara Agarwal,Hyderabad,Tier1,500150,25-34,F,True,mid,399.82,Biryani,lunch,0.35,0.3,0.58,613,116
+U0692,Kiara Shah,Surat,Tier2,395311,25-34,F,True,premium,589.09,Indian Street,evening_snack,0.67,0.76,0.24,1355,280
+U0693,Ananya Iyer,Bangalore,Tier1,560885,35-44,F,False,budget,209.79,South Indian,dinner,0.26,0.59,0.86,1800,98
+U0694,Riya Sharma,Chandigarh,Tier2,160715,35-44,F,True,mid,315.88,Continental|Mughlai,dinner,0.38,0.24,0.57,300,26
+U0695,Diya Sharma,Mumbai,Tier1,400412,18-24,F,True,mid,370.78,Chinese,lunch,0.66,0.58,0.62,546,49
+U0696,Vikram Agarwal,Pune,Tier1,411570,25-34,M,True,premium,803.24,North Indian|Indian Street,dinner,0.74,0.38,0.18,801,88
+U0697,Rishi Shah,Pune,Tier1,411944,45+,M,True,premium,824.25,Chinese|Continental,lunch,0.65,0.5,0.32,648,82
+U0698,Rahul Nair,Pune,Tier1,411778,25-34,M,True,budget,159.58,Mughlai,breakfast,0.29,0.6,0.68,45,5
+U0699,Myra Reddy,Delhi,Tier1,110593,25-34,F,True,mid,363.27,Biryani|Indian Street,lunch,0.41,0.7,0.43,641,54
+U0700,Aadya Rao,Hyderabad,Tier1,500383,18-24,F,False,mid,288.04,Biryani|Chinese,dinner,0.76,0.22,0.49,1341,162
+U0701,Ananya Mishra,Bangalore,Tier1,560346,45+,F,False,premium,588.42,Indian Street,late_night,0.39,0.33,0.19,337,49
+U0702,Sunita Verma,Delhi,Tier1,110243,35-44,F,False,budget,213.26,Chinese|South Indian,lunch,0.63,0.73,0.71,1382,118
+U0703,Vikram Sharma,Jaipur,Tier2,302528,25-34,M,True,mid,471.34,North Indian|Indian Street,dinner,0.88,0.4,0.62,635,83
+U0704,Kabir Nair,Mumbai,Tier1,400685,45+,M,True,mid,319.42,Chinese,dinner,0.43,0.72,0.55,1224,101
+U0705,Ramesh Shah,Bangalore,Tier1,560802,45+,M,True,mid,415.29,South Indian|North Indian,evening_snack,0.56,0.77,0.61,1517,125
+U0706,Pooja Bose,Pune,Tier1,411274,25-34,F,True,mid,458.96,Biryani|Indian Street,dinner,0.41,0.74,0.68,1068,133
+U0707,Sneha Patel,Bangalore,Tier1,560858,25-34,Other,False,mid,434.1,Indian Street|South Indian,dinner,0.75,0.39,0.62,229,23
+U0708,Ananya Patel,Hyderabad,Tier1,500463,25-34,F,True,premium,716.21,Continental|Mughlai,dinner,0.65,0.53,0.22,1370,348
+U0709,Rohan Mishra,Pune,Tier1,411480,18-24,M,False,budget,188.0,Continental|Indian Street,evening_snack,0.74,0.42,0.8,1644,82
+U0710,Ananya Mishra,Kochi,Tier2,682154,35-44,F,True,budget,174.27,South Indian|Indian Street,lunch,0.65,0.34,0.86,1773,200
+U0711,Myra Gupta,Lucknow,Tier2,226988,18-24,F,False,mid,318.79,Mughlai|South Indian,late_night,0.62,0.26,0.61,428,42
+U0712,Riya Nair,Jaipur,Tier2,302974,25-34,F,True,premium,663.07,Biryani|South Indian,dinner,0.76,0.61,0.24,876,237
+U0713,Kiara Kumar,Lucknow,Tier2,226683,35-44,F,False,budget,173.39,Chinese,evening_snack,0.58,0.52,0.73,731,56
+U0714,Sunita Das,Delhi,Tier1,110284,35-44,F,False,premium,666.26,North Indian,late_night,0.42,0.47,0.24,677,74
+U0715,Suresh Gupta,Jaipur,Tier2,302281,18-24,M,True,mid,397.27,Continental|Indian Street,evening_snack,0.26,0.32,0.61,711,62
+U0716,Aditya Verma,Bangalore,Tier1,560879,25-34,M,True,budget,237.24,South Indian,dinner,0.35,0.28,0.71,955,86
+U0717,Suresh Patel,Hyderabad,Tier1,500898,25-34,M,False,premium,466.23,North Indian,lunch,0.58,0.6,0.18,1032,120
+U0718,Aadya Kumar,Bangalore,Tier1,560539,18-24,F,True,mid,248.85,Biryani|Continental,breakfast,0.16,0.71,0.53,1327,142
+U0719,Neha Nair,Jaipur,Tier2,302848,35-44,F,True,budget,219.74,Chinese,late_night,0.66,0.5,0.78,107,7
+U0720,Aditya Sharma,Chandigarh,Tier2,160295,25-34,M,True,budget,220.48,North Indian|Indian Street,dinner,0.48,0.42,0.74,1580,82
+U0721,Aarav Sharma,Pune,Tier1,411452,35-44,M,True,mid,388.05,Continental,dinner,0.44,0.4,0.67,493,41
+U0722,Ananya Kumar,Lucknow,Tier2,226413,35-44,F,False,mid,326.35,Biryani,lunch,0.65,0.48,0.59,815,81
+U0723,Kiara Gupta,Surat,Tier2,395566,35-44,F,False,budget,300.98,Continental,evening_snack,0.7,0.73,0.87,640,30
+U0724,Vikram Rao,Delhi,Tier1,110450,35-44,M,False,budget,275.69,Mughlai|Indian Street,lunch,0.43,0.37,0.78,1436,67
+U0725,Sunita Bose,Hyderabad,Tier1,500931,35-44,F,False,mid,395.83,Biryani|South Indian,lunch,0.43,0.73,0.42,1566,227
+U0726,Kabir Sharma,Bangalore,Tier1,560234,18-24,M,False,budget,244.34,South Indian,dinner,0.7,0.53,0.88,489,27
+U0727,Kabir Sharma,Kochi,Tier2,682766,18-24,Other,False,budget,128.82,North Indian,breakfast,0.38,0.54,0.77,282,22
+U0728,Suresh Verma,Bangalore,Tier1,560889,25-34,M,True,mid,320.57,Chinese|Mughlai,lunch,0.6,0.48,0.45,1825,160
+U0729,Pooja Verma,Mumbai,Tier1,400956,18-24,F,False,mid,471.72,Indian Street,late_night,0.44,0.71,0.57,1385,227
+U0730,Saanvi Verma,Hyderabad,Tier1,500226,35-44,F,True,mid,317.59,Biryani,lunch,0.69,0.2,0.49,883,93
+U0731,Sai Agarwal,Jaipur,Tier2,302811,18-24,M,True,budget,182.92,Mughlai|Indian Street,lunch,1.0,0.29,0.89,1467,157
+U0732,Riya Sharma,Delhi,Tier1,110778,18-24,F,True,premium,690.92,South Indian|Mughlai,dinner,0.42,0.69,0.31,891,115
+U0733,Pooja Agarwal,Kochi,Tier2,682207,35-44,F,False,budget,222.44,South Indian,evening_snack,0.5,0.26,0.87,887,46
+U0734,Sai Singh,Mumbai,Tier1,400609,25-34,M,False,premium,605.37,South Indian|Indian Street,dinner,0.64,0.23,0.16,263,30
+U0735,Rohan Shah,Bangalore,Tier1,560306,25-34,M,False,mid,415.55,Indian Street|Continental,dinner,0.42,0.48,0.46,1732,169
+U0736,Avni Iyer,Mumbai,Tier1,400608,18-24,F,True,mid,337.29,Chinese|North Indian,dinner,0.65,0.63,0.61,358,66
+U0737,Ishaan Shah,Pune,Tier1,411113,18-24,M,False,premium,635.6,Biryani|South Indian,late_night,0.52,0.71,0.24,707,144
+U0738,Amit Gupta,Hyderabad,Tier1,500605,25-34,M,False,budget,205.77,Chinese,dinner,0.64,0.4,0.74,1740,113
+U0739,Aryan Gupta,Mumbai,Tier1,400362,18-24,M,False,premium,592.79,Chinese,dinner,0.84,0.55,0.32,1511,185
+U0740,Amit Jain,Lucknow,Tier2,226151,25-34,M,False,budget,201.28,Indian Street|Mughlai,dinner,0.56,0.26,0.87,636,58
+U0741,Vihaan Patel,Mumbai,Tier1,400920,25-34,M,True,mid,370.82,North Indian,dinner,0.5,0.41,0.47,1775,224
+U0742,Amit Rao,Lucknow,Tier2,226971,18-24,M,False,budget,177.3,North Indian|Chinese,breakfast,0.37,0.66,0.77,1542,175
+U0743,Suresh Verma,Delhi,Tier1,110762,25-34,M,False,premium,604.03,Mughlai,lunch,0.61,0.63,0.32,1774,400
+U0744,Aryan Rao,Delhi,Tier1,110374,18-24,M,True,mid,339.1,Mughlai|South Indian,lunch,0.58,0.29,0.58,926,63
+U0745,Ishaan Gupta,Jaipur,Tier2,302216,25-34,M,True,budget,232.48,South Indian|Chinese,dinner,0.58,0.43,0.76,1699,141
+U0746,Kavya Nair,Surat,Tier2,395806,25-34,F,True,budget,168.35,North Indian|Chinese,dinner,0.69,0.77,0.71,586,30
+U0747,Myra Bose,Delhi,Tier1,110270,35-44,F,False,budget,158.68,Mughlai|South Indian,lunch,0.69,0.47,0.73,1358,68
+U0748,Vihaan Kumar,Jaipur,Tier2,302526,18-24,M,True,mid,408.85,Indian Street,dinner,0.81,0.21,0.55,1759,266
+U0749,Sunita Bose,Bangalore,Tier1,560897,25-34,F,False,budget,182.13,Biryani|North Indian,lunch,0.41,0.53,0.86,401,25
+U0750,Avni Sharma,Delhi,Tier1,110215,25-34,F,False,mid,343.9,North Indian,lunch,0.72,0.2,0.64,1019,71
+U0751,Ishaan Iyer,Hyderabad,Tier1,500770,25-34,M,True,premium,528.15,Mughlai|Indian Street,lunch,0.63,0.66,0.24,124,33
+U0752,Avni Sharma,Hyderabad,Tier1,500631,25-34,F,True,premium,714.3,North Indian,lunch,0.43,0.65,0.16,1401,153
+U0753,Pooja Singh,Hyderabad,Tier1,500593,25-34,F,False,mid,267.65,South Indian|Biryani,dinner,0.68,0.68,0.59,1385,112
+U0754,Aditya Nair,Bangalore,Tier1,560727,45+,M,True,budget,231.17,South Indian,lunch,0.28,0.8,0.71,1748,92
+U0755,Saanvi Sharma,Delhi,Tier1,110972,35-44,F,True,premium,926.39,Continental,dinner,0.44,0.31,0.16,1065,118
+U0756,Neha Patel,Hyderabad,Tier1,500346,25-34,F,False,premium,649.4,Continental,dinner,0.73,0.76,0.21,1568,237
+U0757,Avni Agarwal,Pune,Tier1,411758,18-24,F,True,mid,262.95,South Indian,lunch,0.96,0.76,0.56,1068,147
+U0758,Kabir Nair,Surat,Tier2,395920,45+,M,False,budget,175.82,Mughlai,dinner,0.83,0.58,0.79,191,13
+U0759,Priya Das,Kochi,Tier2,682423,18-24,F,False,budget,285.48,Indian Street,dinner,0.34,0.58,0.82,1784,125
+U0760,Aadya Bose,Jaipur,Tier2,302136,18-24,F,True,mid,379.26,Continental,dinner,0.51,0.74,0.63,240,26
+U0761,Kiara Sharma,Delhi,Tier1,110733,18-24,Other,True,premium,609.96,Mughlai,late_night,0.71,0.27,0.34,1651,224
+U0762,Riya Mishra,Bangalore,Tier1,560449,25-34,F,False,mid,467.24,Indian Street,evening_snack,0.3,0.49,0.42,1370,116
+U0763,Avni Verma,Mumbai,Tier1,400673,18-24,F,True,premium,760.47,Chinese,breakfast,0.35,0.75,0.34,1759,276
+U0764,Suresh Bose,Delhi,Tier1,110199,25-34,M,True,budget,199.78,Indian Street|Mughlai,dinner,0.5,0.45,0.66,1496,109
+U0765,Suresh Jain,Pune,Tier1,411748,45+,M,True,mid,500.03,Indian Street,dinner,0.7,0.26,0.46,729,85
+U0766,Diya Mishra,Jaipur,Tier2,302268,35-44,F,True,budget,177.58,Biryani|Indian Street,evening_snack,0.84,0.2,0.79,1467,169
+U0767,Arjun Kumar,Delhi,Tier1,110300,18-24,M,False,budget,225.5,North Indian|South Indian,dinner,0.65,0.56,0.88,249,23
+U0768,Prisha Singh,Surat,Tier2,395900,18-24,F,True,premium,882.17,South Indian|North Indian,breakfast,0.69,0.38,0.35,471,73
+U0769,Rohan Rao,Mumbai,Tier1,400748,25-34,M,False,mid,405.12,Chinese,lunch,0.43,0.36,0.4,1580,172
+U0770,Ramesh Singh,Pune,Tier1,411616,25-34,M,False,budget,164.38,Mughlai|Continental,lunch,0.37,0.55,0.74,966,58
+U0771,Aryan Bose,Pune,Tier1,411666,25-34,M,False,mid,373.55,South Indian,breakfast,0.54,0.31,0.62,1116,90
+U0772,Sunita Iyer,Hyderabad,Tier1,500281,45+,F,False,budget,215.55,Biryani|North Indian,lunch,0.45,0.22,0.88,1071,58
+U0773,Vikram Patel,Lucknow,Tier2,226714,18-24,M,False,premium,582.56,Biryani,lunch,0.47,0.4,0.37,242,40
+U0774,Priya Rao,Delhi,Tier1,110809,25-34,F,False,budget,252.14,Mughlai|Biryani,lunch,0.36,0.5,0.84,887,41
+U0775,Suresh Jain,Mumbai,Tier1,400401,18-24,M,True,budget,148.54,South Indian|Chinese,lunch,0.75,0.2,0.88,844,40
+U0776,Neha Kumar,Kochi,Tier2,682866,35-44,F,False,budget,249.53,South Indian,late_night,0.73,0.28,0.79,875,55
+U0777,Pooja Mishra,Delhi,Tier1,110666,35-44,F,False,budget,161.7,Mughlai|Indian Street,evening_snack,0.65,0.49,0.9,1487,84
+U0778,Riya Shah,Hyderabad,Tier1,500397,25-34,F,False,budget,158.77,North Indian,dinner,0.18,0.61,0.71,459,28
+U0779,Amit Reddy,Jaipur,Tier2,302282,35-44,M,False,premium,673.06,North Indian,lunch,0.6,0.79,0.39,1484,193
+U0780,Pooja Rao,Pune,Tier1,411591,25-34,F,False,budget,244.49,Mughlai,lunch,0.54,0.33,0.75,1588,130
+U0781,Rahul Iyer,Delhi,Tier1,110113,35-44,M,False,budget,241.6,North Indian|Biryani,dinner,0.4,0.36,0.71,1765,133
+U0782,Sai Singh,Pune,Tier1,411786,18-24,M,True,budget,241.0,North Indian,lunch,0.66,0.57,0.67,810,87
+U0783,Saanvi Shah,Mumbai,Tier1,400393,18-24,F,True,premium,650.31,Indian Street|Continental,dinner,0.64,0.48,0.35,1566,182
+U0784,Amit Agarwal,Mumbai,Tier1,400903,18-24,M,False,mid,335.82,Mughlai,lunch,0.35,0.57,0.54,1749,311
+U0785,Ananya Shah,Lucknow,Tier2,226204,25-34,F,False,budget,244.84,North Indian,dinner,0.33,0.34,0.72,764,40
+U0786,Priya Jain,Chandigarh,Tier2,160915,25-34,F,False,mid,403.0,Indian Street|Chinese,dinner,0.48,0.51,0.44,516,51
+U0787,Suresh Mishra,Mumbai,Tier1,400907,18-24,M,True,budget,243.72,Chinese,dinner,0.2,0.43,0.81,811,63
+U0788,Amit Rao,Surat,Tier2,395307,35-44,M,False,budget,174.27,South Indian,evening_snack,0.66,0.34,0.73,56,5
+U0789,Priya Das,Kochi,Tier2,682763,35-44,F,True,budget,196.34,South Indian,lunch,0.64,0.3,0.73,1327,77
+U0790,Avni Shah,Mumbai,Tier1,400799,45+,F,True,budget,251.48,Chinese,lunch,0.46,0.53,0.85,632,46
+U0791,Aadya Patel,Mumbai,Tier1,400486,25-34,F,False,budget,154.48,Continental,lunch,0.56,0.4,0.83,1535,105
+U0792,Aarav Iyer,Chandigarh,Tier2,160264,35-44,M,False,mid,380.99,Chinese|North Indian,dinner,0.29,0.39,0.48,1169,152
+U0793,Prisha Agarwal,Delhi,Tier1,110258,18-24,Other,False,premium,516.46,South Indian,dinner,0.56,0.72,0.18,706,109
+U0794,Saanvi Kumar,Mumbai,Tier1,400740,25-34,F,False,premium,676.74,Indian Street|Chinese,lunch,0.95,0.46,0.24,1252,340
+U0795,Rahul Mishra,Kochi,Tier2,682466,35-44,M,False,mid,427.37,North Indian|South Indian,late_night,0.52,0.26,0.53,1647,153
+U0796,Vihaan Rao,Surat,Tier2,395905,25-34,M,True,budget,236.9,Biryani,lunch,0.61,0.23,0.89,406,27
+U0797,Pooja Patel,Chandigarh,Tier2,160194,35-44,F,True,premium,614.4,North Indian|Biryani,lunch,0.59,0.49,0.37,1142,165
+U0798,Avni Jain,Delhi,Tier1,110469,18-24,F,False,budget,235.45,North Indian,dinner,0.82,0.34,0.7,1388,116
+U0799,Ananya Shah,Hyderabad,Tier1,500764,25-34,F,False,budget,216.18,Chinese|Mughlai,lunch,0.38,0.62,0.85,1179,62
+U0800,Aarav Singh,Chandigarh,Tier2,160757,25-34,M,False,mid,386.39,South Indian|Mughlai,dinner,0.58,0.24,0.61,942,127
+U0801,Rahul Jain,Lucknow,Tier2,226490,18-24,M,False,premium,919.47,South Indian,lunch,0.48,0.56,0.36,1427,154
+U0802,Ishaan Singh,Surat,Tier2,395389,35-44,M,True,mid,478.57,Chinese|Mughlai,dinner,0.92,0.67,0.45,555,53
+U0803,Aarav Reddy,Jaipur,Tier2,302767,35-44,M,False,budget,190.78,Biryani|Chinese,dinner,0.6,0.65,0.87,1026,132
+U0804,Prisha Rao,Hyderabad,Tier1,500891,25-34,F,False,budget,167.17,Biryani,lunch,0.56,0.36,0.7,226,23
+U0805,Pooja Sharma,Pune,Tier1,411892,18-24,F,False,mid,306.7,Mughlai,dinner,0.53,0.54,0.68,461,39
+U0806,Rohan Iyer,Delhi,Tier1,110819,25-34,M,True,mid,424.38,North Indian,evening_snack,0.43,0.29,0.65,451,43
+U0807,Sunita Iyer,Mumbai,Tier1,400124,25-34,F,False,budget,187.37,Indian Street,dinner,0.64,0.78,0.76,1559,92
+U0808,Neha Rao,Delhi,Tier1,110282,25-34,F,False,mid,511.63,Mughlai,evening_snack,0.61,0.69,0.69,209,36
+U0809,Suresh Agarwal,Hyderabad,Tier1,500364,25-34,M,True,mid,383.9,Biryani,lunch,0.39,0.42,0.69,1207,91
+U0810,Kavya Nair,Lucknow,Tier2,226423,25-34,F,False,premium,562.86,North Indian|Continental,lunch,0.27,0.35,0.23,1320,218
+U0811,Saanvi Nair,Jaipur,Tier2,302837,18-24,F,True,premium,547.11,Indian Street,lunch,0.75,0.3,0.29,1125,333
+U0812,Priya Gupta,Pune,Tier1,411466,18-24,F,True,budget,164.43,Mughlai,dinner,0.4,0.47,0.73,1465,76
+U0813,Sunita Singh,Pune,Tier1,411721,18-24,F,True,mid,339.44,Chinese|Continental,dinner,0.68,0.52,0.59,1641,138
+U0814,Aadya Mishra,Surat,Tier2,395776,25-34,F,True,mid,345.48,South Indian|Mughlai,dinner,0.9,0.77,0.67,811,90
+U0815,Saanvi Bose,Mumbai,Tier1,400864,25-34,F,True,budget,221.74,Chinese,dinner,0.59,0.45,0.68,1122,109
+U0816,Kavya Mishra,Kochi,Tier2,682914,18-24,F,True,mid,368.57,Continental,dinner,0.58,0.26,0.58,640,54
+U0817,Ramesh Reddy,Chandigarh,Tier2,160244,45+,M,True,premium,472.23,Continental,evening_snack,0.66,0.55,0.11,1163,126
+U0818,Aadya Verma,Surat,Tier2,395650,18-24,F,True,premium,929.62,South Indian,evening_snack,0.73,0.45,0.37,1202,164
+U0819,Sai Gupta,Kochi,Tier2,682843,25-34,M,False,budget,178.71,South Indian|Mughlai,dinner,0.32,0.72,0.85,460,25
+U0820,Avni Shah,Jaipur,Tier2,302245,25-34,F,True,mid,290.86,Biryani|Indian Street,lunch,0.62,0.59,0.6,1352,100
+U0821,Kiara Patel,Chandigarh,Tier2,160298,35-44,F,False,mid,293.99,Chinese,late_night,0.48,0.37,0.52,1293,96
+U0822,Aadya Patel,Surat,Tier2,395662,45+,F,False,premium,615.32,Chinese,dinner,0.59,0.33,0.26,1773,212
+U0823,Arjun Gupta,Bangalore,Tier1,560200,45+,M,False,mid,399.91,Biryani|North Indian,late_night,0.49,0.43,0.57,1405,247
+U0824,Rohan Bose,Kochi,Tier2,682771,25-34,M,False,mid,323.37,North Indian|Indian Street,lunch,0.72,0.2,0.66,761,121
+U0825,Prisha Singh,Delhi,Tier1,110298,18-24,F,False,budget,159.72,Mughlai|Indian Street,lunch,0.52,0.77,0.65,1298,159
+U0826,Avni Bose,Delhi,Tier1,110413,25-34,F,True,mid,320.61,Mughlai|North Indian,late_night,0.28,0.32,0.47,702,62
+U0827,Sneha Kumar,Chandigarh,Tier2,160538,45+,F,False,mid,320.61,North Indian|Biryani,breakfast,0.82,0.52,0.53,1684,206
+U0828,Aryan Sharma,Surat,Tier2,395829,25-34,M,True,premium,869.98,North Indian|South Indian,lunch,0.94,0.61,0.11,534,62
+U0829,Vikram Iyer,Delhi,Tier1,110795,35-44,M,False,budget,195.79,Continental|Indian Street,evening_snack,0.64,0.42,0.69,1750,142
+U0830,Sneha Rao,Delhi,Tier1,110893,25-34,F,True,budget,185.76,Chinese|Indian Street,dinner,0.76,0.73,0.71,977,72
+U0831,Rishi Bose,Chandigarh,Tier2,160183,18-24,M,True,mid,409.33,Continental,lunch,0.43,0.63,0.45,389,33
+U0832,Ramesh Agarwal,Mumbai,Tier1,400851,25-34,M,True,mid,416.83,Indian Street,dinner,0.73,0.48,0.51,1133,162
+U0833,Ishaan Gupta,Jaipur,Tier2,302746,18-24,M,True,budget,203.25,North Indian,late_night,0.83,0.62,0.85,68,5
+U0834,Aarav Nair,Jaipur,Tier2,302656,18-24,M,True,mid,378.89,Mughlai,lunch,0.7,0.3,0.5,105,9
+U0835,Ishaan Bose,Bangalore,Tier1,560890,18-24,M,False,budget,215.45,Biryani,late_night,0.41,0.42,0.67,779,61
+U0836,Priya Mishra,Lucknow,Tier2,226192,25-34,F,False,budget,274.25,Mughlai,dinner,0.47,0.32,0.79,981,68
+U0837,Kabir Reddy,Hyderabad,Tier1,500925,18-24,M,False,budget,241.12,Biryani,evening_snack,0.32,0.27,0.66,1387,131
+U0838,Rahul Patel,Bangalore,Tier1,560679,25-34,M,False,mid,478.72,Biryani,dinner,0.47,0.72,0.54,943,143
+U0839,Rahul Kumar,Bangalore,Tier1,560879,35-44,M,False,premium,716.25,South Indian|Chinese,dinner,0.52,0.63,0.25,764,212
+U0840,Neha Jain,Mumbai,Tier1,400143,25-34,F,False,budget,164.38,Biryani,breakfast,0.29,0.65,0.67,571,45
+U0841,Amit Shah,Pune,Tier1,411565,18-24,M,False,mid,377.55,Chinese|South Indian,late_night,0.45,0.43,0.49,824,84
+U0842,Ishaan Verma,Surat,Tier2,395820,25-34,M,True,budget,224.17,South Indian,evening_snack,0.72,0.42,0.86,1358,115
+U0843,Sai Agarwal,Surat,Tier2,395278,18-24,M,True,budget,191.44,Mughlai|Continental,dinner,0.64,0.45,0.8,1215,81
+U0844,Kabir Nair,Chandigarh,Tier2,160955,18-24,M,False,budget,294.34,South Indian|Chinese,dinner,0.18,0.36,0.67,1233,74
+U0845,Aadya Agarwal,Jaipur,Tier2,302461,18-24,F,True,mid,355.36,Continental|Biryani,evening_snack,0.52,0.67,0.53,486,47
+U0846,Ramesh Reddy,Hyderabad,Tier1,500718,35-44,M,True,budget,158.24,Chinese|Mughlai,dinner,0.47,0.23,0.82,1653,117
+U0847,Aarav Kumar,Kochi,Tier2,682626,45+,M,True,mid,283.85,Biryani|North Indian,dinner,0.72,0.39,0.66,369,50
+U0848,Amit Agarwal,Pune,Tier1,411470,25-34,M,False,budget,173.35,North Indian,lunch,0.58,0.77,0.81,337,34
+U0849,Priya Singh,Delhi,Tier1,110837,25-34,F,False,premium,743.06,Mughlai,dinner,0.5,0.38,0.27,879,100
+U0850,Vihaan Bose,Delhi,Tier1,110265,18-24,M,False,mid,426.28,Indian Street|Mughlai,lunch,0.68,0.76,0.65,1011,142
+U0851,Amit Iyer,Jaipur,Tier2,302687,25-34,M,True,budget,214.26,Biryani,dinner,0.75,0.41,0.66,529,68
+U0852,Priya Patel,Pune,Tier1,411686,45+,F,True,premium,863.93,Indian Street,late_night,0.67,0.62,0.38,1319,195
+U0853,Kiara Verma,Mumbai,Tier1,400629,25-34,F,False,mid,307.01,South Indian,lunch,0.68,0.77,0.65,558,39
+U0854,Kabir Sharma,Surat,Tier2,395721,35-44,M,False,mid,472.48,Indian Street|Continental,breakfast,0.85,0.43,0.61,205,28
+U0855,Arjun Bose,Bangalore,Tier1,560715,18-24,M,True,mid,504.97,Indian Street,late_night,0.53,0.65,0.5,479,36
+U0856,Kiara Patel,Mumbai,Tier1,400450,35-44,F,True,budget,148.63,Indian Street|North Indian,evening_snack,0.43,0.42,0.78,373,21
+U0857,Ishaan Das,Mumbai,Tier1,400235,25-34,M,False,budget,183.07,Indian Street,lunch,0.77,0.44,0.9,500,39
+U0858,Aadya Sharma,Chandigarh,Tier2,160616,25-34,F,False,premium,667.18,Chinese,lunch,0.67,0.62,0.2,1100,121
+U0859,Riya Iyer,Lucknow,Tier2,226587,45+,F,True,premium,732.08,North Indian,dinner,0.27,0.59,0.32,1270,319
+U0860,Ishaan Verma,Surat,Tier2,395233,18-24,M,True,mid,513.81,Mughlai,dinner,0.79,0.65,0.56,220,22
+U0861,Ishaan Sharma,Delhi,Tier1,110995,25-34,M,True,mid,433.58,Mughlai|North Indian,lunch,0.65,0.3,0.53,1099,119
+U0862,Saanvi Iyer,Bangalore,Tier1,560887,25-34,F,False,mid,428.51,South Indian,dinner,0.73,0.48,0.63,1673,170
+U0863,Kavya Reddy,Bangalore,Tier1,560588,35-44,F,True,mid,344.62,South Indian,late_night,0.53,0.6,0.65,901,142
+U0864,Suresh Jain,Delhi,Tier1,110656,35-44,M,False,budget,190.56,Indian Street,breakfast,0.4,0.71,0.7,610,38
+U0865,Kavya Agarwal,Jaipur,Tier2,302908,25-34,F,False,mid,457.29,South Indian,dinner,0.96,0.79,0.59,41,5
+U0866,Saanvi Singh,Mumbai,Tier1,400804,18-24,F,False,mid,283.36,North Indian,lunch,0.68,0.7,0.59,798,69
+U0867,Suresh Rao,Bangalore,Tier1,560536,45+,M,True,budget,246.37,Biryani|Mughlai,lunch,0.44,0.28,0.88,771,88
+U0868,Riya Agarwal,Jaipur,Tier2,302678,18-24,F,False,budget,216.58,Chinese|South Indian,dinner,0.66,0.66,0.76,1780,120
+U0869,Aditya Agarwal,Chandigarh,Tier2,160665,25-34,M,False,premium,568.42,Continental|South Indian,dinner,0.56,0.52,0.34,1576,335
+U0870,Suresh Bose,Chandigarh,Tier2,160595,18-24,M,True,premium,531.19,Mughlai,dinner,0.35,0.41,0.16,788,111
+U0871,Ananya Mishra,Bangalore,Tier1,560853,25-34,F,False,premium,771.78,South Indian|Biryani,lunch,0.31,0.57,0.39,1615,200
+U0872,Kiara Singh,Hyderabad,Tier1,500265,35-44,F,False,budget,252.08,South Indian,dinner,0.39,0.27,0.69,944,51
+U0873,Vihaan Shah,Mumbai,Tier1,400663,18-24,M,False,premium,707.42,Biryani|South Indian,evening_snack,0.44,0.62,0.17,1639,293
+U0874,Rahul Verma,Pune,Tier1,411105,25-34,M,False,budget,149.55,Continental,lunch,0.26,0.46,0.68,826,39
+U0875,Diya Gupta,Delhi,Tier1,110545,18-24,F,True,budget,244.64,North Indian,lunch,0.08,0.77,0.83,995,48
+U0876,Aadya Gupta,Kochi,Tier2,682723,25-34,F,False,budget,281.55,South Indian|Biryani,lunch,0.67,0.47,0.79,484,38
+U0877,Saanvi Nair,Mumbai,Tier1,400393,18-24,F,False,budget,283.54,Indian Street|North Indian,evening_snack,0.3,0.3,0.69,1287,77
+U0878,Sneha Verma,Bangalore,Tier1,560110,25-34,F,False,premium,481.96,South Indian,breakfast,0.22,0.36,0.36,1341,202
+U0879,Prisha Mishra,Pune,Tier1,411622,18-24,F,True,premium,778.34,Chinese,dinner,0.35,0.64,0.33,98,11
+U0880,Aadya Jain,Hyderabad,Tier1,500344,18-24,Other,False,premium,620.44,Biryani,dinner,0.45,0.65,0.23,1410,394
+U0881,Amit Sharma,Hyderabad,Tier1,500898,18-24,M,False,mid,423.71,Mughlai,breakfast,0.53,0.3,0.48,207,13
+U0882,Kavya Reddy,Surat,Tier2,395630,35-44,F,True,mid,395.4,North Indian|Chinese,evening_snack,0.75,0.45,0.56,860,79
+U0883,Saanvi Gupta,Lucknow,Tier2,226949,18-24,F,False,mid,318.68,North Indian,breakfast,0.29,0.76,0.53,1155,147
+U0884,Pooja Reddy,Bangalore,Tier1,560720,25-34,F,False,budget,274.91,South Indian|Biryani,breakfast,0.34,0.49,0.86,1700,153
+U0885,Prisha Das,Delhi,Tier1,110279,45+,F,False,premium,667.05,Mughlai|North Indian,dinner,0.5,0.49,0.38,1207,358
+U0886,Kavya Singh,Lucknow,Tier2,226219,25-34,F,True,premium,564.39,Indian Street,late_night,0.33,0.26,0.11,1060,200
+U0887,Suresh Agarwal,Hyderabad,Tier1,500486,35-44,M,False,budget,166.68,Biryani|South Indian,lunch,0.4,0.71,0.73,1451,107
+U0888,Rahul Bose,Mumbai,Tier1,400894,45+,M,False,mid,326.97,Indian Street,evening_snack,0.65,0.56,0.62,1581,188
+U0889,Neha Das,Bangalore,Tier1,560169,25-34,F,True,mid,338.32,North Indian,late_night,0.35,0.67,0.63,1017,165
+U0890,Kavya Jain,Pune,Tier1,411461,18-24,F,True,budget,263.82,Continental,lunch,0.3,0.53,0.87,1668,143
+U0891,Pooja Sharma,Chandigarh,Tier2,160508,18-24,F,True,budget,160.05,Indian Street|Mughlai,dinner,0.4,0.63,0.86,538,47
+U0892,Riya Rao,Chandigarh,Tier2,160587,18-24,F,True,budget,241.4,Mughlai,dinner,0.5,0.61,0.68,1165,56
+U0893,Aditya Reddy,Kochi,Tier2,682864,35-44,M,True,budget,292.46,Indian Street,dinner,0.54,0.47,0.78,1204,109
+U0894,Amit Shah,Hyderabad,Tier1,500853,45+,M,False,premium,583.47,Biryani|Chinese,evening_snack,0.76,0.69,0.34,1539,329
+U0895,Prisha Agarwal,Mumbai,Tier1,400355,25-34,F,True,premium,699.04,South Indian,dinner,0.59,0.37,0.18,499,106
+U0896,Ramesh Reddy,Hyderabad,Tier1,500180,18-24,M,False,budget,263.45,Biryani,lunch,0.49,0.35,0.82,1625,187
+U0897,Riya Bose,Chandigarh,Tier2,160143,25-34,F,False,mid,313.56,Chinese,evening_snack,0.36,0.72,0.6,1595,117
+U0898,Ramesh Bose,Lucknow,Tier2,226688,18-24,M,True,mid,393.05,Mughlai|Indian Street,dinner,0.4,0.41,0.68,1301,159
+U0899,Ramesh Agarwal,Delhi,Tier1,110623,25-34,M,False,budget,201.77,Mughlai|North Indian,breakfast,0.29,0.24,0.66,404,19
+U0900,Rishi Nair,Mumbai,Tier1,400155,18-24,M,False,mid,340.04,Mughlai,dinner,0.61,0.73,0.68,1566,145
+U0901,Sai Iyer,Bangalore,Tier1,560455,25-34,M,False,mid,412.66,North Indian|Continental,lunch,0.41,0.44,0.65,1137,213
+U0902,Kavya Patel,Mumbai,Tier1,400571,25-34,F,False,budget,192.95,Biryani|Indian Street,lunch,0.44,0.72,0.8,276,16
+U0903,Avni Sharma,Kochi,Tier2,682694,35-44,F,False,budget,247.1,South Indian,lunch,0.49,0.74,0.82,1410,138
+U0904,Vihaan Rao,Mumbai,Tier1,400291,18-24,M,False,mid,291.05,Indian Street|North Indian,late_night,0.47,0.48,0.47,1284,94
+U0905,Pooja Agarwal,Mumbai,Tier1,400727,18-24,F,False,budget,242.5,North Indian,lunch,0.67,0.74,0.88,581,41
+U0906,Aditya Reddy,Mumbai,Tier1,400529,25-34,M,True,budget,176.2,Biryani,lunch,0.54,0.56,0.89,1051,79
+U0907,Vikram Reddy,Chandigarh,Tier2,160561,25-34,M,True,budget,176.62,North Indian|Indian Street,lunch,0.55,0.54,0.82,1779,138
+U0908,Aryan Kumar,Pune,Tier1,411376,18-24,M,False,budget,173.81,Indian Street,dinner,0.72,0.47,0.7,1697,198
+U0909,Diya Jain,Jaipur,Tier2,302249,25-34,F,False,budget,188.33,Biryani|Mughlai,lunch,0.63,0.52,0.73,1783,141
+U0910,Diya Kumar,Chandigarh,Tier2,160531,18-24,F,True,mid,487.01,Chinese|Continental,lunch,0.5,0.54,0.67,1680,329
+U0911,Arjun Kumar,Delhi,Tier1,110356,25-34,M,True,budget,129.64,North Indian|Indian Street,late_night,0.44,0.53,0.65,1638,116
+U0912,Pooja Verma,Chandigarh,Tier2,160161,18-24,F,False,mid,446.89,Biryani|Continental,dinner,0.49,0.58,0.66,232,19
+U0913,Rohan Agarwal,Lucknow,Tier2,226560,45+,M,True,mid,416.92,North Indian|Indian Street,lunch,0.35,0.8,0.54,1748,154
+U0914,Vikram Rao,Kochi,Tier2,682670,25-34,M,True,budget,186.55,South Indian|Indian Street,dinner,0.33,0.54,0.89,769,62
+U0915,Sunita Agarwal,Delhi,Tier1,110459,18-24,F,False,mid,399.21,North Indian|Biryani,lunch,0.54,0.68,0.65,70,7
+U0916,Myra Shah,Lucknow,Tier2,226432,25-34,F,True,mid,382.53,South Indian,dinner,0.46,0.73,0.45,1628,207
+U0917,Kavya Bose,Surat,Tier2,395393,18-24,Other,False,premium,680.97,Biryani|Continental,dinner,0.76,0.41,0.19,190,32
+U0918,Neha Kumar,Lucknow,Tier2,226445,35-44,F,True,premium,899.03,North Indian,breakfast,0.39,0.58,0.14,1341,153
+U0919,Ramesh Nair,Surat,Tier2,395333,25-34,Other,True,mid,503.45,Indian Street,dinner,0.75,0.33,0.64,192,29
+U0920,Aditya Rao,Delhi,Tier1,110760,25-34,M,True,budget,192.14,Mughlai|North Indian,lunch,0.72,0.5,0.75,1484,135
+U0921,Kabir Agarwal,Bangalore,Tier1,560471,18-24,M,False,mid,264.61,Chinese|North Indian,dinner,0.57,0.49,0.69,1629,119
+U0922,Vikram Das,Hyderabad,Tier1,500123,35-44,M,False,budget,303.1,Biryani|North Indian,evening_snack,0.66,0.69,0.9,372,38
+U0923,Aryan Jain,Delhi,Tier1,110181,45+,M,True,premium,412.34,North Indian|Mughlai,dinner,0.37,0.68,0.24,1553,194
+U0924,Rohan Patel,Hyderabad,Tier1,500999,25-34,M,True,budget,200.69,Biryani|Chinese,lunch,0.49,0.53,0.88,240,28
+U0925,Saanvi Verma,Jaipur,Tier2,302883,18-24,Other,True,mid,492.83,Biryani,dinner,0.63,0.32,0.6,1608,179
+U0926,Vihaan Singh,Pune,Tier1,411770,35-44,M,True,budget,217.63,Indian Street|Continental,lunch,0.68,0.72,0.73,1295,138
+U0927,Sunita Nair,Hyderabad,Tier1,500390,25-34,F,True,budget,151.94,Continental|Biryani,lunch,0.63,0.77,0.68,499,46
+U0928,Arjun Kumar,Mumbai,Tier1,400129,45+,M,True,premium,535.72,Mughlai,lunch,0.46,0.59,0.19,1108,124
+U0929,Aarav Reddy,Mumbai,Tier1,400991,35-44,M,False,premium,709.49,Biryani|Indian Street,evening_snack,0.49,0.57,0.23,1799,276
+U0930,Pooja Agarwal,Mumbai,Tier1,400814,18-24,F,True,mid,437.48,Indian Street|South Indian,dinner,0.62,0.54,0.69,306,20
+U0931,Sai Patel,Hyderabad,Tier1,500998,25-34,M,False,mid,432.73,Indian Street|Biryani,dinner,0.63,0.41,0.56,1322,105
+U0932,Rahul Iyer,Chandigarh,Tier2,160332,25-34,M,True,budget,303.53,North Indian|Indian Street,dinner,0.36,0.65,0.69,741,52
+U0933,Suresh Gupta,Jaipur,Tier2,302366,35-44,M,True,budget,253.69,Continental|Biryani,dinner,0.64,0.48,0.85,660,53
+U0934,Aryan Mishra,Hyderabad,Tier1,500876,45+,M,False,premium,557.96,Biryani,dinner,0.67,0.58,0.11,30,5
+U0935,Ramesh Kumar,Mumbai,Tier1,400108,18-24,M,True,mid,406.47,North Indian|Indian Street,evening_snack,0.37,0.31,0.56,617,63
+U0936,Sneha Bose,Chandigarh,Tier2,160540,25-34,F,True,budget,302.06,Mughlai|North Indian,dinner,0.62,0.31,0.73,643,88
+U0937,Diya Mishra,Mumbai,Tier1,400482,18-24,F,False,premium,504.24,Continental,dinner,0.46,0.56,0.34,1661,400
+U0938,Rohan Iyer,Kochi,Tier2,682832,35-44,M,False,premium,720.03,South Indian|North Indian,lunch,0.24,0.41,0.28,838,167
+U0939,Sneha Nair,Lucknow,Tier2,226532,18-24,F,False,mid,496.28,Indian Street|Continental,breakfast,0.48,0.49,0.45,481,63
+U0940,Riya Jain,Mumbai,Tier1,400644,25-34,F,True,budget,154.89,Indian Street|Chinese,dinner,0.32,0.34,0.69,613,37
+U0941,Diya Agarwal,Bangalore,Tier1,560286,35-44,F,False,mid,338.19,South Indian|Biryani,dinner,0.43,0.56,0.66,415,30
+U0942,Aryan Mishra,Hyderabad,Tier1,500563,18-24,M,False,mid,316.19,Biryani,dinner,0.56,0.51,0.61,1334,139
+U0943,Ananya Bose,Hyderabad,Tier1,500150,18-24,F,False,mid,337.07,North Indian,lunch,0.37,0.68,0.64,686,132
+U0944,Pooja Sharma,Mumbai,Tier1,400228,18-24,F,True,premium,664.2,Chinese,dinner,0.72,0.79,0.17,239,45
+U0945,Sneha Das,Kochi,Tier2,682115,25-34,F,False,mid,284.85,South Indian,lunch,0.77,0.49,0.42,506,85
+U0946,Arjun Shah,Bangalore,Tier1,560918,25-34,M,True,mid,420.0,North Indian|Biryani,dinner,0.44,0.74,0.46,890,109
+U0947,Saanvi Reddy,Bangalore,Tier1,560438,18-24,Other,True,premium,721.99,South Indian|Indian Street,late_night,0.62,0.67,0.13,1457,169
+U0948,Aadya Kumar,Pune,Tier1,411173,25-34,F,True,mid,424.23,Indian Street,dinner,0.65,0.26,0.69,575,45
+U0949,Sai Bose,Lucknow,Tier2,226356,18-24,M,True,mid,342.5,Biryani,dinner,0.4,0.64,0.42,423,30
+U0950,Myra Nair,Surat,Tier2,395831,25-34,F,True,premium,545.37,Mughlai,dinner,0.51,0.38,0.19,279,28
+U0951,Rohan Nair,Mumbai,Tier1,400134,25-34,M,False,premium,606.05,Indian Street|South Indian,lunch,0.57,0.41,0.37,536,64
+U0952,Prisha Das,Surat,Tier2,395313,18-24,F,True,premium,579.62,Continental,lunch,0.84,0.39,0.28,1097,141
+U0953,Arjun Nair,Jaipur,Tier2,302845,25-34,M,True,budget,270.45,South Indian|Continental,lunch,0.8,0.27,0.89,691,73
+U0954,Aarav Singh,Chandigarh,Tier2,160303,25-34,M,False,premium,794.55,North Indian|Chinese,dinner,0.65,0.29,0.13,1015,133
+U0955,Aditya Verma,Surat,Tier2,395544,18-24,M,False,mid,396.74,South Indian,lunch,0.89,0.35,0.64,261,35
+U0956,Avni Sharma,Bangalore,Tier1,560222,18-24,F,False,mid,305.7,South Indian,dinner,0.51,0.23,0.63,1656,213
+U0957,Kabir Jain,Surat,Tier2,395807,35-44,M,True,budget,224.32,Indian Street,lunch,0.78,0.24,0.75,116,7
+U0958,Neha Kumar,Jaipur,Tier2,302261,35-44,F,True,mid,378.96,North Indian|Mughlai,dinner,0.75,0.78,0.54,1608,272
+U0959,Neha Gupta,Delhi,Tier1,110161,45+,F,False,premium,753.18,North Indian|Chinese,lunch,0.58,0.45,0.28,1585,211
+U0960,Vikram Kumar,Delhi,Tier1,110424,18-24,Other,True,budget,315.95,Mughlai,lunch,0.8,0.78,0.81,287,20
+U0961,Sai Reddy,Delhi,Tier1,110805,18-24,M,False,mid,403.99,North Indian|Indian Street,dinner,0.53,0.56,0.53,1531,220
+U0962,Kavya Reddy,Delhi,Tier1,110596,45+,F,True,premium,636.87,Indian Street,lunch,0.74,0.31,0.39,543,58
+U0963,Sneha Das,Delhi,Tier1,110294,25-34,F,False,budget,141.19,Biryani|Mughlai,lunch,0.59,0.21,0.78,1141,66
+U0964,Rahul Patel,Lucknow,Tier2,226381,18-24,M,True,mid,341.86,Mughlai|Biryani,dinner,0.61,0.38,0.45,692,56
+U0965,Ramesh Patel,Delhi,Tier1,110402,18-24,M,False,mid,443.87,North Indian,dinner,0.38,0.42,0.49,1117,170
+U0966,Ramesh Agarwal,Delhi,Tier1,110753,35-44,M,False,budget,169.77,Indian Street|North Indian,lunch,0.46,0.68,0.7,959,134
+U0967,Sai Nair,Lucknow,Tier2,226472,18-24,M,True,budget,292.0,Mughlai,evening_snack,0.63,0.43,0.79,68,5
+U0968,Diya Jain,Kochi,Tier2,682651,45+,F,True,premium,686.86,Indian Street|Mughlai,dinner,0.39,0.48,0.15,1506,400
+U0969,Ramesh Nair,Kochi,Tier2,682884,25-34,M,True,premium,699.1,Indian Street,breakfast,0.47,0.59,0.1,1103,139
+U0970,Sai Kumar,Mumbai,Tier1,400429,18-24,M,False,mid,393.08,South Indian|Indian Street,late_night,0.47,0.33,0.43,690,75
+U0971,Vihaan Singh,Delhi,Tier1,110232,25-34,M,False,mid,450.38,North Indian,dinner,0.65,0.61,0.44,119,8
+U0972,Kiara Verma,Surat,Tier2,395201,25-34,F,False,budget,266.9,Mughlai,dinner,1.0,0.24,0.75,249,17
+U0973,Aarav Nair,Pune,Tier1,411704,45+,M,False,budget,170.53,South Indian|Chinese,lunch,0.57,0.69,0.74,1106,68
+U0974,Rishi Verma,Delhi,Tier1,110172,18-24,M,False,premium,830.51,Indian Street|North Indian,breakfast,0.59,0.62,0.29,482,65
+U0975,Saanvi Shah,Hyderabad,Tier1,500920,25-34,F,True,mid,361.63,Mughlai|Biryani,evening_snack,0.42,0.75,0.65,1734,298
+U0976,Amit Verma,Surat,Tier2,395525,18-24,M,True,mid,473.16,North Indian|Indian Street,lunch,0.61,0.42,0.68,1172,94
+U0977,Myra Reddy,Chandigarh,Tier2,160641,25-34,F,False,budget,160.15,North Indian,dinner,0.5,0.65,0.83,1716,107
+U0978,Saanvi Gupta,Bangalore,Tier1,560631,35-44,F,False,budget,183.03,Chinese|Biryani,lunch,0.64,0.31,0.7,189,9
+U0979,Vihaan Singh,Bangalore,Tier1,560297,18-24,M,True,mid,284.88,South Indian,dinner,0.63,0.47,0.64,1118,126
+U0980,Pooja Jain,Bangalore,Tier1,560525,35-44,F,True,budget,139.94,South Indian,lunch,0.65,0.65,0.8,1173,65
+U0981,Sneha Singh,Bangalore,Tier1,560781,25-34,F,True,mid,416.34,Indian Street|Biryani,dinner,0.53,0.46,0.46,1411,147
+U0982,Kavya Singh,Pune,Tier1,411511,25-34,F,False,mid,360.79,Biryani,lunch,0.41,0.49,0.65,1652,242
+U0983,Pooja Rao,Delhi,Tier1,110553,25-34,F,True,premium,595.74,North Indian,lunch,0.62,0.53,0.24,1123,112
+U0984,Ishaan Reddy,Mumbai,Tier1,400432,18-24,M,False,mid,296.96,Mughlai|Chinese,late_night,0.4,0.69,0.43,1156,77
+U0985,Myra Reddy,Lucknow,Tier2,226945,18-24,F,True,budget,208.95,Indian Street|North Indian,dinner,0.57,0.6,0.71,1595,98
+U0986,Vikram Rao,Pune,Tier1,411484,18-24,M,False,budget,174.01,Indian Street,breakfast,0.59,0.28,0.69,1183,79
+U0987,Suresh Agarwal,Delhi,Tier1,110506,25-34,M,False,budget,241.02,North Indian|Continental,dinner,0.76,0.53,0.73,956,70
+U0988,Saanvi Verma,Surat,Tier2,395238,18-24,F,True,mid,363.47,Chinese|Indian Street,lunch,0.84,0.75,0.51,1250,242
+U0989,Ishaan Mishra,Lucknow,Tier2,226319,25-34,M,False,budget,184.89,South Indian,late_night,0.23,0.38,0.85,645,30
+U0990,Myra Rao,Delhi,Tier1,110806,45+,F,False,premium,780.34,Indian Street,dinner,0.45,0.23,0.3,1610,182
+U0991,Ramesh Agarwal,Jaipur,Tier2,302464,35-44,M,False,budget,191.0,Indian Street,dinner,0.66,0.2,0.8,223,29
+U0992,Kiara Kumar,Mumbai,Tier1,400355,45+,F,False,mid,314.11,Chinese|Mughlai,lunch,0.53,0.66,0.44,781,56
+U0993,Rohan Agarwal,Mumbai,Tier1,400682,18-24,M,True,budget,193.62,Chinese|Mughlai,dinner,0.46,0.71,0.73,218,14
+U0994,Ishaan Shah,Pune,Tier1,411594,18-24,M,False,budget,304.02,Chinese,lunch,0.43,0.45,0.67,1511,128
+U0995,Kiara Bose,Chandigarh,Tier2,160138,18-24,F,True,premium,704.26,Indian Street,late_night,0.18,0.51,0.17,1249,164
+U0996,Vikram Nair,Lucknow,Tier2,226889,18-24,M,False,mid,470.97,North Indian,late_night,0.63,0.46,0.51,1627,292
+U0997,Avni Reddy,Surat,Tier2,395223,25-34,F,True,mid,447.76,South Indian|Chinese,lunch,0.79,0.3,0.55,883,61
+U0998,Ramesh Jain,Kochi,Tier2,682491,18-24,M,False,premium,689.71,South Indian,breakfast,0.87,0.71,0.37,1328,155
+U0999,Saanvi Mishra,Chandigarh,Tier2,160253,25-34,F,False,mid,465.27,Biryani,lunch,0.55,0.43,0.69,683,65
+U1000,Aditya Jain,Surat,Tier2,395502,25-34,M,False,budget,232.52,Indian Street,dinner,0.93,0.51,0.76,133,7

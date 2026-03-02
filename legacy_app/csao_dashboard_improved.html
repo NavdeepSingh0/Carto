@@ -1,0 +1,549 @@
+<!DOCTYPE html>
+<html class="dark">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>CSAO Recommendation System - Zomato</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap" rel="stylesheet"/>
+<script id="tailwind-config">
+    tailwind.config = {
+      darkMode: "class",
+      theme: {
+        extend: {
+          colors: {
+            "primary": "#F5B800",
+            "primary-dark": "#E5A800",
+            "secondary": "#5BA8B0",
+            "background-light": "#D4E5E8",
+            "background-dark": "#0F0F0F",
+            "card-dark": "#1A1A1A",
+            "border-subtle": "rgba(255, 255, 255, 0.08)",
+          },
+          fontFamily: {
+            "sans": ["Inter", "system-ui", "sans-serif"]
+          },
+          borderRadius: {
+            "DEFAULT": "8px",
+            "lg": "12px",
+            "xl": "16px",
+          },
+        },
+      },
+    }
+  </script>
+<style>
+    body {
+      font-family: "Inter", system-ui, sans-serif;
+      -webkit-font-smoothing: antialiased;
+      -moz-osx-font-smoothing: grayscale;
+    }
+    
+    /* Custom scrollbar */
+    .scrollbar-hide::-webkit-scrollbar {
+      display: none;
+    }
+    
+    /* Smooth transitions */
+    * {
+      transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    }
+    
+    /* Confidence bar animation */
+    .confidence-bar {
+      animation: fillBar 0.8s ease-out;
+    }
+    
+    @keyframes fillBar {
+      from { width: 0%; }
+    }
+    
+    /* Professional badge styles */
+    .badge {
+      font-weight: 600;
+      font-size: 11px;
+      letter-spacing: 0.3px;
+      text-transform: uppercase;
+    }
+    
+    </style>
+</head>
+<body class="bg-background-dark text-slate-100 antialiased relative">
+<!-- Decorative Background Elements -->
+<div class="fixed top-[-15%] left-[-10%] w-[600px] h-[600px] rounded-full bg-primary/10 blur-[120px] pointer-events-none z-0"></div>
+<div class="fixed bottom-[-10%] right-[-5%] w-[800px] h-[800px] rounded-full bg-secondary/10 blur-[120px] pointer-events-none z-0"></div>
+<div class="fixed inset-0 texture-overlay z-0"></div>
+
+<div class="flex h-screen overflow-hidden relative z-10">
+
+<!-- ===== LEFT SIDEBAR: User Context & Cart ===== -->
+<aside class="w-[360px] flex flex-col glass-sidebar overflow-y-auto scrollbar-hide">
+  
+  <!-- Header -->
+  <div class="p-6 border-b border-border-subtle">
+    <div class="flex items-center gap-3 mb-2">
+      <div class="w-10 h-10 rounded-lg bg-primary flex items-center justify-center">
+        <span class="material-symbols-outlined text-white text-xl">shopping_bag</span>
+      </div>
+      <div>
+        <h1 class="text-lg font-bold tracking-tight-heading">CSAO Recommendations</h1>
+        <p class="text-xs text-slate-400">Cart Add-On System</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- User Profile Section -->
+  <section class="p-6 border-b border-border-subtle">
+    <h2 class="text-xs font-semibold uppercase tracking-wider text-slate-400 mb-4">User Profile</h2>
+    
+    <!-- User Segment -->
+    <div class="mb-4">
+      <label class="text-xs text-slate-400 block mb-2">User Segment</label>
+      <div class="grid grid-cols-3 gap-2">
+        <button class="p-3 glass-card-sm border-white/5 hover:border-slate-600 transition-colors">
+          <div class="text-xs font-medium">Budget</div>
+          <div class="text-[10px] text-slate-500 mt-1">~₹200</div>
+        </button>
+        <button class="p-3 rounded-xl bg-primary/15 border-2 border-primary transition-colors">
+          <div class="text-xs font-medium text-primary">Mid-Tier</div>
+          <div class="text-[10px] text-primary/80 mt-1">~₹450</div>
+        </button>
+        <button class="p-3 glass-card-sm border-white/5 hover:border-slate-600 transition-colors">
+          <div class="text-xs font-medium">Premium</div>
+          <div class="text-[10px] text-slate-500 mt-1">~₹750</div>
+        </button>
+      </div>
+    </div>
+
+    <!-- Dietary Preference -->
+    <div class="mb-4">
+      <label class="text-xs text-slate-400 block mb-2">Dietary Preference</label>
+      <div class="flex gap-2">
+        <button class="flex-1 px-3 py-2 rounded-lg bg-green-500/15 text-green-400 border border-green-500/20 text-xs font-medium hover:bg-green-500/20">
+          Vegetarian
+        </button>
+        <button class="flex-1 px-3 py-2 rounded-lg bg-background-dark border border-border-subtle text-slate-400 text-xs font-medium hover:border-slate-600">
+          Non-Veg
+        </button>
+      </div>
+    </div>
+
+    <!-- Time Context -->
+    <div>
+      <label class="text-xs text-slate-400 block mb-2">Meal Time</label>
+      <select class="w-full bg-background-dark border border-border-subtle rounded-lg text-sm px-3 py-2.5 text-slate-200 focus:border-primary outline-none">
+        <option>Lunch (12:00 PM - 3:00 PM)</option>
+        <option>Dinner (7:00 PM - 11:00 PM)</option>
+        <option>Snacks (4:00 PM - 6:00 PM)</option>
+        <option>Breakfast (8:00 AM - 11:00 AM)</option>
+      </select>
+    </div>
+  </section>
+
+  <!-- Cart Section -->
+  <section class="p-6 flex-1 flex flex-col">
+    <h2 class="text-xs font-semibold uppercase tracking-wider text-slate-400 mb-4">Current Cart</h2>
+    
+    <!-- Restaurant -->
+    <div class="mb-4">
+      <label class="text-xs text-slate-500 block mb-2">Restaurant</label>
+      <select class="w-full bg-background-dark border border-border-subtle rounded-lg text-sm px-3 py-2.5 text-slate-200 focus:border-primary outline-none">
+        <option>Saravana Bhavan (South Indian)</option>
+        <option>Sangeetha Veg Restaurant</option>
+        <option>MTR - Mavalli Tiffin Room</option>
+      </select>
+    </div>
+
+    <!-- Menu Items -->
+    <div class="space-y-2 mb-4 flex-1 overflow-y-auto scrollbar-hide">
+      <div class="p-3.5 glass-card-sm hover:border-secondary/40 transition-colors group">
+        <div class="flex items-center justify-between">
+          <div class="flex items-center gap-3">
+            <div class="w-2 h-2 rounded-full bg-green-500"></div>
+            <div>
+              <p class="text-sm font-medium">Ghee Roast Dosa</p>
+              <p class="text-xs text-slate-500">₹140</p>
+            </div>
+          </div>
+          <button class="w-7 h-7 rounded-xl bg-primary/15 text-primary hover:bg-primary hover:text-white transition-colors flex items-center justify-center">
+            <span class="material-symbols-outlined text-base">add</span>
+          </button>
+        </div>
+      </div>
+
+      <div class="p-3.5 glass-card-sm hover:border-secondary/40 transition-colors group">
+        <div class="flex items-center justify-between">
+          <div class="flex items-center gap-3">
+            <div class="w-2 h-2 rounded-full bg-green-500"></div>
+            <div>
+              <p class="text-sm font-medium">Mini Idli (14 pcs)</p>
+              <p class="text-xs text-slate-500">₹120</p>
+            </div>
+          </div>
+          <button class="w-7 h-7 rounded-xl bg-primary/15 text-primary hover:bg-primary hover:text-white transition-colors flex items-center justify-center">
+            <span class="material-symbols-outlined text-base">add</span>
+          </button>
+        </div>
+      </div>
+
+      <div class="p-3.5 glass-card-sm hover:border-secondary/40 transition-colors group">
+        <div class="flex items-center justify-between">
+          <div class="flex items-center gap-3">
+            <div class="w-2 h-2 rounded-full bg-green-500"></div>
+            <div>
+              <p class="text-sm font-medium">Filter Coffee</p>
+              <p class="text-xs text-slate-500">₹60</p>
+            </div>
+          </div>
+          <button class="w-7 h-7 rounded-xl bg-primary/15 text-primary hover:bg-primary hover:text-white transition-colors flex items-center justify-center">
+            <span class="material-symbols-outlined text-base">add</span>
+          </button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Cart Summary (Fixed at bottom) -->
+  <section class="mt-auto p-6 bg-background-dark border-t border-border-subtle">
+    <div class="space-y-3 mb-4">
+      <!-- Cart Items -->
+      <div class="flex justify-between items-center text-sm">
+        <span class="text-slate-400">Ghee Roast Dosa</span>
+        <div class="flex items-center gap-3">
+          <span class="font-medium">₹140</span>
+          <button class="text-slate-500 hover:text-red-400 transition-colors">
+            <span class="material-symbols-outlined text-sm">close</span>
+          </button>
+        </div>
+      </div>
+      
+      <div class="flex justify-between items-center text-sm">
+        <span class="text-slate-400">Filter Coffee</span>
+        <div class="flex items-center gap-3">
+          <span class="font-medium">₹60</span>
+          <button class="text-slate-500 hover:text-red-400 transition-colors">
+            <span class="material-symbols-outlined text-sm">close</span>
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <div class="border-t border-border-subtle pt-3 mb-4 space-y-2">
+      <div class="flex justify-between text-sm">
+        <span class="text-slate-400">Subtotal</span>
+        <span class="font-semibold">₹200</span>
+      </div>
+      <div class="flex justify-between text-sm">
+        <span class="text-slate-400">Items</span>
+        <span class="font-semibold">2</span>
+      </div>
+      <div class="flex justify-between text-sm">
+        <span class="text-primary">Available Budget</span>
+        <span class="font-bold text-primary">₹250</span>
+      </div>
+    </div>
+
+    <button class="btn-primary w-full py-4 transition-all flex items-center justify-center gap-2 text-[15px]">
+      <span class="material-symbols-outlined">refresh</span>
+      Update Recommendations
+    </button>
+  </section>
+</aside>
+
+<!-- ===== MAIN CONTENT AREA ===== -->
+<main class="flex-1 flex flex-col bg-background-dark overflow-y-auto overflow-x-hidden">
+  
+  <!-- Top Metrics Bar -->
+  <div class="p-8 pb-6">
+    <div class="grid grid-cols-4 gap-4">
+      
+      <div class="glass-card p-6 relative overflow-hidden group">
+        <div class="flex items-center justify-between mb-3">
+          <span class="text-xs font-medium text-slate-400 uppercase tracking-wide">Cart Value</span>
+          <div class="w-8 h-8 rounded-xl bg-primary/15 flex items-center justify-center">
+            <span class="material-symbols-outlined text-primary text-sm">shopping_cart</span>
+          </div>
+        </div>
+        <div class="flex items-baseline gap-2">
+          <p class="text-3xl font-bold tracking-tight-heading">₹200</p>
+          <span class="text-xs text-green-400 font-medium">+15%</span>
+        </div>
+        <p class="text-xs text-slate-500 mt-1">vs. avg session</p>
+      </div>
+
+      <div class="glass-card p-6 relative overflow-hidden group">
+        <div class="flex items-center justify-between mb-3">
+          <span class="text-xs font-medium text-slate-400 uppercase tracking-wide">User AOV</span>
+          <div class="w-8 h-8 rounded-lg bg-secondary/20 flex items-center justify-center">
+            <span class="material-symbols-outlined text-secondary text-sm">person</span>
+          </div>
+        </div>
+        <div class="flex items-baseline gap-2">
+          <p class="text-3xl font-bold tracking-tight-heading">₹450</p>
+          <span class="text-xs text-slate-500">historical</span>
+        </div>
+        <p class="text-xs text-slate-500 mt-1">Mid-tier segment</p>
+      </div>
+
+      <div class="glass-card p-6 relative overflow-hidden group">
+        <div class="flex items-center justify-between mb-3">
+          <span class="text-xs font-medium text-slate-400 uppercase tracking-wide">Headroom</span>
+          <div class="w-8 h-8 rounded-lg bg-green-500/15 flex items-center justify-center">
+            <span class="material-symbols-outlined text-green-400 text-sm">trending_up</span>
+          </div>
+        </div>
+        <div class="flex items-baseline gap-2">
+          <p class="text-3xl font-bold tracking-tight-heading text-green-400">₹250</p>
+        </div>
+        <p class="text-xs text-slate-500 mt-1">Available budget</p>
+      </div>
+
+      <div class="glass-card p-6 relative overflow-hidden group">
+        <div class="flex items-center justify-between mb-3">
+          <span class="text-xs font-medium text-slate-400 uppercase tracking-wide">Acceptance</span>
+          <div class="w-8 h-8 rounded-lg bg-purple-500/15 flex items-center justify-center">
+            <span class="material-symbols-outlined text-purple-400 text-sm">check_circle</span>
+          </div>
+        </div>
+        <div class="flex items-baseline gap-2">
+          <p class="text-3xl font-bold tracking-tight-heading">47.9%</p>
+        </div>
+        <p class="text-xs text-slate-500 mt-1">Model accuracy</p>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- Recommendations Section -->
+  <div class="px-8 pb-8">
+    <div class="flex items-center justify-between mb-6">
+      <div>
+        <h2 class="text-3xl font-bold tracking-tight-heading mb-1 tracking-tight-heading">Recommended Add-Ons</h2>
+        <p class="text-sm text-slate-400">Based on order patterns and user preferences</p>
+      </div>
+      <div class="flex items-center gap-2 text-xs text-slate-400">
+        <span class="material-symbols-outlined text-green-400 text-sm">check_circle</span>
+        <span>Model: LightGBM v2.4</span>
+        <span class="mx-2">•</span>
+        <span>Latency: 73ms</span>
+      </div>
+    </div>
+
+    <!-- Recommendation Cards Grid -->
+    <div class="grid grid-cols-5 gap-4">
+      
+      <!-- Card 1 -->
+      <div class="glass-card card-hover overflow-hidden relative group">
+        <div class="h-1 bg-gradient-to-r from-amber-500 to-amber-600"></div>
+        <div class="card-gradient-overlay rounded-b-[24px]"></div><div class="p-5 relative z-10 h-full flex flex-col">
+          <div class="flex items-center justify-between mb-3">
+            <span class="badge px-2 py-1 rounded bg-amber-500/10 text-amber-400 border border-amber-500/20">Extension</span>
+            <span class="text-xs font-bold text-slate-500">#1</span>
+          </div>
+          
+          <h3 class="text-sm font-bold mb-1">Medu Vada (2 pcs)</h3>
+          <p class="text-xl font-bold text-white mb-4 drop-shadow-md">₹85</p>
+          
+          <div class="mb-3">
+            <div class="flex justify-between text-xs mb-1.5 text-slate-400">
+              <span>Confidence</span>
+              <span class="font-medium text-slate-300">94%</span>
+            </div>
+            <div class="w-full h-1.5 bg-slate-800 rounded-full overflow-hidden">
+              <div class="h-full bg-gradient-to-r from-amber-500 to-amber-600 confidence-bar" style="width: 94%"></div>
+            </div>
+          </div>
+
+          <button class="w-full py-2.5 rounded-xl bg-primary/15 text-primary text-xs font-semibold hover:bg-primary hover:text-white transition-all">
+            Add to Cart
+          </button>
+        </div>
+      </div>
+
+      <!-- Card 2 -->
+      <div class="glass-card card-hover overflow-hidden relative group">
+        <div class="h-1 bg-gradient-to-r from-purple-500 to-purple-600"></div>
+        <div class="card-gradient-overlay rounded-b-[24px]"></div><div class="p-5 relative z-10 h-full flex flex-col">
+          <div class="flex items-center justify-between mb-3">
+            <span class="badge px-2 py-1 rounded bg-purple-500/15 text-purple-400 border border-purple-500/20">Texture</span>
+            <span class="text-xs font-bold text-slate-500">#2</span>
+          </div>
+          
+          <h3 class="text-sm font-bold mb-1">Onion Pakoda</h3>
+          <p class="text-xl font-bold text-white mb-4 drop-shadow-md">₹110</p>
+          
+          <div class="mb-3">
+            <div class="flex justify-between text-xs mb-1.5 text-slate-400">
+              <span>Confidence</span>
+              <span class="font-medium text-slate-300">88%</span>
+            </div>
+            <div class="w-full h-1.5 bg-slate-800 rounded-full overflow-hidden">
+              <div class="h-full bg-gradient-to-r from-purple-500 to-purple-600 confidence-bar" style="width: 88%"></div>
+            </div>
+          </div>
+
+          <button class="w-full py-2.5 rounded-xl bg-primary/15 text-primary text-xs font-semibold hover:bg-primary hover:text-white transition-all">
+            Add to Cart
+          </button>
+        </div>
+      </div>
+
+      <!-- Card 3 -->
+      <div class="glass-card card-hover overflow-hidden relative group">
+        <div class="h-1 bg-gradient-to-r from-sky-500 to-sky-600"></div>
+        <div class="card-gradient-overlay rounded-b-[24px]"></div><div class="p-5 relative z-10 h-full flex flex-col">
+          <div class="flex items-center justify-between mb-3">
+            <span class="badge px-2 py-1 rounded bg-sky-500/10 text-sky-400 border border-sky-500/20">Beverage</span>
+            <span class="text-xs font-bold text-slate-500">#3</span>
+          </div>
+          
+          <h3 class="text-sm font-bold mb-1">Masala Buttermilk</h3>
+          <p class="text-xl font-bold text-white mb-4 drop-shadow-md">₹50</p>
+          
+          <div class="mb-3">
+            <div class="flex justify-between text-xs mb-1.5 text-slate-400">
+              <span>Confidence</span>
+              <span class="font-medium text-slate-300">82%</span>
+            </div>
+            <div class="w-full h-1.5 bg-slate-800 rounded-full overflow-hidden">
+              <div class="h-full bg-gradient-to-r from-sky-500 to-sky-600 confidence-bar" style="width: 82%"></div>
+            </div>
+          </div>
+
+          <button class="w-full py-2.5 rounded-xl bg-primary/15 text-primary text-xs font-semibold hover:bg-primary hover:text-white transition-all">
+            Add to Cart
+          </button>
+        </div>
+      </div>
+
+      <!-- Card 4 -->
+      <div class="glass-card card-hover overflow-hidden relative group">
+        <div class="h-1 bg-gradient-to-r from-emerald-500 to-emerald-600"></div>
+        <div class="card-gradient-overlay rounded-b-[24px]"></div><div class="p-5 relative z-10 h-full flex flex-col">
+          <div class="flex items-center justify-between mb-3">
+            <span class="badge px-2 py-1 rounded bg-emerald-500/10 text-emerald-400 border border-emerald-500/20">Dessert</span>
+            <span class="text-xs font-bold text-slate-500">#4</span>
+          </div>
+          
+          <h3 class="text-sm font-bold mb-1">Sweet Kesari</h3>
+          <p class="text-xl font-bold text-white mb-4 drop-shadow-md">₹75</p>
+          
+          <div class="mb-3">
+            <div class="flex justify-between text-xs mb-1.5 text-slate-400">
+              <span>Confidence</span>
+              <span class="font-medium text-slate-300">75%</span>
+            </div>
+            <div class="w-full h-1.5 bg-slate-800 rounded-full overflow-hidden">
+              <div class="h-full bg-gradient-to-r from-emerald-500 to-emerald-600 confidence-bar" style="width: 75%"></div>
+            </div>
+          </div>
+
+          <button class="w-full py-2.5 rounded-xl bg-primary/15 text-primary text-xs font-semibold hover:bg-primary hover:text-white transition-all">
+            Add to Cart
+          </button>
+        </div>
+      </div>
+
+      <!-- Card 5 -->
+      <div class="glass-card card-hover overflow-hidden relative group">
+        <div class="h-1 bg-gradient-to-r from-rose-500 to-rose-600"></div>
+        <div class="card-gradient-overlay rounded-b-[24px]"></div><div class="p-5 relative z-10 h-full flex flex-col">
+          <div class="flex items-center justify-between mb-3">
+            <span class="badge px-2 py-1 rounded bg-rose-500/10 text-rose-400 border border-rose-500/20">Budget</span>
+            <span class="text-xs font-bold text-slate-500">#5</span>
+          </div>
+          
+          <h3 class="text-sm font-bold mb-1">Extra Sambar</h3>
+          <p class="text-xl font-bold text-white mb-4 drop-shadow-md">₹20</p>
+          
+          <div class="mb-3">
+            <div class="flex justify-between text-xs mb-1.5 text-slate-400">
+              <span>Confidence</span>
+              <span class="font-medium text-slate-300">65%</span>
+            </div>
+            <div class="w-full h-1.5 bg-slate-800 rounded-full overflow-hidden">
+              <div class="h-full bg-gradient-to-r from-rose-500 to-rose-600 confidence-bar" style="width: 65%"></div>
+            </div>
+          </div>
+
+          <button class="w-full py-2.5 rounded-xl bg-primary/15 text-primary text-xs font-semibold hover:bg-primary hover:text-white transition-all">
+            Add to Cart
+          </button>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- Insights Section (Optional - can be collapsed) -->
+  <div class="px-8 pb-8">
+    <div class="glass-card p-8">
+      <details class="group">
+        <summary class="flex items-center justify-between cursor-pointer list-none">
+          <h3 class="text-sm font-semibold flex items-center gap-2">
+            <span class="material-symbols-outlined text-primary">insights</span>
+            Recommendation Insights
+          </h3>
+          <span class="material-symbols-outlined text-slate-500 group-open:rotate-180 transition-transform">
+            expand_more
+          </span>
+        </summary>
+        
+        <div class="mt-4 pt-4 border-t border-border-subtle">
+          <div class="grid grid-cols-2 gap-6">
+            <div>
+              <h4 class="text-xs font-semibold text-slate-400 uppercase tracking-wide mb-2">Why These Items?</h4>
+              <p class="text-sm text-slate-300 leading-relaxed">
+                User shows preference for <span class="text-primary font-medium">crispy-savory textures</span> during lunch hours. 
+                Medu Vada ranks in the top 10% for mid-tier segment acceptance at Saravana Bhavan. 
+                All items fit within the ₹250 budget headroom while maintaining order completion probability.
+              </p>
+            </div>
+            
+            <div>
+              <h4 class="text-xs font-semibold text-slate-400 uppercase tracking-wide mb-2">Model Performance</h4>
+              <div class="space-y-2 text-sm">
+                <div class="flex justify-between">
+                  <span class="text-slate-400">Acceptance Rate:</span>
+                  <span class="font-semibold">47.9%</span>
+                </div>
+                <div class="flex justify-between">
+                  <span class="text-slate-400">Avg Items Added:</span>
+                  <span class="font-semibold">1.8 per session</span>
+                </div>
+                <div class="flex justify-between">
+                  <span class="text-slate-400">AOV Impact:</span>
+                  <span class="font-semibold text-green-400">+10-12% (projected)</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </details>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <div class="mt-auto p-6 border-t border-border-subtle bg-card-dark">
+    <div class="flex items-center justify-between text-xs text-slate-500">
+      <div class="flex items-center gap-4">
+        <span>CSAO Recommendation System v2.4</span>
+        <span>•</span>
+        <span>Hexagon + LightGBM Architecture</span>
+        <span>•</span>
+        <span>AUC: 0.7741 (+31.4% vs baseline)</span>
+      </div>
+      <div class="flex items-center gap-2">
+        <span class="w-2 h-2 rounded-full bg-green-400 animate-pulse"></span>
+        <span>System Active</span>
+      </div>
+    </div>
+  </div>
+
+</main>
+
+</div>
+
+</body>
+</html>

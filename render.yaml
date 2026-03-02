@@ -1,0 +1,15 @@
+# Render.com deployment config
+# Backend: FastAPI Web Service
+# Frontend: Static Site (build and deploy to Netlify/Vercel separately)
+
+services:
+  - type: web
+    name: csao-backend
+    runtime: python
+    rootDir: bento_demo/backend
+    buildCommand: pip install -r requirements.txt
+    startCommand: uvicorn main:app --host 0.0.0.0 --port $PORT
+    envVars:
+      - key: PYTHON_VERSION
+        value: "3.11"
+    plan: free

@@ -1,0 +1,44 @@
+============================================================
+FETCHING RESTAURANTS...
+Found 500 restaurants
+
+✓ Found restaurant with Kulfi + Extra Pav: Saravana Bhavan Cloud (R0004)
+  Items found: ['biryani', 'pav_bhaji', 'extra_pav', 'salan', 'kulfi']
+
+Using profile: Riya Singh (budget, Bangalore)
+
+============================================================
+TEST: Kulfi in cart → Extra Pav must NOT appear
+Cart IDs: ['ITM00082']
+============================================================
+Recommendations: ['Special Chicken Biryani', 'Premium Masala Chaas', 'Spicy Masala Pav', 'Classic Mango Lassi', "Chef's Brownie"]
+  LOG:   Node1 Extension: 0 candidates (parent-mapped + Item2Vec)
+  LOG:   ⚡ Global ext filter removed 1: Premium Extra Pav
+  ✅ PASS: 'Extra Pav' correctly NOT in recommendations
+
+============================================================
+TEST: Pav Bhaji in cart → Extra Pav SHOULD appear
+Cart IDs: ['ITM00070']
+============================================================
+Recommendations: ['Premium Extra Pav', 'Spicy Masala Pav', 'Classic Virgin Mojito', 'Premium Masala Chaas', 'Choco Lava Cake']
+  LOG:   Node1 Extension: 1 candidates (parent-mapped + Item2Vec)
+  LOG:   Top score: 0.8039 (Premium Extra Pav — Node1_Extension)
+  ✅ PASS: 'Extra Pav' found in recommendations
+
+============================================================
+TEST: Biryani in cart → Salan/Raita SHOULD appear, Extra Pav should NOT
+Cart IDs: ['ITM00080']
+============================================================
+Recommendations: ['Spicy Salan', 'Classic Cold Coffee', 'Premium Masala Chaas', 'Spicy Masala Pav', "Chef's Brownie"]
+  LOG:   Node1 Extension: 1 candidates (parent-mapped + Item2Vec)
+  LOG:   ⚡ Global ext filter removed 1: Premium Extra Pav
+  LOG:   Top score: 0.7826 (Spicy Salan — Node1_Extension)
+  ✅ PASS: 'Extra Pav' correctly NOT in recommendations
+  ✅ PASS: 'Salan' found in recommendations
+  ⚠️  NOTE: 'Raita' not in top-5 (may still be correctly scored, just not in top-k)
+
+============================================================
+VERIFICATION COMPLETE
+============================================================
+
+STDERR:

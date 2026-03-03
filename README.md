@@ -1,5 +1,5 @@
 <h1 align="center">Cart Super Add-On (CSAO) Rail Recommendation System</h1>
-<p align="center"><i>Zomathon Hackathon Submission — Team Navdeep · Aarna · Khushbu</i></p>
+<p align="center"><i>Zomathon Hackathon Submission — Navdeep </i></p>
 
 ## Overview
 This repository contains the complete end-to-end source code for the CSAO Recommendation System, tackling Zomathon Problem Statement 2.
